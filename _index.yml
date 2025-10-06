@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: Notas de la versión de la consola de NetApp
+  summary: Estas notas de la versión describen mejoras recientes de NetApp Console
+    y los servicios de datos que admite.  Hay enlaces disponibles al conjunto completo
+    de notas de la versión para cada servicio individual.
+  keywords: release notes, enhancements, bluexp, what's new
+  lead: Estas notas de la versión describen mejoras recientes de NetApp Console y
+    los servicios de datos que admite.  Hay enlaces disponibles al conjunto completo
+    de notas de la versión para cada servicio individual.
+  tiles:
+  - title: Qué hay de nuevo
+    links:
+    - title: Cambios recientes en la consola de NetApp
+      url: whats-new.html
+  - title: Notas de la versión por servicio
+    links:
+    - title: Índice de notas de la versión
+      url: release-notes-index.html
+  - title: Blogs y comunidad
+    links:
+    - title: Consola de NetApp
+      url: https://www.netapp.com/console
+    - title: Servicios de datos de NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/

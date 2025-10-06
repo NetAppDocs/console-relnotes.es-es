@@ -1,0 +1,11 @@
+= Compatibilidad con instalaciones locales de la BlueXP classification en RHEL versión 9
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con instalaciones locales de la BlueXP classification en RHEL versión 9
+
+Las versiones 8 y 9 de Red Hat Enterprise Linux no admiten el motor Docker, que era necesario para la instalación de la BlueXP classification .  Ahora admitimos la instalación de la BlueXP classification en RHEL 9.0, 9.1 y 9.2 utilizando Podman versión 4 o superior como infraestructura de contenedor.  Si su entorno requiere el uso de las versiones más nuevas de RHEL, ahora puede instalar la BlueXP classification (versión 1.26 o superior) al usar Podman.
+
+En este momento no admitimos instalaciones de sitios oscuros ni entornos de escaneo distribuido (que utilizan un escáner maestro y remoto) cuando se utiliza RHEL 9.x.

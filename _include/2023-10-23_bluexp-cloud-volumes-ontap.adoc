@@ -1,0 +1,23 @@
+= Nuevas regiones compatibles con implementaciones de zonas de disponibilidad múltiples de alta disponibilidad en Azure
+:allow-uri-read: 
+
+
+Los siguientes cambios se introdujeron con la versión 3.9.34 del Conector.
+
+
+
+=== Nuevas regiones compatibles con implementaciones de zonas de disponibilidad múltiples de alta disponibilidad en Azure
+
+Las siguientes regiones de Azure ahora admiten implementaciones de zonas de disponibilidad múltiples de alta disponibilidad para Cloud Volumes ONTAP 9.14.0 y versiones posteriores:
+
+* Australia Oriental
+* Asia Oriental
+* Francia Central
+* Europa del Norte
+* Qatar Central
+* Suecia Central
+* Europa Occidental
+* Oeste de EE. UU. 2
+
+
+Para obtener una lista de todas las regiones que admiten múltiples zonas de disponibilidad, consulte la https://bluexp.netapp.com/cloud-volumes-global-regions["Mapa de regiones globales en Azure"^] .

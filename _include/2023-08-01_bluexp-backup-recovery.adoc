@@ -1,0 +1,45 @@
+= Se ha agregado soporte para realizar copias de seguridad de volúmenes en depósitos en sistemas ONTAP configurados con S3
+:allow-uri-read: 
+
+
+[IMPORTANT]
+====
+* Debido a una mejora de seguridad importante, su conector ahora requiere acceso a Internet saliente a un punto final adicional para administrar los recursos de respaldo y recuperación dentro de su entorno de nube pública.  Si este punto final no se ha agregado a la lista "permitido" en su firewall, verá un error en la interfaz de usuario sobre "Servicio no disponible" o "Error al determinar el estado del servicio":
++
+\ https://netapp-cloud-account.auth0.com
+
+* Ahora se requiere una suscripción PAYGO de respaldo y recuperación cuando usa el paquete "CVO Professional" que le permite agrupar el respaldo y la recuperación de Cloud Volumes ONTAP y BlueXP backup and recovery.  Esto no era necesario en el pasado.  No se incurrirá en ningún cargo por la suscripción de Copia de seguridad y recuperación para los sistemas Cloud Volumes ONTAP elegibles, pero es necesaria al configurar la copia de seguridad en cualquier volumen nuevo.
+
+
+====
+
+
+=== Se ha agregado soporte para realizar copias de seguridad de volúmenes en depósitos en sistemas ONTAP configurados con S3
+
+Ahora puede utilizar un sistema ONTAP que haya sido configurado para el Servicio de almacenamiento simple (S3) para realizar copias de seguridad de volúmenes en el almacenamiento de objetos.  Esto es compatible tanto con sistemas ONTAP locales como con sistemas Cloud Volumes ONTAP .  Esta configuración es compatible con implementaciones en la nube y en ubicaciones locales sin acceso a Internet (una implementación en modo "privado").
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-to-ontap-s3.html["Más información"] .
+
+
+
+=== Ahora puede incluir instantáneas existentes de un volumen protegido en sus archivos de respaldo
+
+En el pasado, usted tenía la posibilidad de incluir copias de instantáneas existentes de volúmenes de lectura y escritura en su archivo de respaldo inicial al almacenamiento de objetos (en lugar de comenzar con la copia de instantánea más reciente).  Las copias de instantáneas existentes de volúmenes de solo lectura (volúmenes de protección de datos) no se incluyeron en el archivo de respaldo.  Ahora puede elegir incluir copias de instantáneas más antiguas en el archivo de respaldo para los volúmenes "DP".
+
+El asistente de copia de seguridad muestra un mensaje al final de los pasos de la copia de seguridad donde puede seleccionar estas "instantáneas existentes".
+
+
+
+=== La BlueXP backup and recovery ya no admite la copia de seguridad automática de volúmenes agregados en el futuro
+
+Anteriormente, podía marcar una casilla en el asistente de copia de seguridad para aplicar la política de copia de seguridad seleccionada a todos los volúmenes futuros agregados al clúster.  Esta función se ha eliminado debido a los comentarios de los usuarios y la falta de uso de esta función.  Necesitará habilitar manualmente las copias de seguridad para cualquier volumen nuevo que se agregue al clúster.
+
+
+
+=== La página de Monitoreo de trabajos se ha actualizado con nuevas funciones
+
+La página Supervisión de trabajos ahora proporciona más información relacionada con la estrategia de respaldo 3-2-1.  El servicio también proporciona notificaciones de alerta adicionales relacionadas con la estrategia de respaldo.
+
+El filtro de tipo "Ciclo de vida de la copia de seguridad" ha cambiado de nombre a "Retención".  Utilice este filtro para realizar un seguimiento del ciclo de vida de la copia de seguridad y para identificar la caducidad de todas las copias de seguridad.  El tipo de trabajo "Retención" captura todos los trabajos de eliminación de instantáneas iniciados en un volumen protegido por BlueXP backup and recovery.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["Obtenga más información sobre el Monitor de trabajo actualizado"] .

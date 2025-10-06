@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+Esta versión contiene pequeñas mejoras y correcciones de errores.

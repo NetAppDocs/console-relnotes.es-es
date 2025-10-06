@@ -1,0 +1,38 @@
+= 
+:allow-uri-read: 
+
+
+Esta versión preliminar de BlueXP disaster recovery incluye las siguientes actualizaciones:
+
+* *Actualizaciones del panel*: Ahora puedes hacer clic en las opciones del panel, lo que te permite revisar la información rápidamente con mayor facilidad.  Además, el Panel de Control ahora muestra el estado de las conmutaciones por error y las migraciones.
++
+Referirse a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashboard-view.html["Vea el estado de sus planes de recuperación ante desastres en el Panel de Control"] .
+
+* *Actualizaciones del plan de replicación*:
++
+** *RPO*: Ahora puede ingresar el Objetivo de punto de recuperación (RPO) y el recuento de retención en la sección Almacenes de datos del plan de replicación.  Esto indica la cantidad de datos que deben existir que no sean más antiguos que el tiempo establecido.  Si, por ejemplo, lo configura en 5 minutos, el sistema puede perder hasta 5 minutos de datos si ocurre un desastre sin afectar las necesidades críticas del negocio.
++
+Referirse a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crear un plan de replicación"] .
+
+** *Mejoras de red*: al asignar redes entre ubicaciones de origen y destino en la sección de máquinas virtuales del plan de replicación, la BlueXP disaster recovery ahora ofrece dos opciones: DHCP o IP estática.  Anteriormente solo se admitía DHCP.  Para las direcciones IP estáticas, configure la subred, la puerta de enlace y los servidores DNS.  Además, ahora puedes ingresar credenciales para máquinas virtuales.
++
+Referirse a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crear un plan de replicación"] .
+
+** *Editar programaciones*: ahora puedes actualizar las programaciones del plan de replicación.
++
+Referirse a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["Administrar recursos"] .
+
+** * Automatización de SnapMirror *: mientras crea el plan de replicación en esta versión, puede definir la relación de SnapMirror entre los volúmenes de origen y destino en una de las siguientes configuraciones:
++
+*** 1 a 1
+*** 1 a muchos en una arquitectura de abanico
+*** Muchos a 1 como grupo de consistencia
+*** Muchos a muchos
++
+Referirse a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crear un plan de replicación"] .
+
+
+
+
+
+
