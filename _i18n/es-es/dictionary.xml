@@ -340,7 +340,6 @@
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">Aprenda a administrar licencias para los servicios de datos de BlueXP</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">30 de julio de 2023</block>
-  <block id="1f44f33aeb1b63e7094b0cbb0522d33b" category="paragraph">Directiva sin resolver en &lt;stdin&gt; - incluye: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">Planificación del ciclo de vida</block>
   <block id="97ab9dfb96ee1d5aedf3102c6777b5c7" category="section-title">La BlueXP economic efficiency ahora es la planificación del ciclo de vida</block>
   <block id="0f073941848193a160ce5e5bf8f7d006" category="paragraph">La BlueXP economic efficiency ha pasado a llamarse Planificación del ciclo de vida.</block>
@@ -1056,4 +1055,54 @@
   <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">El evento de niveles "Asigne datos adicionales desde el clúster &lt;nombre&gt; al almacenamiento de objetos para aumentar la eficiencia del almacenamiento" ahora aparece como una notificación cuando un clúster está agrupando en niveles menos del 20 % de sus datos fríos, incluidos los clústeres que no están agrupando en niveles ningún dato.</block>
   <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">Calculadora de ahorro y costo total de propiedad de Cloud Tiering</block>
   <block id="606ec28d49ad09441827c5c02151d01a" category="paragraph">Esta notificación es una "Recomendación" para ayudar a que sus sistemas sean más eficientes y ahorrar en costos de almacenamiento. Proporciona un enlace a la<block ref="c97ff6fcab33b77efc054e699ba69f9b" category="inline-link-rx"></block> para ayudarle a calcular sus ahorros de costos.</block>
+  <block id="bdffab7d1fc5c739af6bcacd7556d32b" category="section-title">La BlueXP disaster recovery ahora es NetApp Disaster Recovery</block>
+  <block id="b8479b63a059f61189d191d9d8206a0e" category="paragraph">La BlueXP disaster recovery ha pasado a llamarse Recuperación ante desastres de NetApp .</block>
+  <block id="74ec2cbf7ad010d86af9ea5f2d47ee39" category="section-title">Otras actualizaciones</block>
+  <block id="77ce624f79cabd64ddedccf3196e9b1a" category="inline-link-macro">Introducción de NetApp Disaster Recovery mediante Amazon Elastic VMware Service y Amazon FSx for NetApp ONTAP</block>
+  <block id="e6b27502ab6a46e1039ef9e004cb65ff" category="list-text">El soporte para Amazon Elastic VMware Service (EVS) con Amazon FSx for NetApp ONTAP estaba en una vista previa pública. Con este lanzamiento, ahora está disponible de forma generalizada. Para más detalles, consulte<block ref="d77dcab16ff9979356836b689cffd0ee" category="inline-link-macro-rx"></block> .</block>
+  <block id="1842d5453eb18b28e3fe6f5c7acc9eaa" category="list-text">Mejoras en el descubrimiento de almacenamiento, incluidos tiempos de descubrimiento reducidos para implementaciones locales</block>
+  <block id="58077d66ee3ca42d6d7732854dac2714" category="list-text">Compatibilidad con gestión de identidad y acceso (IAM), incluido el control de acceso basado en roles (RBAC) y permisos de usuario mejorados</block>
+  <block id="ef31873b640af7e0e4300d5282baffe4" category="list-text">Compatibilidad de vista previa privada con la solución VMware de Azure y Cloud Volumes ONTAP. Con este soporte, ahora puede configurar la protección de recuperación ante desastres desde las instalaciones locales hasta la solución VMware de Azure mediante el almacenamiento de Cloud Volumes ONTAP .</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">04 de agosto de 2025</block>
+  <block id="4a32789f771ba902fef02cd0f2a544e6" category="paragraph">Versión 4.2.5P2</block>
+  <block id="48cd462677138869d77d61db9c16b889" category="section-title">Actualizaciones de NetApp Disaster Recovery</block>
+  <block id="36088b35355e766d544b98140baa439a" category="list-text">Se mejoró la compatibilidad de VMFS para manejar el mismo LUN presentado desde múltiples máquinas virtuales de almacenamiento.</block>
+  <block id="5958ae417b9ca044a24e8a3629b195bb" category="list-text">Se mejoró la limpieza de desmontaje de prueba para controlar el almacén de datos que ya se está desmontando o eliminando.</block>
+  <block id="1a2957b0c8fb36225440df520076e072" category="list-text">Se mejoró el mapeo de subredes para que ahora valide que la puerta de enlace ingresada esté contenida dentro de la red proporcionada.</block>
+  <block id="7f5267deccdc08e8591ec8b4dccfcc03" category="list-text">Se corrigió un problema que podía provocar que el plan de replicación fallara si el nombre de la máquina virtual contenía ".com".</block>
+  <block id="8af129ac3a817923db5feb647660eb7c" category="list-text">Se eliminó una restricción que impedía que el volumen de destino fuera el mismo que el volumen de origen al crear el volumen como parte de la creación del plan de replicación.</block>
+  <block id="4de413f6189881cc6b259fb6e68df02c" category="list-text">Se agregó soporte para una suscripción de pago por uso (PAYGO) a NetApp Intelligent Services en Azure Marketplace y se agregó un vínculo a Azure Marketplace en el cuadro de diálogo de prueba gratuita.</block>
+  <block id="2987548294e292332cf7adcf36589fc5" category="inline-link">Licencias de recuperación ante desastres de NetApp</block>
+  <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">Configurar licencias para NetApp Disaster Recovery</block>
+  <block id="66987db2f4ddc01df2f2608d224490a6" category="paragraph">Para más detalles, véase<block ref="daf049a4e68b2c2a66995f2733e6d093" category="inline-link-rx"></block> y<block ref="502b84db50f651e0d1e6368db24aec66" category="inline-link-rx"></block> .</block>
+  <block id="875f73df70de111a8a6c2c5595b208a7" category="paragraph">Versión 4.2.5</block>
+  <block id="ae9748c0cf32bbe0d62a0514c121d1f2" category="section-title">Roles de usuario en NetApp Disaster Recovery</block>
+  <block id="acd3b1030b26202122f9ff922116dd46" category="paragraph">NetApp Disaster Recovery ahora emplea roles para gobernar el acceso que tiene cada usuario a funciones y acciones específicas.</block>
+  <block id="5d0c7e3e79227c0f48e31b0f10e5a07d" category="paragraph">El servicio utiliza los siguientes roles que son específicos de NetApp Disaster Recovery.</block>
+  <block id="8089d5956a754913831086e4a192fba0" category="list-text">*Administrador de recuperación ante desastres*: realiza cualquier acción en NetApp Disaster Recovery.</block>
+  <block id="1da73a6d977d71d257524dfc760b311f" category="list-text">*Administrador de conmutación por error de recuperación ante desastres*: realiza acciones de conmutación por error y migración en NetApp Disaster Recovery.</block>
+  <block id="64fbace2c8460fced3d10cb671f24651" category="list-text">*Administrador de aplicaciones de recuperación ante desastres*: crear y modificar planes de replicación e iniciar conmutaciones por error de prueba.</block>
+  <block id="919421d556cf702a4e06810fc276b335" category="list-text">*Visor de recuperación ante desastres*: ve información en NetApp Disaster Recovery, pero no puede realizar ninguna acción.</block>
+  <block id="eeacd7a9a09a00a4f78e8e20c24b39e4" category="paragraph">Si hace clic en el servicio NetApp Disaster Recovery y lo configura por primera vez, debe tener el permiso *SnapCenterAdmin* o el rol *Organization Admin*.</block>
+  <block id="228f454cf16a61507e28cfb734b215ab" category="inline-link">Roles y permisos de usuario en NetApp Disaster Recovery</block>
+  <block id="044ee78e955ad31e7cec671d271aff49" category="paragraph">Para obtener más información, consulte <block ref="064655cf5aa70bddc10e05f71e3f59a1" category="inline-link-rx"></block> .</block>
+  <block id="9e51129a710cb333676e7ff392c0610c" category="inline-link">Obtenga información sobre los roles de acceso para todos los servicios</block>
+  <block id="d0f140b1f3426612fda3714d998f3232" category="paragraph"><block ref="ea112d812fe0cc251b9a8c88105fdf11" category="inline-link-rx"></block> .</block>
+  <block id="1e9f4844ea9e9792cbb09aa643cdd0b9" category="section-title">Otras actualizaciones en NetApp Disaster Recovery</block>
+  <block id="982f7e3070a4d65cdf30b78b12adb75b" category="list-text">Descubrimiento de red mejorado</block>
+  <block id="3b5745c72d48a29358cef7c9db7cd826" category="list-text">Mejoras de escalabilidad:</block>
+  <block id="40228eea7c6ccc9e0cb61372c49d95eb" category="list-text">Filtrado de los metadatos requeridos en lugar de todos los detalles</block>
+  <block id="1ac913a5bb5ab0a16e36b313be789aac" category="list-text">Mejoras en el descubrimiento para recuperar y actualizar recursos de máquinas virtuales más rápidamente</block>
+  <block id="b5e4470910d5e523e0dc277cc4e74bb2" category="list-text">Optimización de la memoria y optimización del rendimiento para la recuperación y actualización de datos</block>
+  <block id="49b1bd71187a3dcbd19f786ef2a10764" category="list-text">Mejoras en la creación de clientes y la gestión de grupos de vCenter SDK</block>
+  <block id="7af4cddf55cbfd0c887075f4b418f072" category="list-text">Gestión de datos obsoletos en el próximo descubrimiento programado o manual:</block>
+  <block id="2b077b3d88dcc4adb54c2a11c5463fae" category="list-text">Cuando se elimina una máquina virtual en vCenter, NetApp Disaster Recovery ahora la elimina automáticamente del plan de replicación.</block>
+  <block id="7fb8e5a4929cd35fd131ad1f5533d144" category="list-text">Cuando se elimina un almacén de datos o una red en vCenter, NetApp Disaster Recovery ahora lo elimina del plan de replicación y del grupo de recursos.</block>
+  <block id="1b838198508b4c30761cfb90615db038" category="list-text">Cuando se elimina un clúster, un host o un centro de datos en vCenter, NetApp Disaster Recovery ahora lo elimina del plan de replicación y del grupo de recursos.</block>
+  <block id="24ed933119d9ba78138d2119f9ebbdac" category="inline-link">Documentación de Swagger</block>
+  <block id="cec5123afb166f0c68f7ddc85e5b41e4" category="list-text">Ahora puedes acceder a la documentación de Swagger en el modo de incógnito de tu navegador. Puede acceder a él desde NetApp Disaster Recovery desde la opción Configuración &gt; Documentación de API o directamente en la siguiente URL en el modo incógnito de su navegador:<block ref="fbeb63b8afb1564cb8457db3650e3513" category="inline-link-rx"></block> .</block>
+  <block id="07249132999164b31d31db024261d558" category="list-text">En algunas situaciones, después de una operación de conmutación por error, el iGroup quedó abandonado una vez completada la operación. Esta actualización elimina el iGroup si está obsoleto.</block>
+  <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">Si se utilizó el FQDN de NFS en el plan de replicación, NetApp Disaster Recovery ahora lo resuelve en una dirección IP. Esta actualización es útil si el FQDN no se puede resolver en el sitio de recuperación ante desastres.</block>
+  <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">Mejoras en la alineación de la interfaz de usuario</block>
+  <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">Mejoras en el registro para capturar los detalles de tamaño de vCenter después del descubrimiento exitoso</block>
 </blocks>
