@@ -25,7 +25,7 @@ Vea el conjunto completo de notas de la versión para las características de la
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Centro de automatización"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Asesor digital"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Eficiencia económica"^]
-* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["Licencias y suscripciones"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licencias y suscripciones"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["Actualizaciones de software"^]
 
 
@@ -58,7 +58,7 @@ Vea el conjunto completo de notas de la versión para las características de la
 == Servicios de datos
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Copia de seguridad y recuperación"^]
-* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["Clasificación de datos"^]
+* https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["Clasificación de datos"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["Copiar y sincronizar"^]
 * https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["Recuperación ante desastres"^]
 * https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["Resiliencia frente al ransomware"^]

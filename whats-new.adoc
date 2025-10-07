@@ -358,13 +358,68 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Obtenga más in
 
 == Amazon FSx para ONTAP
 
-Directiva sin resolver en <stdin> - incluye: https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 6 de octubre de 2025
+
+
+
+==== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp ."^]
+
+
+
+=== 03 de agosto de 2025
+
+
+
+==== Mejoras en la pestaña de relaciones de replicación
+
+Hemos agregado varias columnas nuevas a la tabla de relaciones de replicación para brindarle más información sobre sus relaciones de replicación en la pestaña *Relaciones de replicación*. La tabla ahora incluye las siguientes columnas:
+
+* Política de SnapMirror
+* Sistema de archivos fuente
+* Sistema de archivos de destino
+* Estado de la relación
+* Última hora de transferencia
+
+
+
+
+=== 14 de julio de 2025
+
+
+
+==== Soporte para replicar datos entre dos sistemas de archivos FSx para ONTAP
+
+La replicación de datos ahora está disponible entre dos sistemas de archivos FSx para ONTAP desde el lienzo en la consola BlueXP .
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["Replicar datos"]
 
 
 
 == Almacenamiento de Amazon S3
 
-Directiva sin resolver en <stdin> - incluye: https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 6 de octubre de 2025
+
+
+
+==== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] . == 05 de marzo de 2023
+
+
+
+==== Capacidad de agregar nuevos depósitos desde BlueXP
+
+Ha tenido la capacidad de ver los buckets de Amazon S3 en BlueXP Canvas durante bastante tiempo. Ahora puede agregar nuevos depósitos y cambiar las propiedades de los depósitos existentes directamente desde BlueXP. https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["Vea cómo agregar nuevos buckets de Amazon S3"] .
 
 
 
@@ -448,15 +503,15 @@ Esta versión de NetApp Backup and Recovery incluye las siguientes actualizacion
 
 
 
-==== NetApp Backup and Recovery ahora es NetApp Backup and Recovery
+==== La BlueXP backup and recovery ahora es NetApp Backup and Recovery
 
-NetApp Backup and Recovery ha pasado a llamarse NetApp Backup and Recovery.
+La BlueXP backup and recovery ha pasado a llamarse Copia de seguridad y recuperación de NetApp .
 
 
 
 ==== BlueXP ahora es NetApp Console
 
-La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+La consola de NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los servicios de datos de NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada que es altamente segura y compatible.
 
 Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la consola de NetApp ."]
 
@@ -1836,13 +1891,113 @@ En la sección de resumen de BlueXP software updates, ahora puede ver la cantida
 
 == StorageGRID
 
-Directiva sin resolver en <stdin> - incluye: https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 6 de octubre de 2025
+
+
+
+==== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+
+
+
+=== 12 de mayo de 2025
+
+
+
+==== Se necesitan roles de acceso a BlueXP
+
+Ahora necesita uno de los siguientes roles de acceso para ver, descubrir o administrar StorageGRID en BlueXP: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento* o *Especialista en estado de almacenamiento*.link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP ."^]
+
+
+
+=== 7 de agosto de 2024
+
+
+
+==== Nueva vista avanzada
+
+A partir de StorageGRID 11.8, puede utilizar la interfaz familiar de Grid Manager para administrar su sistema StorageGRID desde BlueXP.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["Aprenda a administrar StorageGRID mediante la vista avanzada"] .
+
+
+
+==== Capacidad de revisar y aprobar el certificado de interfaz de administración de StorageGRID
+
+Ahora tiene la posibilidad de revisar y aprobar un certificado de interfaz de administración de StorageGRID al descubrir el sistema StorageGRID desde BlueXP. También puede revisar y aprobar el último certificado de interfaz de administración de StorageGRID en una red detectada.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["Aprenda a revisar y aprobar el certificado del servidor durante el descubrimiento del sistema."]
+
+
+
+=== 18 de septiembre de 2022
+
+
+
+==== Compatibilidad con StorageGRID
+
+Ahora puede descubrir sus sistemas StorageGRID directamente desde BlueXP. Descubrir StorageGRID le proporciona una vista completa de los datos en su multinube híbrida.
 
 
 
 == Nivelación de la nube
 
-Directiva sin resolver en <stdin> - incluye: https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 6 de octubre de 2025
+
+
+
+==== La BlueXP tiering ahora es NetApp Cloud Tiering
+
+La BlueXP tiering ha cambiado su nombre a NetApp Cloud Tiering.
+
+
+
+==== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+
+
+
+=== 9 de agosto de 2023
+
+
+
+==== Utilice un prefijo personalizado para el nombre del depósito
+
+En el pasado, era necesario utilizar el prefijo "fabric-pool" predeterminado al definir el nombre del depósito, por ejemplo, _fabric-pool-bucket1_.  Ahora puedes usar un prefijo personalizado al nombrar tu bucket.  Esta funcionalidad solo está disponible cuando se agrupan los datos en Amazon S3. https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["Más información"] .
+
+
+
+==== Busque un clúster en todos los conectores BlueXP
+
+Si utiliza varios conectores para administrar todos los sistemas de almacenamiento en su entorno, es posible que algunos clústeres en los que desee implementar niveles estén en diferentes conectores. Si no está seguro de qué conector administra un determinado clúster, puede buscar en todos los conectores mediante Cloud Tiering. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["Más información"] .
+
+
+
+=== 4 de julio de 2023
+
+
+
+==== Ajustar el ancho de banda para transferir datos inactivos
+
+Cuando activa la organización en niveles en la nube, ONTAP puede usar una cantidad ilimitada de ancho de banda de red para transferir los datos inactivos de los volúmenes del clúster al almacenamiento de objetos. Si nota que el tráfico en niveles afecta las cargas de trabajo normales de los usuarios, puede limitar la cantidad de ancho de banda que se puede usar durante la transferencia. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["Más información"] .
+
+
+
+==== Evento de niveles que se muestra en el Centro de notificaciones
+
+El evento de niveles "Asigne datos adicionales desde el clúster <nombre> al almacenamiento de objetos para aumentar la eficiencia del almacenamiento" ahora aparece como una notificación cuando un clúster está agrupando en niveles menos del 20 % de sus datos fríos, incluidos los clústeres que no están agrupando en niveles ningún dato.
+
+Esta notificación es una "Recomendación" para ayudar a que sus sistemas sean más eficientes y ahorrar en costos de almacenamiento. Proporciona un enlace a la https://bluexp.netapp.com/cloud-tiering-service-tco["Calculadora de ahorro y costo total de propiedad de Cloud Tiering"^] para ayudarle a calcular sus ahorros de costos.
 
 
 
