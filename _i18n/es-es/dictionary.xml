@@ -568,7 +568,6 @@
   <block id="58770c745f8af8b420df40e44a144c15" category="section-title">5 de junio de 2023</block>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">Capacidad de agregar nuevas cuentas de almacenamiento desde BlueXP</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">Aprenda a agregar nuevas cuentas de almacenamiento de blobs de Azure</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">Ha tenido la capacidad de ver Azure Blob Storage en BlueXP Canvas durante bastante tiempo. Ahora puede agregar nuevas cuentas de almacenamiento y cambiar las propiedades de las cuentas de almacenamiento existentes directamente desde BlueXP. <block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> .</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP ha sido renombrado y rediseñado para reflejar mejor su función en la gestión de su infraestructura de datos.</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">La consola de NetApp proporciona una gestión centralizada de servicios de almacenamiento y datos en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada.</block>
   <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">Para obtener más detalles sobre lo que ha cambiado, consulte la<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
@@ -1106,4 +1105,5 @@
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">Mejoras en la alineación de la interfaz de usuario</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">Mejoras en el registro para capturar los detalles de tamaño de vCenter después del descubrimiento exitoso</block>
   <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">Busque y restaure copias de seguridad de máquinas virtuales desde el almacenamiento primario, secundario y de objetos</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">Ha tenido la capacidad de ver Azure Blob Storage en BlueXP Canvas durante bastante tiempo. Ahora puede agregar nuevas cuentas de almacenamiento y cambiar las propiedades de las cuentas de almacenamiento existentes directamente desde BlueXP. <block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> .</block>
 </blocks>
