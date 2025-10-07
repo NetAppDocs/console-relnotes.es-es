@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: Notas de la versión de la consola de NetApp
+  title: Notas de la versión de la NetApp Console
   summary: Estas notas de la versión describen mejoras recientes de NetApp Console
     y los servicios de datos que admite.  Hay enlaces disponibles al conjunto completo
     de notas de la versión para cada servicio individual.
@@ -11,7 +11,7 @@ indexpage:
   tiles:
   - title: Qué hay de nuevo
     links:
-    - title: Cambios recientes en la consola de NetApp
+    - title: Cambios recientes en la NetApp Console
       url: whats-new.html
   - title: Notas de la versión por servicio
     links:
@@ -19,9 +19,9 @@ indexpage:
       url: release-notes-index.html
   - title: Blogs y comunidad
     links:
-    - title: Consola de NetApp
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: Servicios de datos de NetApp
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: Comunidad de NetApp
       url: https://community.netapp.com/

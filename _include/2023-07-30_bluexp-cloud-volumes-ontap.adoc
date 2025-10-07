@@ -8,7 +8,7 @@ Los siguientes cambios se introdujeron con la versión 3.9.32 del Conector.
 
 === Compatibilidad con Flash Cache y alta velocidad de escritura en Google Cloud
 
-La caché flash y la alta velocidad de escritura se pueden habilitar por separado en Google Cloud para Cloud Volumes ONTAP 9.13.1 y versiones posteriores.  La alta velocidad de escritura está disponible en todos los tipos de instancias compatibles.  Flash Cache es compatible con los siguientes tipos de instancias:
+La caché flash y la alta velocidad de escritura se pueden habilitar por separado en Google Cloud para Cloud Volumes ONTAP 9.13.1 y versiones posteriores. La alta velocidad de escritura está disponible en todos los tipos de instancias compatibles. Flash Cache es compatible con los siguientes tipos de instancias:
 
 * n2-estándar-16
 * n2-estándar-32
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp
 
 === Mejoras en los informes de uso
 
-Ahora están disponibles varias mejoras en la información mostrada dentro de los informes de uso.  Las siguientes son mejoras en los informes de uso:
+Ahora están disponibles varias mejoras en la información mostrada dentro de los informes de uso. Las siguientes son mejoras en los informes de uso:
 
 * La unidad TiB ahora está incluida en el nombre de las columnas.
 * Ahora se incluye un nuevo campo "nodo(s)" para números de serie.
