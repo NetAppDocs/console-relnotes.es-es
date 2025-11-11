@@ -1,0 +1,19 @@
+= La BlueXP economic efficiency ahora es la planificación del ciclo de vida
+:allow-uri-read: 
+
+
+
+
+=== La BlueXP economic efficiency ahora es la planificación del ciclo de vida
+
+La BlueXP economic efficiency ha pasado a llamarse Planificación del ciclo de vida.
+
+Puede acceder a él desde la barra de navegación izquierda de la NetApp Console seleccionando *Almacenamiento* > *Planificación del ciclo de vida*.
+
+
+
+=== BlueXP ahora es NetApp Console
+
+La NetApp Console, construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los NetApp Data Services en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la NetApp Console"] .
