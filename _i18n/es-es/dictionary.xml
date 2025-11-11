@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="30fee46958559c602b944cc387c72292" category="paragraph">Los clientes ahora pueden crear sistemas de archivos Amazon FSx for NetApp ONTAP en tres nuevas regiones de AWS: Europa (Zúrich), Europa (España) y Asia Pacífico (Hyderabad).</block>
-  <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">Amazon FSx for NetApp ONTAP ahora está disponible en tres regiones adicionales</block>
-  <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">Referirse a<block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block> Para más detalles.</block>
-  <block id="7741410e87d6144c42e8ca73837c3707" category="doc">Compatibilidad con Flash Cache y alta velocidad de escritura en Google Cloud</block>
-  <block id="4325a8ea9cec7ffa18f3ee74d15997fe" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.32 del Conector.</block>
-  <block id="4f90c73c3d52d1bd4329e9961707db5c" category="paragraph">La caché flash y la alta velocidad de escritura se pueden habilitar por separado en Google Cloud para Cloud Volumes ONTAP 9.13.1 y versiones posteriores. La alta velocidad de escritura está disponible en todos los tipos de instancias compatibles. Flash Cache es compatible con los siguientes tipos de instancias:</block>
-  <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="list-text">n2-estándar-16</block>
-  <block id="8f66358785ed8f4d9a356630a4ee515c" category="list-text">n2-estándar-32</block>
-  <block id="33031b274bf5d81fbfbd69c1f2ea39a2" category="list-text">n2-estándar-48</block>
-  <block id="7c347fcea29ffaea485ee6128a9d7a06" category="list-text">n2-estándar-64</block>
-  <block id="0891ba6a1f7a37c01cb3698c692751bc" category="paragraph">Puede utilizar estas funciones por separado o en conjunto tanto en implementaciones de nodo único como en implementaciones de pares de alta disponibilidad.</block>
-  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link-macro">Lanzamiento de Cloud Volumes ONTAP en Google Cloud</block>
-  <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
   <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">Mejoras en los informes de uso</block>
-  <block id="ec123c8f161f9dfe4383b8db1d8883c4" category="paragraph">Ahora están disponibles varias mejoras en la información mostrada dentro de los informes de uso. Las siguientes son mejoras en los informes de uso:</block>
   <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">La unidad TiB ahora está incluida en el nombre de las columnas.</block>
-  <block id="fc7fa4a44c2c9442201bf8725e6237b7" category="list-text">Ahora se incluye un nuevo campo "nodo(s)" para números de serie.</block>
-  <block id="68d761e353cd9d529997fa49bfe51f92" category="list-text">Ahora se incluye una nueva columna “Tipo de carga de trabajo” en el informe de uso de máquinas virtuales de almacenamiento.</block>
-  <block id="26f51c309f5237522421f24bf4df04e0" category="list-text">Los nombres de los entornos de trabajo ahora se incluyen en los informes de uso de volúmenes y máquinas virtuales de almacenamiento.</block>
-  <block id="fa3abcbc43662c93139af3f3f6421a6f" category="list-text">El tipo de volumen “archivo” ahora está etiquetado como “Principal (lectura/escritura)”.</block>
-  <block id="b259e22e76e27ad956b503941804b4c6" category="list-text">El tipo de volumen “secundario” ahora está etiquetado como “Secundario (DP)”.</block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link-macro">Descargar informes de uso</block>
-  <block id="a8c4bf4701c4d99d778be1176c8c8616" category="paragraph">Para obtener más información sobre los informes de uso, consulte<block ref="b9c4007084372a89d5df93919658aa73" category="inline-link-macro-rx"></block> .</block>
   <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Ahora están disponibles varias mejoras en los informes de uso de Cloud Volumes ONTAP :</block>
   <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">Ahora se incluye un nuevo campo _node(s)_ para números de serie.</block>
   <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">Ahora se incluye una nueva columna _Tipo de carga de trabajo_ en el informe de uso de máquinas virtuales de almacenamiento.</block>
@@ -31,173 +11,9 @@
   <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">El tipo de volumen _archivo_ ahora está etiquetado como _Principal (Lectura/Escritura)_.</block>
   <block id="af30dca925032347d49fd49d710f0164" category="list-text">El tipo de volumen _secundario_ ahora está etiquetado como _Secundario (DP)_.</block>
   <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">Para obtener más información sobre los informes de uso, consulte<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block> .</block>
-  <block id="87377698a8dca305b9579a13060142f2" category="doc">Crear volúmenes FlexGroup</block>
-  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">Si administra un clúster con un conector, ahora puede crear volúmenes FlexGroup utilizando la API de BlueXP .</block>
-  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">Aprenda a crear un volumen FlexGroup</block>
-  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
-  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">Descubra qué es un volumen FlexGroup</block>
-  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
-  <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">Ahora puede utilizar la API del servicio de auditoría BlueXP para exportar registros de auditoría.</block>
-  <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">El servicio de auditoría registra información sobre las operaciones realizadas por los servicios de BlueXP .  Esto incluye espacios de trabajo, conectores utilizados y otros datos de telemetría.  Puede utilizar estos datos para determinar qué acciones se realizaron, quién las realizó y cuándo ocurrieron.</block>
-  <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">Obtenga más información sobre el uso de la API del servicio de auditoría</block>
-  <block id="23822bdcf5039c31a637229d8ca51ffa" category="paragraph"><block ref="23822bdcf5039c31a637229d8ca51ffa" category="inline-link-rx"></block></block>
-  <block id="d00604985bd7a191952bde8a0cec39fd" category="paragraph">Tenga en cuenta que este enlace también es accesible desde la interfaz de usuario de BlueXP en la página Línea de tiempo.</block>
-  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">Esta versión del Conector también incluye mejoras de Cloud Volumes ONTAP y mejoras del clúster ONTAP local.</block>
-  <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">Obtenga más información sobre las mejoras de Cloud Volumes ONTAP</block>
-  <block id="23c565330e0f5d82619b18108f5a32ca" category="list-text"><block ref="23c565330e0f5d82619b18108f5a32ca" category="inline-link-rx"></block></block>
-  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">Obtenga más información sobre las mejoras del clúster local de ONTAP</block>
-  <block id="405527e38d3c42926031f86b50d381d4" category="list-text"><block ref="405527e38d3c42926031f86b50d381d4" category="inline-link-rx"></block></block>
-  <block id="e752fa0925615f823987d88e457d59fd" category="doc">Se ha agregado soporte para realizar copias de seguridad de volúmenes en depósitos en sistemas ONTAP configurados con S3</block>
-  <block id="94798620994cb827b675957027c80437" category="list-text">Debido a una mejora de seguridad importante, su conector ahora requiere acceso a Internet saliente a un punto final adicional para administrar los recursos de respaldo y recuperación dentro de su entorno de nube pública.  Si este punto final no se ha agregado a la lista "permitido" en su firewall, verá un error en la interfaz de usuario sobre "Servicio no disponible" o "Error al determinar el estado del servicio":</block>
-  <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\ https://netapp-cloud-account.auth0.com</block>
-  <block id="9aa936e4dd7e0d3efaa0a77d15dc632b" category="list-text">Ahora se requiere una suscripción PAYGO de respaldo y recuperación cuando usa el paquete "CVO Professional" que le permite agrupar el respaldo y la recuperación de Cloud Volumes ONTAP y BlueXP backup and recovery.  Esto no era necesario en el pasado.  No se incurrirá en ningún cargo por la suscripción de Copia de seguridad y recuperación para los sistemas Cloud Volumes ONTAP elegibles, pero es necesaria al configurar la copia de seguridad en cualquier volumen nuevo.</block>
-  <block id="2f90f6337bfaddfb7cef01155147c18e" category="paragraph">Ahora puede utilizar un sistema ONTAP que haya sido configurado para el Servicio de almacenamiento simple (S3) para realizar copias de seguridad de volúmenes en el almacenamiento de objetos.  Esto es compatible tanto con sistemas ONTAP locales como con sistemas Cloud Volumes ONTAP .  Esta configuración es compatible con implementaciones en la nube y en ubicaciones locales sin acceso a Internet (una implementación en modo "privado").</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">Más información</block>
-  <block id="d93a426929555b449107b332f0c5df78" category="paragraph"><block ref="2d1eb9b9d1143acaa6fbfc289c32041b" category="inline-link-rx"></block> .</block>
-  <block id="70fbb23fd6cfcbe729580a8c7071730a" category="section-title">Ahora puede incluir instantáneas existentes de un volumen protegido en sus archivos de respaldo</block>
-  <block id="7c312a822a10d6845bb9cf257a3b41f5" category="paragraph">En el pasado, usted tenía la posibilidad de incluir copias de instantáneas existentes de volúmenes de lectura y escritura en su archivo de respaldo inicial al almacenamiento de objetos (en lugar de comenzar con la copia de instantánea más reciente).  Las copias de instantáneas existentes de volúmenes de solo lectura (volúmenes de protección de datos) no se incluyeron en el archivo de respaldo.  Ahora puede elegir incluir copias de instantáneas más antiguas en el archivo de respaldo para los volúmenes "DP".</block>
-  <block id="a52e9db6c55aaea07e1f222122cf9475" category="paragraph">El asistente de copia de seguridad muestra un mensaje al final de los pasos de la copia de seguridad donde puede seleccionar estas "instantáneas existentes".</block>
-  <block id="6136d2619abda8ba9c4b9f6c76f6d430" category="section-title">La BlueXP backup and recovery ya no admite la copia de seguridad automática de volúmenes agregados en el futuro</block>
-  <block id="3b17b8ee7680ecdabf14e962be98ba50" category="paragraph">Anteriormente, podía marcar una casilla en el asistente de copia de seguridad para aplicar la política de copia de seguridad seleccionada a todos los volúmenes futuros agregados al clúster.  Esta función se ha eliminado debido a los comentarios de los usuarios y la falta de uso de esta función.  Necesitará habilitar manualmente las copias de seguridad para cualquier volumen nuevo que se agregue al clúster.</block>
-  <block id="0420a611a93fd8e2b4b4669f2533284c" category="section-title">La página de Monitoreo de trabajos se ha actualizado con nuevas funciones</block>
-  <block id="99e43b54749f1014f6aeb5b8c1c56742" category="paragraph">La página Supervisión de trabajos ahora proporciona más información relacionada con la estrategia de respaldo 3-2-1.  El servicio también proporciona notificaciones de alerta adicionales relacionadas con la estrategia de respaldo.</block>
-  <block id="04afa98530b9fa98eb8d1adf9da08f7f" category="paragraph">El filtro de tipo "Ciclo de vida de la copia de seguridad" ha cambiado de nombre a "Retención".  Utilice este filtro para realizar un seguimiento del ciclo de vida de la copia de seguridad y para identificar la caducidad de todas las copias de seguridad.  El tipo de trabajo "Retención" captura todos los trabajos de eliminación de instantáneas iniciados en un volumen protegido por BlueXP backup and recovery.</block>
-  <block id="751f8afbc94898745cc6e2ea8a5ccd4c" category="inline-link">Obtenga más información sobre el Monitor de trabajo actualizado</block>
-  <block id="bf6c8f020a512a9accf77240c1333a16" category="paragraph"><block ref="f412c2e0203811d72b16f88cf9eb5d19" category="inline-link-rx"></block> .</block>
-  <block id="b1026ebb435e887031ec24334255046b" category="paragraph">La vista previa de BlueXP disaster recovery es un servicio de recuperación ante desastres basado en la nube que automatiza los flujos de trabajo de recuperación ante desastres.  Inicialmente, con la vista previa de BlueXP disaster recovery , puede proteger sus cargas de trabajo VMware locales basadas en NFS que ejecutan almacenamiento NetApp en VMware Cloud (VMC) en AWS con Amazon FSx para ONTAP.</block>
-  <block id="8fb7b8d770a994170f1c007a9255f124" category="admonition">Con esta oferta de vista previa, NetApp se reserva el derecho de modificar los detalles, el contenido y el cronograma de la oferta antes de la disponibilidad general.</block>
-  <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link">Obtenga más información sobre la BlueXP disaster recovery</block>
-  <block id="d2821a0bfab67d1ac8b7770287a7e5fa" category="paragraph"><block ref="5e6f535f5269a2222938cba2b978dc6c" category="inline-link-rx"></block> .</block>
-  <block id="8f34806925352860a20b553ca661087f" category="paragraph">Esta versión incluye las siguientes actualizaciones:</block>
-  <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link">Seleccionar aplicaciones para replicar y asignar grupos de recursos</block>
-  <block id="3c588cce706af28ae858573fe547adee" category="list-text">*Actualización de grupos de recursos para el orden de arranque*: cuando crea un plan de replicación o recuperación ante desastres, puede agregar máquinas virtuales a grupos de recursos funcionales.  Los grupos de recursos le permiten colocar un conjunto de máquinas virtuales dependientes en grupos lógicos que cumplan con sus requisitos.  Por ejemplo, los grupos podrían contener el orden de arranque que se puede ejecutar durante la recuperación.  Con esta versión, cada grupo de recursos puede incluir una o más máquinas virtuales.  Las máquinas virtuales se encenderán según la secuencia en que las incluya en el plan. Referirse a<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block> .</block>
-  <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link">Replicar aplicaciones a otro sitio</block>
-  <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">*Verificación de replicación*: después de crear el plan de recuperación ante desastres o de replicación, identificar la recurrencia en el asistente e iniciar una replicación en un sitio de recuperación ante desastres, cada 30 minutos la BlueXP disaster recovery verifica que la replicación realmente se esté produciendo de acuerdo con el plan.  Puede supervisar el progreso en la página Monitor de trabajo. Consulte <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block> .</block>
-  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link">Crear un plan de replicación</block>
-  <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">*El plan de replicación muestra los cronogramas de transferencia del objetivo de punto de recuperación (RPO)*: cuando crea un plan de replicación o recuperación ante desastres, selecciona las máquinas virtuales.  En esta versión, ahora puede ver el SnapMirror asociado con cada uno de los volúmenes asociados con el almacén de datos o la máquina virtual.  También puede ver los programas de transferencia de RPO que están asociados con el programa de SnapMirror .  RPO le ayuda a determinar si su programa de copias de seguridad es suficiente para recuperarse después de un desastre. Referirse a<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block> .</block>
-  <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link">Supervisar trabajos de recuperación ante desastres</block>
-  <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">*Actualización del Monitor de trabajos*: La página del Monitor de trabajos ahora incluye una opción Actualizar para que pueda obtener un estado actualizado de las operaciones. Consulte <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block> .</block>
-  <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">Problemas solucionados</block>
-  <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">esta página</block>
-  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">Esta versión corrige los problemas descritos en el<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block> .  Los paquetes de software actualizados están disponibles en<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block> .</block>
-  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="doc">Utilice grupos de seguridad de Azure existentes al crear un agente de datos</block>
-  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">Los usuarios ahora tienen la opción de usar grupos de seguridad de Azure existentes al crear un agente de datos.</block>
-  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">La cuenta de servicio utilizada al crear el agente de datos debe tener estos permisos:</block>
-  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">"Microsoft.Network/networkSecurityGroups/securityRules/read"</block>
-  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">"Microsoft.Network/networkSecurityGroups/read"</block>
-  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">Obtenga más información sobre cómo crear un agente de datos en Azure.</block>
-  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
-  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">Cifrar datos al sincronizar con Google Storage</block>
-  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">Los usuarios ahora tienen la opción de especificar una clave de cifrado administrada por el cliente al crear una relación de sincronización con un depósito de Google Storage como destino.  Puede ingresar su clave manualmente o elegirla de una lista de claves en una sola región.</block>
-  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.lista</block>
-  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">lista de llaveros cloudkms</block>
-  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">Obtenga más información sobre los requisitos del depósito de Google Cloud Storage.</block>
-  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
-  <block id="b839d32c555694a5245fa2fa33d17d88" category="doc">Utilice un prefijo personalizado para el nombre del depósito donde se almacenan los datos escalonados</block>
   <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">En el pasado, era necesario utilizar el prefijo "fabric-pool" predeterminado al definir el nombre del depósito, por ejemplo, _fabric-pool-bucket1_.  Ahora puedes usar un prefijo personalizado al nombrar tu bucket.  Esta funcionalidad solo está disponible cuando se agrupan los datos en Amazon S3.<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block> .</block>
   <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">Busque un clúster en todos los conectores BlueXP</block>
-  <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">Si utiliza varios conectores para administrar todos los sistemas de almacenamiento en su entorno, es posible que algunos clústeres en los que desee implementar niveles estén en diferentes conectores.  Si no está seguro de qué conector administra un determinado clúster, puede buscar en todos los conectores mediante la BlueXP tiering.<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> .</block>
-  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="doc">Excluir archivos mediante expresiones regulares</block>
-  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">Los usuarios ahora tienen la opción de excluir archivos usando expresiones regulares.</block>
-  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">Obtenga más información sobre la función *Excluir extensiones de archivo*.</block>
-  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
-  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">Agregar claves S3 al crear un agente de datos de Azure</block>
-  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">Los usuarios ahora pueden agregar claves de acceso y claves secretas de AWS S3 al crear un agente de datos de Azure.</block>
-  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
-  <block id="a0c145fadd8b464775a61d2f1a2e0474" category="paragraph">El servicio de informes de migración de BlueXP actualizado proporciona actualizaciones de los datos del informe.  Los informes ahora incluyen la capacidad asignada.</block>
-  <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="doc">Implementaciones pequeñas y medianas temporalmente no disponibles</block>
-  <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">Cuando implementa una instancia de BlueXP classification en AWS, la opción para seleccionar *Implementar &gt; Configuración* y elegir una instancia de tamaño pequeño o mediano no está disponible en este momento.  Aún puedes implementar la instancia utilizando el tamaño de instancia grande seleccionando *Implementar &gt; Implementar*.</block>
-  <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">Aplique etiquetas en hasta 100.000 elementos desde la página de Resultados de la investigación</block>
-  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">Vea cómo</block>
-  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">En el pasado, solo se podían aplicar etiquetas a una sola página a la vez en la página Resultados de la investigación (20 elementos).  Ahora puede seleccionar *todos* los elementos en las páginas de Resultados de la investigación y aplicar etiquetas a todos los elementos (hasta 100 000 elementos a la vez).<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block> .</block>
-  <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">Identificar archivos duplicados con un tamaño mínimo de archivo de 1 MB</block>
-  <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">La BlueXP classification se utiliza para identificar archivos duplicados solo cuando los archivos tienen 50 MB o más.  Ahora se pueden identificar archivos duplicados que comiencen con 1 MB.  Puede utilizar los filtros de la página de Investigación "Tamaño de archivo" junto con "Duplicados" para ver qué archivos de un tamaño determinado están duplicados en su entorno.</block>
-  <block id="e749c9d187d1531bb81af1a3c9eb73be" category="doc">Compatibilidad con máquinas virtuales de la serie Lsv3 en Azure</block>
-  <block id="3e34162a2379c48e3eaf3f3857b029c0" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.33 del Conector.</block>
-  <block id="cc2bfd53f6bcbc23893aaa8fab8b1eb2" category="paragraph">Los tipos de instancia L48s_v3 y L64s_v3 ahora son compatibles con Cloud Volumes ONTAP en Azure para implementaciones de pares de alta disponibilidad y de nodo único con discos administrados compartidos en zonas de disponibilidad únicas y múltiples, a partir de la versión 9.13.1. Estos tipos de instancias admiten Flash Cache.</block>
-  <block id="c2af1dd6b400531e930c62dad5095f7d" category="inline-link-macro">Ver configuraciones compatibles con Cloud Volumes ONTAP en Azure</block>
-  <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">Ver los límites de almacenamiento de Cloud Volumes ONTAP en Azure</block>
-  <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block> <block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
-  <block id="d8465669650730f887acd3754f3dea9f" category="list-text">Cuando crea un conector en AWS desde BlueXP, ahora puede buscar dentro del campo Par de claves para encontrar más fácilmente el par de claves que desea usar con la instancia del conector.</block>
-  <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">Una captura de pantalla de la opción de búsqueda en el campo Par de claves que aparece en la página Red al crear un conector en AWS desde BlueXP.</block>
-  <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">Esta actualización también incluye correcciones de errores.</block>
-  <block id="101143ec501ddd03e76bf93ad136c2de" category="doc">Nueva gestión de políticas para los datos de ONTAP</block>
-  <block id="d3744875712ea1e210c10ab00d139b5b" category="paragraph">Esta versión incluye la capacidad dentro de la interfaz de usuario de crear políticas de instantáneas personalizadas, políticas de replicación y políticas para copias de seguridad en el almacenamiento de objetos para datos de ONTAP .</block>
-  <block id="99a56480b438dfe7afa3558f8c8e61d0" category="inline-link">Obtenga más información sobre las políticas</block>
-  <block id="53a26cd89d8676b12d682e92f9b49a79" category="paragraph"><block ref="99a3bdb35a901d86516bb48e573064a3" category="inline-link-rx"></block> .</block>
-  <block id="90bd868a90cdf44166755a0fdec24b6e" category="section-title">Soporte para restaurar archivos y carpetas desde volúmenes en el almacenamiento de objetos ONTAP S3</block>
-  <block id="efec702225db296adcaac3abb0665451" category="paragraph">Anteriormente, no era posible restaurar archivos y carpetas mediante la función “Explorar y restaurar” cuando los volúmenes se respaldaban en el almacenamiento de objetos ONTAP S3.  Esta versión elimina esa restricción.</block>
-  <block id="38da59f967f6f913365cf5cefb459344" category="inline-link">Obtenga más información sobre la restauración de datos</block>
-  <block id="7b3040066d7e59383891bdcb2977076f" category="paragraph"><block ref="bfc7bc1f2f7fff3212c093c1fc6b6317" category="inline-link-rx"></block> .</block>
-  <block id="f63476943179d5dd83527cd0b9c7ade4" category="section-title">Capacidad de archivar datos de respaldo inmediatamente en lugar de escribirlos primero en el almacenamiento estándar</block>
-  <block id="cc702ed839181d5a4eb3655eba656f65" category="paragraph">Ahora puede enviar sus archivos de respaldo inmediatamente al almacenamiento de archivo en lugar de escribir los datos en el almacenamiento en la nube estándar.  Esto puede ser especialmente útil para usuarios que rara vez necesitan acceder a datos de copias de seguridad en la nube o para usuarios que están reemplazando una copia de seguridad en un entorno de cinta.</block>
-  <block id="52cc7bb26d5185a2c3b92b71a3d6e319" category="section-title">Soporte adicional para realizar copias de seguridad y restaurar volúmenes SnapLock</block>
-  <block id="4cb4cd292be9258bfc850d1aa644d9f6" category="paragraph">La copia de seguridad y la recuperación ahora pueden realizar copias de seguridad de los volúmenes FlexVol y FlexGroup que estén configurados mediante los modos de protección SnapLock Compliance o SnapLock Enterprise .  Sus clústeres deben ejecutar ONTAP 9.14 o superior para recibir este soporte.  La realización de copias de seguridad de volúmenes FlexVol mediante el modo SnapLock Enterprise es compatible desde la versión 9.11.1 de ONTAP .  Las versiones anteriores de ONTAP no brindan soporte para realizar copias de seguridad de los volúmenes de protección SnapLock .</block>
-  <block id="115e674b1dc0942f53bc91e279bbd7eb" category="inline-link">Obtenga más información sobre la protección de los datos de ONTAP</block>
-  <block id="5ea7c922bf64f9c4520ccdf833e34e39" category="paragraph"><block ref="287ce1c3ffcd9fd04ac3fb9608fef690" category="inline-link-rx"></block> .</block>
-  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-link-macro">Asesor de actualizaciones</block>
-  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">Puede acceder a la página del Asesor de actualizaciones para su lista de seguimiento predeterminada usando el<block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> enlace.</block>
-  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">Aprenda a generar y visualizar el plan de actualización</block>
-  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">El plan de actualización está optimizado para eliminar pasos de actualización redundantes y simplificar el plan de retroceso.  Los pasos comunes en todos los nodos de un clúster están consolidados y disponibles en la sección de información general dentro del plan de actualización. <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block> .</block>
-  <block id="0c31e0b40d23036cf9c9e0c4345b96d6" category="paragraph">Esta versión preliminar de BlueXP disaster recovery incluye las siguientes actualizaciones:</block>
-  <block id="83c8a47ea17763c3093bdee6c91d4c7c" category="list-text">*Actualizaciones del panel*: Ahora puedes hacer clic en las opciones del panel, lo que te permite revisar la información rápidamente con mayor facilidad.  Además, el Panel de Control ahora muestra el estado de las conmutaciones por error y las migraciones.</block>
-  <block id="be74a2f8b73ed15a46d21c202566b3bb" category="inline-link">Vea el estado de sus planes de recuperación ante desastres en el Panel de Control</block>
-  <block id="d1181cbae4acc0d9feb9f608b3ee586f" category="paragraph">Referirse a<block ref="cdc1638a4873b7c2cfc1c5962a5d03ab" category="inline-link-rx"></block> .</block>
-  <block id="6285873a780e650e27e2cde2a54a7c13" category="list-text">*Actualizaciones del plan de replicación*:</block>
-  <block id="056f6fba19f65e991a1c38d676e1c20d" category="list-text">*RPO*: Ahora puede ingresar el Objetivo de punto de recuperación (RPO) y el recuento de retención en la sección Almacenes de datos del plan de replicación.  Esto indica la cantidad de datos que deben existir que no sean más antiguos que el tiempo establecido.  Si, por ejemplo, lo configura en 5 minutos, el sistema puede perder hasta 5 minutos de datos si ocurre un desastre sin afectar las necesidades críticas del negocio.</block>
-  <block id="6b4866d6790f0b6c044df7d2894f1313" category="paragraph">Referirse a<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block> .</block>
-  <block id="ff7e9f26eed12684568d409b38d71bcc" category="list-text">*Mejoras de red*: al asignar redes entre ubicaciones de origen y destino en la sección de máquinas virtuales del plan de replicación, la BlueXP disaster recovery ahora ofrece dos opciones: DHCP o IP estática.  Anteriormente solo se admitía DHCP.  Para las direcciones IP estáticas, configure la subred, la puerta de enlace y los servidores DNS.  Además, ahora puedes ingresar credenciales para máquinas virtuales.</block>
-  <block id="fe329f91281efd1c71c4145c82444ecd" category="list-text">*Editar programaciones*: ahora puedes actualizar las programaciones del plan de replicación.</block>
-  <block id="ecd36d02576c4fe28ab61b5c14fa69c4" category="inline-link">Administrar recursos</block>
-  <block id="4cfb152ee6cdcd5bb952055f0451eb1e" category="paragraph">Referirse a<block ref="62052e6a6f987a8752e8d90cacdd602d" category="inline-link-rx"></block> .</block>
-  <block id="58adec32627fd44ceeefdcc62aeec6fc" category="list-text">* Automatización de SnapMirror *: mientras crea el plan de replicación en esta versión, puede definir la relación de SnapMirror entre los volúmenes de origen y destino en una de las siguientes configuraciones:</block>
-  <block id="92b7daac1d86d399dc5b1e009d09f0f5" category="list-text">1 a 1</block>
-  <block id="352d4f9f99cbd649fab2edc17c761e66" category="list-text">1 a muchos en una arquitectura de abanico</block>
-  <block id="7d2e89736c1e0a679ed3c86b8b5e6141" category="list-text">Muchos a 1 como grupo de consistencia</block>
-  <block id="f84b964a31258c14e682925c71bbbd80" category="list-text">Muchos a muchos</block>
-  <block id="74246010013353726bd9ff99866fa7d4" category="doc">Compatibilidad con instalaciones locales de la BlueXP classification en RHEL versión 9</block>
-  <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Las versiones 8 y 9 de Red Hat Enterprise Linux no admiten el motor Docker, que era necesario para la instalación de la BlueXP classification .  Ahora admitimos la instalación de la BlueXP classification en RHEL 9.0, 9.1 y 9.2 utilizando Podman versión 4 o superior como infraestructura de contenedor.  Si su entorno requiere el uso de las versiones más nuevas de RHEL, ahora puede instalar la BlueXP classification (versión 1.26 o superior) al usar Podman.</block>
-  <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">En este momento no admitimos instalaciones de sitios oscuros ni entornos de escaneo distribuido (que utilizan un escáner maestro y remoto) cuando se utiliza RHEL 9.x.</block>
-  <block id="44d133359b344c4542acdebe6209e101" category="doc">Cloud Volumes ONTAP 9.14.0</block>
-  <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">Los siguientes cambios se introdujeron con la versión 3.9.34 del Conector.</block>
-  <block id="c5fa627d231c9a8813c9a2421d86136f" category="paragraph">BlueXP ahora puede implementar y administrar la versión de disponibilidad general de Cloud Volumes ONTAP 9.14.0 en AWS, Azure y Google Cloud.</block>
-  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link-macro">Conozca las nuevas funciones incluidas en esta versión de Cloud Volumes ONTAP</block>
-  <block id="c2282365523aa8fbb305c5432e90d5d7" category="paragraph"><block ref="6f9b2ccd962907ef2c43f6fa9517a053" category="inline-link-macro-rx"></block> .</block>
-  <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">Esta versión contiene pequeñas mejoras y correcciones de errores.</block>
-  <block id="197747cde80c31576877de78be696240" category="doc">Mejoras en la BlueXP backup and recovery para aplicaciones (nativa de la nube)</block>
-  <block id="d9a26494c95cbef43a71fa2585292af3" category="list-text">Base de datos de Microsoft SQL Server</block>
-  <block id="270a06ed19fec772bcfb084931cae13d" category="list-text">Admite copias de seguridad, restauración y recuperación de bases de datos de Microsoft SQL Server que residen en Amazon FSx for NetApp ONTAP</block>
-  <block id="d4da4ec044327991fbcd43ca1778c38f" category="list-text">Todas las operaciones se admiten únicamente a través de API REST.</block>
-  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">Sistemas SAP HANA</block>
-  <block id="3b05cd173ffd47ef0b4346901ab9e0d3" category="list-text">Durante la actualización del sistema, el montaje y desmontaje automático de los volúmenes se realiza mediante flujos de trabajo en lugar de scripts.</block>
-  <block id="29db6fe351e2079efe0622a1b5bd15f4" category="list-text">Admite la adición, eliminación, edición, eliminación, mantenimiento y actualización del host del complemento mediante la interfaz de usuario.</block>
-  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">Mejoras en la BlueXP backup and recovery para aplicaciones (híbridas)</block>
-  <block id="b4445605950c5dae15c10f509d6f0f79" category="list-text">Admite bloqueo de datos y protección contra ransomware.</block>
-  <block id="188502bd01986373f9c31291dc835e82" category="list-text">Admite el traslado de copias de seguridad desde StorageGrid al nivel de archivo</block>
-  <block id="541019d49feaf31b8000318aac636f92" category="list-text">Admite la realización de copias de seguridad de datos de aplicaciones MongoDB, MySQL y PostgreSQL desde sistemas ONTAP locales a Amazon Web Services, Microsoft Azure, Google Cloud Platform y StorageGRID.  Puede restaurar los datos cuando sea necesario.</block>
-  <block id="11a3809c55f7c25dbda24854a827db05" category="section-title">Mejoras en la BlueXP backup and recovery para máquinas virtuales</block>
-  <block id="60a7ad592c196ecee9eebdab38d4ed7e" category="list-text">Compatibilidad con el modelo de implementación de proxy de conector</block>
-  <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">Esta versión preliminar de BlueXP disaster recovery incluye las siguientes actualizaciones.</block>
-  <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">Ahora, con la BlueXP disaster recovery, puede proteger sus cargas de trabajo VMware locales basadas en NFS contra desastres en otro entorno VMware local basado en NFS, además de la nube pública.  La BlueXP disaster recovery orquesta la finalización de los planes de recuperación ante desastres.</block>
-  <block id="f1d5b892646c28fdb747b890f0787976" category="doc">Creación de una política de respaldo 3-2-1 durante la activación del respaldo</block>
-  <block id="1a169799fb63ccdda2e672c25d0ab2d2" category="paragraph">Anteriormente, era necesario crear políticas personalizadas antes de iniciar una instantánea, una replicación o una copia de seguridad.  Ahora puede crear una política durante el proceso de activación de la copia de seguridad utilizando la interfaz de usuario de BlueXP backup and recovery .</block>
-  <block id="09aac1469e7bc1d8f162de80ea67cdc3" category="section-title">Soporte para restauración rápida a pedido de volúmenes ONTAP</block>
-  <block id="176b76bad16e5fd8729393946eb26540" category="paragraph">La BlueXP backup and recovery ahora brinda la capacidad de realizar una "restauración rápida" de un volumen desde el almacenamiento en la nube a un sistema Cloud Volumes ONTAP .  La restauración rápida es ideal para situaciones de recuperación ante desastres donde necesita proporcionar acceso a un volumen lo antes posible.  Una restauración rápida restaura los metadatos del archivo de respaldo a un volumen en lugar de restaurar el archivo de respaldo completo.</block>
-  <block id="1d2fad969d5ec82be3bae65922e81ae0" category="paragraph">El sistema de destino de Cloud Volumes ONTAP debe ejecutar ONTAP versión 9.13.0 o superior.<block ref="b1f838c6239cc5d42e2bbd74d1b6c2a2" category="inline-link-rx"></block> .</block>
-  <block id="a508551aa743c3098667d5ae32149739" category="paragraph">El Monitor de trabajos de BlueXP backup and recovery también muestra información sobre el progreso de los trabajos de restauración rápida.</block>
-  <block id="2bc953fcced4addf338156cc4681b683" category="doc">Nuevas regiones compatibles con implementaciones de zonas de disponibilidad múltiples de alta disponibilidad en Azure</block>
-  <block id="13ff77e69df5acabc2f0da9e5ebc94b8" category="paragraph">Las siguientes regiones de Azure ahora admiten implementaciones de zonas de disponibilidad múltiples de alta disponibilidad para Cloud Volumes ONTAP 9.14.0 y versiones posteriores:</block>
-  <block id="cee3f0213dd8b7eb15d7b31824e01754" category="list-text">Australia Oriental</block>
-  <block id="f74e1c0c8ee8410fa5bfe03676347257" category="list-text">Asia Oriental</block>
-  <block id="bea1bd3d23555c539dab5f3f5426184c" category="list-text">Francia Central</block>
-  <block id="d0fe0e3b6520479f718b98f0d471b7d0" category="list-text">Europa del Norte</block>
-  <block id="055ffb1451e38deb0c8ac651e32d77ec" category="list-text">Qatar Central</block>
-  <block id="7def8b46a24f875959130a855cd80918" category="list-text">Suecia Central</block>
-  <block id="8fb2033d01e3efa2825282a13f86c14e" category="list-text">Europa Occidental</block>
-  <block id="c349d3a26cf4231660785a0c5b4cb007" category="list-text">Oeste de EE. UU. 2</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de regiones globales en Azure</block>
-  <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">Para obtener una lista de todas las regiones que admiten múltiples zonas de disponibilidad, consulte la<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block> .</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Los avisos legales proporcionan acceso a declaraciones de derechos de autor, marcas comerciales, patentes y más.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
@@ -226,8 +42,6 @@
   <block id="66eba6e27d94f9b0c691b0483249667f" category="list-text"><block ref="66eba6e27d94f9b0c691b0483249667f" category="inline-link-rx"></block></block>
   <block id="df583ae7ba964fd4806b55904da81813" category="inline-link">Alertas</block>
   <block id="fd341debd2a7a8947c7eceb0303387db" category="list-text"><block ref="fd341debd2a7a8947c7eceb0303387db" category="inline-link-rx"></block></block>
-  <block id="83ef6035e494fa89c7cde91bba5f1672" category="inline-link">Centro de automatización</block>
-  <block id="d0bbc8386467107f2822b68ce8f4fd53" category="list-text"><block ref="d0bbc8386467107f2822b68ce8f4fd53" category="inline-link-rx"></block></block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="inline-link">Asesor digital</block>
   <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="inline-link">Eficiencia económica</block>
@@ -378,4 +192,12 @@
   <block id="d14b43405cc49caff7e93e0a31952c5a" category="paragraph">Para obtener más detalles sobre lo que ha cambiado, consulte la<block ref="68413170a628412306b51347743a5acc" category="inline-link-macro-rx"></block></block>
   <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
   <block id="e264fed64c86a30dfb5ff8b811d8fe4e" category="paragraph">Esta notificación es una "Recomendación" para ayudar a que sus sistemas sean más eficientes y ahorrar en costos de almacenamiento. Proporciona un enlace a la<block ref="42e4a442d762b5369e021e8b363199d3" category="inline-link-rx"></block> para ayudarle a calcular sus ahorros de costos.</block>
+  <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">Catálogo de automatización</block>
+  <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">Configuración y administración de la consola</block>
+  <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">Almacenamiento en caché de volumen</block>
+  <block id="a15e83f7a8ba3a867bcba3be7736978e" category="doc">Clasificación de datos</block>
+  <block id="4a17f9505c41e2b9d2fdf8e21809e428" category="paragraph">Serie E</block>
+  <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX para ONTAP</block>
+  <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clústeres ONTAP locales</block>
+  <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
 </blocks>
