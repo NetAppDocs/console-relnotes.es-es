@@ -72,6 +72,18 @@ link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-
 
 
 
+=== Licenses and subscriptions
+
+
+
+==== Gestionar preferencias de facturación
+
+Ahora puede configurar y administrar las *preferencias de facturación* directamente en la NetApp Console. Esta mejora permite a los administradores definir y ver cómo se facturan el uso de la capacidad, las renovaciones y los costos en las licencias directas de NetApp , las suscripciones al mercado en la nube y el acuerdo Keystone .
+
+Para obtener más información, consulte el .link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentación de preferencias de facturación"]
+
+
+
 === Configuración y administración de la consola
 
 
@@ -143,6 +155,12 @@ La recuperación ante desastres ahora apaga las máquinas virtuales de forma con
 Ahora puedes inyectar scripts personalizados en el flujo de trabajo de conmutación por error para que se ejecuten antes de crear una copia de seguridad. La creación de scripts previos a la copia de seguridad le permite controlar el estado de la máquina virtual antes de que se replique una instantánea y preparar una máquina virtual para una transición. Por ejemplo, puede inyectar un script que desmonte un montaje NFS que se volverá a montar utilizando un script diferente después de la conmutación por error.
 
 Para obtener más información, consulte xref:drplan-create.html#map-resources-virtual-machines-section[Crear un plan de replicación en NetApp Disaster Recovery].
+
+
+
+=== Resiliencia frente al ransomware
+
+Esta versión incluye mejoras generales.
 
 
 
