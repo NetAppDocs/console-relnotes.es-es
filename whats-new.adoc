@@ -80,7 +80,7 @@ link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-
 
 Ahora puede configurar y administrar las *preferencias de facturación* directamente en la NetApp Console. Esta mejora permite a los administradores definir y ver cómo se facturan el uso de la capacidad, las renovaciones y los costos en las licencias directas de NetApp , las suscripciones al mercado en la nube y el acuerdo Keystone .
 
-Para obtener más información, consulte el .link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentación de preferencias de facturación"]
+Para obtener más información, consulte lalink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentación de preferencias de facturación"^] .
 
 
 
