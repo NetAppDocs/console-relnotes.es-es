@@ -449,4 +449,8 @@
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Documentación de preferencias de facturación</block>
   <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">Esta versión incluye mejoras generales.</block>
   <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">Para obtener más información, consulte la<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block> .</block>
+  <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">El administrador del sistema está disponible al usar un enlace de AWS Lambda.</block>
+  <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">Aprenda a usar enlaces para operaciones avanzadas de ONTAP</block>
+  <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">La interfaz del administrador del sistema ONTAP se puede utilizar con un enlace AWS Lambda para realizar operaciones avanzadas de ONTAP . Esto proporciona una alternativa al uso de un agente de consola con System Manager para administrar un sistema de archivos FSx para ONTAP directamente desde la consola. <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
+  <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">17 de noviembre de 2025</block>
 </blocks>
