@@ -415,7 +415,6 @@
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">Reducción de la compatibilidad con hardware de VMware durante el registro</block>
   <block id="f83d7a6597b186db7483e2f478aeb8fa" category="paragraph">La función de Recuperación ante Desastres ahora permite degradar el hardware de VMware a una versión anterior de vSphere durante el registro. Esto resulta útil cuando el host ESX de origen ejecuta una versión posterior a la del sitio de recuperación ante desastres.</block>
   <block id="d15994bcf2411bb66762cdf4c58704b3" category="inline-xref-macro">Crear un plan de replicación en NetApp Disaster Recovery</block>
-  <block id="a412b7de9758b999e39beb6a86f38803" category="paragraph">Para obtener más información, consulte <block ref="3b88d2273f8f2a777f18a77cece1dbb2" category="inline-xref-macro-rx"></block>.</block>
   <block id="bcf697aa5ef7fc37fba63ce6d2bf0e43" category="section-title">Apagado correcto</block>
   <block id="9437b903cdafc2fdfce3c66af80b97f0" category="paragraph">La recuperación ante desastres ahora apaga las máquinas virtuales de forma controlada en lugar de apagarlas bruscamente. Si una máquina virtual tarda más de diez minutos en apagarse, el sistema de recuperación ante desastres la apaga.</block>
   <block id="9b9e3165f7ecae3e2e3b2c795e562976" category="section-title">Soporte para scripts previos a la copia de seguridad</block>
@@ -454,4 +453,5 @@
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">17 de noviembre de 2025</block>
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">Ver requisitos del sistema operativo</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">Al instalar manualmente un agente de consola, el agente ahora admite RHEL 9.6 con Podman 5.4.0. Además, al usar RHEL 9 y versiones posteriores, NetApp admite podman-compose 1.5.0. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
+  <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">Para obtener más información, consulte <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
 </blocks>
