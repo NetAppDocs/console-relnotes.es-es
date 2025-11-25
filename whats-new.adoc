@@ -52,6 +52,22 @@ El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+== 24 de noviembre de 2025
+
+
+
+=== Keystone
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+==== Identificación de seguimiento para suscripciones con brecha de cobertura
+
+En el cuadro de notificación *Complete su cobertura* en *Monitoreo > Monitores de alerta*, cada suscripción ahora muestra su ID de seguimiento junto al número de suscripción.
+
+
+
 == 17 de noviembre de 2025
 
 
