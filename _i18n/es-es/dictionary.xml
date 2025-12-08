@@ -460,4 +460,9 @@
   <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">Rendimiento de carga mejorado</block>
   <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">Se ha mejorado el rendimiento de carga de todas las páginas en Clasificación de datos para crear una experiencia de usuario más eficiente.</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 de diciembre de 2025</block>
+  <block id="063090df0880212c0ba8eec878096a21" category="doc">Mejoras en la vista previa de las cargas de trabajo de VMware</block>
+  <block id="24936fb650df7af8295e75a3667becef" category="list-text">Ahora puede restaurar copias de seguridad e instantáneas en una ubicación alternativa. Esto es útil si desea administrar versiones de una máquina virtual en diferentes implementaciones de VMware vCenter, hosts VMware ESXi o almacenes de datos de VMware.</block>
+  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">Ahora puede restaurar discos virtuales VMware específicos (imágenes VMDK) desde una ubicación principal o secundaria, lo que permite un control más granular sobre la restauración de datos de VM.</block>
+  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">Obtenga más información sobre cómo restaurar cargas de trabajo de VMware con NetApp Backup and Recovery</block>
+  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
 </blocks>
