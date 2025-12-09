@@ -90,6 +90,18 @@ Se ha mejorado el rendimiento de carga de todas las páginas en Clasificación d
 
 
 
+=== Keystone
+
+Nuevas mejoras en el panel de Keystone en la NetApp Console:
+
+
+
+==== Etiqueta de capacidad de ráfaga acumulada renombrada
+
+La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.
+
+
+
 == 1 de diciembre de 2025
 
 

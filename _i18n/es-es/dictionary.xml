@@ -465,4 +465,6 @@
   <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">Ahora puede restaurar discos virtuales VMware específicos (imágenes VMDK) desde una ubicación principal o secundaria, lo que permite un control más granular sobre la restauración de datos de VM.</block>
   <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">Obtenga más información sobre cómo restaurar cargas de trabajo de VMware con NetApp Backup and Recovery</block>
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">Etiqueta de capacidad de ráfaga acumulada renombrada</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.</block>
 </blocks>
