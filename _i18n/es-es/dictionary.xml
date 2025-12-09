@@ -467,4 +467,24 @@
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
   <block id="236430e108e8394ac19913076b10fb55" category="doc">Etiqueta de capacidad de ráfaga acumulada renombrada</block>
   <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.</block>
+  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">El bloqueo de extensiones está habilitado a nivel de carga de trabajo</block>
+  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Cuando habilita el bloqueo de extensiones, ahora se habilita en el nivel de carga de trabajo en lugar de en el nivel de máquina virtual de almacenamiento.</block>
+  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Editar el estado de alerta de comportamiento del usuario</block>
+  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">Ransomware Resilience ahora le permite editar el estado de las alertas de comportamiento del usuario. Puede descartar y resolver alertas manualmente. Ahora también puedes marcar las alertas como "En revisión".</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">Administrar alertas</block>
+  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">Para obtener más información, consulte <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Compatibilidad con múltiples agentes de consola</block>
+  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">Ransomware Resilience ahora admite el uso de múltiples agentes de consola para administrar los mismos sistemas.</block>
+  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">Crear un agente de consola</block>
+  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">Para obtener más información sobre los agentes de consola, consulte<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> .</block>
+  <block id="b706122b5735a672dec906da7d14b15c" category="doc">Retención de la jerarquía de carpetas</block>
+  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">De forma predeterminada, Disaster Recovery conserva la jerarquía del inventario de VM (estructura de carpetas) en caso de conmutación por error. Si el destino de recuperación no tiene la carpeta requerida, Disaster Recovery la crea.</block>
+  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">Ahora puede anular esta configuración designando una nueva carpeta de VM principal o desmarcando la opción **Conservar jerarquía de carpetas original**.</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crear un plan de replicación</block>
+  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">Para obtener más información, consulte <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>.</block>
+  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">Actualización optimizada del agente de consola</block>
+  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">La recuperación ante desastres ahora admite un proceso optimizado para utilizar múltiples agentes de consola en un entorno de trabajo. Para cambiar entre agentes de consola, debe editar la configuración de vCenter, redescubrir las credenciales y actualizar los planes de replicación para usar el nuevo agente de consola.</block>
+  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Agentes de la consola Switch</block>
+  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Para obtener más información, consulte <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">09 de diciembre de 2025</block>
 </blocks>

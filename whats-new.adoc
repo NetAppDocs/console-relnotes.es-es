@@ -52,6 +52,32 @@ El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+== 09 de diciembre de 2025
+
+
+
+=== Recuperación ante desastres
+
+
+
+==== Retención de la jerarquía de carpetas
+
+De forma predeterminada, Disaster Recovery conserva la jerarquía del inventario de VM (estructura de carpetas) en caso de conmutación por error. Si el destino de recuperación no tiene la carpeta requerida, Disaster Recovery la crea.
+
+Ahora puede anular esta configuración designando una nueva carpeta de VM principal o desmarcando la opción **Conservar jerarquía de carpetas original**.
+
+Para obtener más información, consulte link:../use/drplan-create.adoc["Crear un plan de replicación"].
+
+
+
+==== Actualización optimizada del agente de consola
+
+La recuperación ante desastres ahora admite un proceso optimizado para utilizar múltiples agentes de consola en un entorno de trabajo. Para cambiar entre agentes de consola, debe editar la configuración de vCenter, redescubrir las credenciales y actualizar los planes de replicación para usar el nuevo agente de consola.
+
+Para obtener más información, consulte link:../reference/switch-console-agent.html["Agentes de la consola Switch"].
+
+
+
 == 08 de diciembre de 2025
 
 
@@ -87,6 +113,32 @@ Para obtener más información, consulte link:https://docs.netapp.com/us-en/data
 
 .Rendimiento de carga mejorado
 Se ha mejorado el rendimiento de carga de todas las páginas en Clasificación de datos para crear una experiencia de usuario más eficiente.
+
+
+
+=== Resiliencia frente al ransomware
+
+
+
+==== El bloqueo de extensiones está habilitado a nivel de carga de trabajo
+
+Cuando habilita el bloqueo de extensiones, ahora se habilita en el nivel de carga de trabajo en lugar de en el nivel de máquina virtual de almacenamiento.
+
+
+
+==== Editar el estado de alerta de comportamiento del usuario
+
+Ransomware Resilience ahora le permite editar el estado de las alertas de comportamiento del usuario. Puede descartar y resolver alertas manualmente. Ahora también puedes marcar las alertas como "En revisión".
+
+Para obtener más información, consulte xref:rp-use-alert.html[Administrar alertas].
+
+
+
+==== Compatibilidad con múltiples agentes de consola
+
+Ransomware Resilience ahora admite el uso de múltiples agentes de consola para administrar los mismos sistemas.
+
+Para obtener más información sobre los agentes de consola, consultelink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-setup.html["Crear un agente de consola"] .
 
 
 
