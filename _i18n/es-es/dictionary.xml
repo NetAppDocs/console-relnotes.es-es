@@ -528,4 +528,12 @@
   <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">Ahora es más fácil ver y administrar información detallada sobre sus sistemas locales de ONTAP (y FSx para ONTAP) desde las páginas de administración de almacenamiento.</block>
   <block id="c513928c0b95afec773bd29d135d4632" category="list-text">La página * Discoverable systems* separa la información resumida de la visualización en pestañas de los sistemas disponibles, lo que facilita la visualización de información completa acerca de los sistemas detectables.</block>
   <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">10 de diciembre de 2025</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">Mejoras de usabilidad al visualizar sistemas ONTAP desde la NetApp Console (solo en modo estándar)</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">La página *Sistemas* en la NetApp Console tiene mejoras para mayor claridad y facilidad de uso al administrar volúmenes y clústeres. Estas actualizaciones alinean más de cerca la experiencia con System Manager para las versiones más nuevas de ONTAP y simplifican la navegación.</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">Capacidad de clúster incluida para versiones de ONTAP 9.5 y superiores (solo modo estándar de consola)</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">La página *Sistemas &gt; Descripción general* muestra el tamaño del clúster junto con la versión de ONTAP para los clústeres que ejecutan ONTAP 9.5 y versiones posteriores.</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">Para la NetApp Console en modo restringido o las versiones de ONTAP 9.5 y anteriores, la información del volumen aprovisionado permanece sin cambios.</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">La pestaña Volúmenes en la página Sistemas tiene como opción predeterminada la vista de cuadrícula si tiene más de 20 clústeres ONTAP locales</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">Cuando tiene más de 20 clústeres ONTAP locales administrados en NetApp Console, la pestaña *Volumen* toma como valor predeterminado la vista de cuadrícula para facilitar la navegación. La vista de tarjeta está deshabilitada.</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Este cambio se aplica únicamente al modo estándar y a las versiones 9.6 y superiores de ONTAP .</block>
 </blocks>
