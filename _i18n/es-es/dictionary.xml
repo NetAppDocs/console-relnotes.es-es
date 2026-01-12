@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clústeres ONTAP locales</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">La versión preliminar de las cargas de trabajo de VMware presenta las siguientes capacidades mejoradas:</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">Columna de anulación de la política de QoS en la pestaña Activos</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nuevas mejoras en el panel de Keystone en la NetApp Console:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">La pestaña *Volúmenes en clústeres* dentro de la pestaña *Activos* ahora incluye una columna *Anulación de política de QoS* que indica si se omiten las reglas de QoS para los volúmenes de respaldo y espejo, mostrando *verdadero* (reglas ignoradas), *falso* (reglas aplicadas) o *N/D* (para volúmenes espejo).</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Para las suscripciones de Keystone v3, esta columna muestra *N/D* ya que las políticas de QoS no son aplicables en la oferta v3.</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">Visibilidad mejorada de alertas en la página Descripción general</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">Panel de control de Keystone en la NetApp Console</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">La página *Descripción general* ahora incluye dos nuevas secciones de alerta denominadas *Alertas no resueltas por gravedad* y *Alertas de Keystone no resueltas más antiguas*. Para obtener más información, consulte <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>.</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Cloud Volumes ONTAP en Azure ahora está limitado a las últimas versiones compatibles</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">Las implementaciones y actualizaciones de Cloud Volumes ONTAP en Azure a través de la NetApp Console ahora están restringidas a las últimas versiones compatibles. Esto garantiza la compatibilidad con el hardware de última generación compatible con Microsoft y proporciona las funciones y mejoras de seguridad más nuevas. La consola le pedirá que actualice a las versiones compatibles.</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Para más detalles, consulte:</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 de noviembre de 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 de noviembre de 2025</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17 de octubre de 2025</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 de octubre de 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La replicación de datos está disponible entre un sistema ONTAP local y un sistema de archivos FSx para ONTAP desde la página Sistemas de la NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gestionar preferencias de facturación</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Ahora puede configurar y administrar las *preferencias de facturación* directamente en la NetApp Console. Esta mejora permite a los administradores definir y ver cómo se facturan el uso de la capacidad, las renovaciones y los costos en las licencias directas de NetApp , las suscripciones al mercado en la nube y el acuerdo Keystone .</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Este cambio se aplica únicamente al modo estándar y a las versiones 9.6 y superiores de ONTAP .</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">Para obtener más información, consulte <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">Para obtener más información, consulte <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">Compatibilidad con múltiples agentes de consola en entornos locales</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Si utiliza recuperación ante desastres en sus instalaciones, ahora puede implementar un agente de consola para cada instancia de vCenter, lo que mejora la resiliencia.</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Por ejemplo, si tiene dos sitios (sitios A y B), el sitio A puede tener el agente de consola A conectado a vCenter 1, la implementación de ONTAP 1 y la implementación de ONTAP 2. El sitio B puede tener el agente de consola B conectado a vCenter 2 y a las implementaciones de ONTAP 3 y 4.</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">Crear el agente de consola</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">Para obtener información sobre el agente de consola en recuperación ante desastres, consulte <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>.</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">Agregar máquinas virtuales después de la conmutación por error para los planes de replicación mediante protección basada en almacén de datos</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">Cuando se activa la conmutación por error, cualquier plan de replicación que utilice protección basada en almacén de datos incluye las máquinas virtuales que se hayan agregado al almacén de datos, siempre que se hayan descubierto. Debe proporcionar detalles de mapeo para las máquinas virtuales agregadas antes de que se complete la conmutación por error.</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">Aplicaciones de conmutación por error</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">Para obtener más información, consulte <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">Nuevas notificaciones por correo electrónico</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">La recuperación ante desastres ahora proporciona notificaciones por correo electrónico para los siguientes eventos:</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">Acercándose al límite de uso de la capacidad</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">Generación de informe completada</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">Fracasos laborales</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">Caducidad o infracciones de licencia</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Mejoras de Swagger</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">Ahora puede acceder a la documentación de Swagger desde Disaster Recovery. En Recuperación ante desastres, seleccione **Configuración** y luego **Documentación de API** para vincularse a Swagger, o visite esta URL en el modo incógnito/privado de su navegador: <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>.</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">Interfaces de usuario mejoradas</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">La recuperación ante desastres ahora proporciona advertencias mejoradas y resoluciones de errores. Esta versión corrige un error que impedía que los trabajos cancelados se mostraran en la interfaz de usuario. Los trabajos cancelados ahora son visibles. También hay una nueva advertencia cuando la misma red de destino se asigna a varias redes de origen diferentes.</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">Conservar la estructura de carpetas de la máquina virtual agregada como predeterminada en los planes de replicación</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">Cuando se crea una replicación, el nuevo valor predeterminado es conservar la estructura de la carpeta de la máquina virtual. Si el destino de recuperación no tiene la jerarquía de carpetas original, Disaster Recovery la crea. Puede anular la selección de esta opción para ignorar la jerarquía de carpetas original.</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">Para obtener más información, consulte <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">12 de enero de 2026</block>
 </blocks>
