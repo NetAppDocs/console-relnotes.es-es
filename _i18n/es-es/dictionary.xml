@@ -137,7 +137,6 @@
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">Mayor claridad en el progreso del escaneo</block>
   <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">Las configuraciones de escaneo ahora incluyen información mejorada sobre la finalización del escaneo. Anteriormente, la barra de progreso solo se mostraba mientras el escaneo estaba en curso. Ahora, la barra de progreso permanece visible después de la finalización para confirmar que los escaneos se completaron correctamente. También puedes ver el número de archivos mapeados y escaneados.</block>
   <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">Cambie la configuración del análisis de NetApp Data Classification para sus repositorios</block>
-  <block id="dc9fb8f25cdf758c060f4782f41b0b0f" category="paragraph">Para obtener más información sobre la configuración de escaneo, consulte <block ref="19cf1405cd38e956788f418f2be34a68" category="inline-link-macro-rx"></block>.</block>
   <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">Soporte de conmutación por error en cascada</block>
   <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">Ahora puede configurar una relación en cascada en ONTAP y utilizar cualquiera de las ramas de esa relación de replicación para la recuperación ante desastres.</block>
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">Reducción de la compatibilidad con hardware de VMware durante el registro</block>
@@ -323,7 +322,19 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">Aprenda cómo elevar su rol cuando su organización está en modo de solo lectura.</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
-  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">Permisos adicionales de Google Cloud para Cloud Volumes ONTAP</block>
-  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">Para admitir la administración de Cloud Volumes ONTAP en Google Cloud, el agente de la consola ahora requiere un permiso adicional. Se ha agregado el siguiente permiso a la cuenta de servicio utilizada por el agente de la consola: compute.forwardingRules.update</block>
-  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
+  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">Para obtener más información sobre la configuración de escaneo, consulte <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>.</block>
+  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">Versión 1.50</block>
+  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">Mejoras en la clasificación personalizada</block>
+  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">La clasificación de datos ahora admite la creación de categorías personalizadas para sus datos. Puede cargar archivos para ajustar un modelo de IA que la clasificación de datos utiliza para aplicar el marcador de categoría a los datos. Se ha mejorado la interfaz para todas las clasificaciones personalizadas.</block>
+  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">Crear una clasificación personalizada</block>
+  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">Para obtener más información, consulte <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>.</block>
+  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">Definición personalizada de datos obsoletos</block>
+  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">La clasificación de datos ahora le permite personalizar la definición de datos obsoletos para que se adapte a las necesidades de su organización. Anteriormente, los datos obsoletos se definían como cualquier dato que se hubiera modificado por última vez hacía tres años. Ahora, los datos obsoletos pueden identificarse según cuándo se accedió a ellos por última vez o cuándo se modificaron por última vez; el período de tiempo puede variar desde hace 6 meses hasta hace 10 años.</block>
+  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">Personalizar la definición de datos obsoletos</block>
+  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">Para obtener más información, consulte <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>.</block>
+  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">Mejor rendimiento</block>
+  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">Se han acortado los tiempos de carga de todas las páginas de Clasificación de datos, el informe de mapeo de datos y los filtros en la página de Investigación.</block>
+  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Tiempo estimado para los informes de investigación</block>
+  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Cuando descarga un informe de investigación, la Clasificación de datos ahora muestra el tiempo estimado para completar la descarga.</block>
+  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 de enero de 2026</block>
 </blocks>
