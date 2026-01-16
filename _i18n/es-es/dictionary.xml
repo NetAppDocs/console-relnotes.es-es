@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Cuando descarga un informe de investigación, la Clasificación de datos ahora muestra el tiempo estimado para completar la descarga.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 de enero de 2026</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience ahora admite agregar la replicación de instantáneas a un sitio ONTAP secundario. Puede crear una estrategia de protección contra ransomware que incluya replicación o utilizar la estrategia predefinida.</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">Acceso basado en roles para grupos federados en la NetApp Console</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console admite la asignación de roles a grupos federados (por ejemplo, grupos de Active Directory), lo que permite a los administradores automatizar la incorporación y salida de usuarios en función de la membresía del grupo en el proveedor de identidad (IdP) de la organización. Esta función reduce la sobrecarga administrativa y garantiza un acceso seguro y consistente al actualizar instantáneamente el acceso a la consola a medida que cambian las membresías del grupo.</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">Aprenda cómo proporcionar acceso a un grupo federado a su organización.</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
