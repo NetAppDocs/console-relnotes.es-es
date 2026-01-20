@@ -327,7 +327,6 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Tiempo estimado para los informes de investigación</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Cuando descarga un informe de investigación, la Clasificación de datos ahora muestra el tiempo estimado para completar la descarga.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 de enero de 2026</block>
-  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience ahora admite agregar la replicación de instantáneas a un sitio ONTAP secundario. Puede crear una estrategia de protección contra ransomware que incluya replicación o utilizar la estrategia predefinida.</block>
   <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">Acceso basado en roles para grupos federados en la NetApp Console</block>
   <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console admite la asignación de roles a grupos federados (por ejemplo, grupos de Active Directory), lo que permite a los administradores automatizar la incorporación y salida de usuarios en función de la membresía del grupo en el proveedor de identidad (IdP) de la organización. Esta función reduce la sobrecarga administrativa y garantiza un acceso seguro y consistente al actualizar instantáneamente el acceso a la consola a medida que cambian las membresías del grupo.</block>
   <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">Aprenda cómo proporcionar acceso a un grupo federado a su organización.</block>
@@ -361,4 +360,9 @@
   <block id="0daeca72fa8b0acaee6fea8ae743cb8c" category="paragraph">La vista previa de cargas de trabajo de KVM ahora admite la integración con la plataforma de administración Apache CloudStack, lo que le permite proteger los hosts KVM y las máquinas virtuales administradas por Apache CloudStack.</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Descripción general de las cargas de trabajo de Protect KVM</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de KVM, consulte<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
+  <block id="748b96a793ccf0ab113112372db17649" category="paragraph">Ransomware Resilience ahora admite agregar la replicación de instantáneas a un sitio ONTAP secundario. Con grupos de protección que utilizan una política de replicación, puede replicar en el mismo destino o en diferentes destinos para cada carga de trabajo. Puede crear una estrategia de protección contra ransomware que incluya replicación o utilizar la estrategia predefinida.</block>
+  <block id="389e0c39aeda061370262a9fa330d865" category="doc">Volúmenes no compatibles</block>
+  <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">Los informes de resiliencia ante ransomware ahora capturan información sobre volúmenes admitidos y no admitidos en el informe **Resumen**. Utilice esta información para diagnosticar por qué los volúmenes de un sistema podrían no ser elegibles para la protección contra ransomware.</block>
+  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Descargar informes de Ransomware Resilience</block>
+  <block id="877e42a9811fb7c41b1fccef32ca2477" category="paragraph">Para obtener más información, consulte <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>.</block>
 </blocks>
