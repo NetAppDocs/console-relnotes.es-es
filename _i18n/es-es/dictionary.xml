@@ -389,6 +389,8 @@
   <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">Instantánea local</block>
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Descripción general de la protección de cargas de trabajo de Oracle Database</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Database, consulta<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
-  <block id="cc5d8c9d6668803b438b03567e08b611" category="section-title">Otras mejoras</block>
-  <block id="6ec61dc6a9b7787975d159ba164424f9" category="paragraph">Las cargas de trabajo de Hyper-V, KVM y VMware ahora están generalmente disponibles (GA) en NetApp Backup and Recovery.</block>
+  <block id="6108d5ad430f0631e5c6e10714ba980c" category="doc">Cargas de trabajo de Microsoft Hyper-V compatibles en General Availability (GA)</block>
+  <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">La compatibilidad con cargas de trabajo de Microsoft Hyper-V ya está disponible de forma general (GA) en NetApp Backup and Recovery.</block>
+  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">Cargas de trabajo KVM compatibles con General Availability (GA)</block>
+  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">La compatibilidad con cargas de trabajo KVM ya está disponible de forma general (GA) en NetApp Backup and Recovery.</block>
 </blocks>
