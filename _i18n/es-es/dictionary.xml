@@ -351,4 +351,16 @@
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Permisos necesarios para Google Cloud Infrastructure Manager</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">09 de febrero de 2026</block>
+  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">Activa la clasificación de datos con Amazon FSxN para ONTAP directamente desde el canvas de la NetApp Console</block>
+  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">Ahora puedes habilitar Amazon FSxN para sistemas ONTAP directamente desde el lienzo de NetApp Console, lo que te permite lanzar más rápido la clasificación de datos para tus sistemas FSxN.</block>
+  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">Escanear Amazon FSxN para volúmenes ONTAP</block>
+  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">Para más información sobre el uso de Data Classification con Amazon FSxN para ONTAP, consulta <block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>.</block>
+  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">Aumento del límite de exportación para investigar directorios</block>
+  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">Cuando exportas un informe de investigación sobre directorios desde el panel de control de Investigación, ahora puedes incluir 10,000 filas. Este aumento respecto al límite anterior de 5,000 filas permite investigaciones a mayor escala sobre la gobernanza y el cumplimiento de datos.</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">Investiga los datos</block>
+  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">Para más información, consulta <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>.</block>
+  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">Límite aumentado para copiar y mover</block>
+  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">Al copiar o mover archivos, ahora puedes mover archivos de hasta 250 MB, un aumento respecto al límite anterior de 50 MB.</block>
+  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">Visualización mejorada para pantallas de baja resolución</block>
+  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification ha mejorado su rendimiento de visualización para pantallas de baja resolución, mejorando la experiencia del usuario.</block>
 </blocks>
