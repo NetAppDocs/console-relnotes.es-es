@@ -400,4 +400,8 @@
   <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">Puedes asociar cargas de trabajo de Backup and Recovery (Oracle y Microsoft SQL Server) con proyectos. Después de asignarlas a un proyecto, los usuarios que tengan asignado un rol de Backup and Recovery para el proyecto pueden trabajar con las cargas de trabajo. Otras cargas de trabajo no son compatibles con acceso basado en roles en este momento.</block>
   <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Conoce más sobre cómo configurar el acceso basado en roles para las cargas de trabajo de Backup and Recovery.</block>
   <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
+  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">Soporte para la replicación de datos entre Cloud Volumes ONTAP y FSx for ONTAP</block>
+  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">Ahora la replicación de datos está disponible entre un sistema Cloud Volumes ONTAP y un sistema de archivos FSx for ONTAP desde la NetApp Console.</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar datos</block>
+  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
 </blocks>
