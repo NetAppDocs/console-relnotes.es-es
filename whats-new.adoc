@@ -140,7 +140,7 @@ Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Datab
 
 
 
-==== Versión 1.50
+==== Versión 1.51
 
 Esta versión de Clasificación de datos incluye correcciones de errores y las siguientes actualizaciones:
 
