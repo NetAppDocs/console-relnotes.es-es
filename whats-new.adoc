@@ -56,6 +56,33 @@ El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+=== Configuración y administración de la consola
+
+
+
+==== Agente de Console 4.4.1
+
+La versión 4.4.0 es compatible tanto con el modo estándar como con el modo restringido.
+
+Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores.
+
+
+
+==== Administración de la NetApp Console
+
+Esta versión incluye lo siguiente:
+
+
+
+==== Administración de la NetApp Console
+
+Esta versión incluye lo siguiente:
+
+.Accede a NetApp Data Infrastructure Insights desde NetApp Console
+Puedes acceder a una prueba gratuita de NetApp Data Infrastructure Insights desde NetApp Console. Ve a *Governance* > *Data Infrastructure Insights* para registrarte y explorar información y análisis sobre tu entorno de datos.
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -86,6 +113,22 @@ https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-
 
 
 == 16 febrero 2026
+
+
+
+=== Recuperación ante desastres
+
+
+
+==== Interfaz de usuario mejorada
+
+Se ha renovado la interfaz de usuario de Disaster Recovery para mejorar el rendimiento y la experiencia del usuario según los comentarios.
+
+
+
+==== Documentación de API Swagger
+
+Ahora puedes acceder a la documentación Swagger de la API de Disaster Recovery en un navegador normal; ya no necesitas el modo incógnito. Para acceder a la documentación de la API, ve al panel de Disaster Recovery, selecciona el menú contextual en la esquina superior derecha image:../media/use/icon-vertical-dots.png["Icono de acción"] y luego **API Documentation** para abrir la documentación Swagger. También puedes link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["marca la URL"^].
 
 
 
@@ -125,7 +168,7 @@ Para más información, consulta link:https://docs.netapp.com/us-en/data-service
 
 NetApp Workload Factory ahora admite la migración para storage VMs. Esta función permite la migración de datos y configuraciones de sistemas de almacenamiento ONTAP desde sistemas ONTAP locales o sistemas de archivos FSx for ONTAP de primera generación a sistemas de archivos FSx for ONTAP de segunda generación. Puedes replicar datos y configuraciones de storage VM para trasladarlos al nuevo sistema de archivos con un tiempo de inactividad y una interrupción mínimos para los usuarios y las aplicaciones.
 
-Para utilizar esta función, link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["crear una relación de replicación"] y selecciona *Migration* como caso de uso. Para completar el proceso de migración, debes link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["transiciona la máquina virtual de almacenamiento y sus volúmenes replicados"] inmediatamente para migrar de forma permanente los datos y la configuración de la VM de almacenamiento al sistema de archivos FSx for ONTAP de destino.
+Para utilizar esta función, link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["crear una relación de replicación"] y selecciona *Migration* como caso de uso. Para completar el proceso de migración, debes link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html#cut-over-replication-for-migration-use-cases["transiciona la máquina virtual de almacenamiento y sus volúmenes replicados"] inmediatamente para migrar de forma permanente los datos y la configuración de la VM de almacenamiento al sistema de archivos FSx for ONTAP de destino.
 
 
 
