@@ -52,6 +52,26 @@ El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+== 19 febrero 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Nuevas regiones compatibles en Azure
+
+Ahora puedes implementar Cloud Volumes ONTAP 9.12.1 GA y versiones posteriores en zonas de disponibilidad única y múltiple en Azure en las siguientes regiones. Esto incluye soporte tanto para implementaciones de un solo nodo como de alta disponibilidad (HA).
+
+* Japón Oeste (japanwest)
+* Indonesia Central (indonesiacentral)
+
+
+Para ver la lista de todas las regiones, consulta https://bluexp.netapp.com/cloud-volumes-global-regions["Mapa de regiones globales en Azure"^].
+
+
+
 == 17 febrero 2026
 
 
