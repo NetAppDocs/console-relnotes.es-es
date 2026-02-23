@@ -52,6 +52,32 @@ El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+== 23 febrero 2026
+
+
+
+=== Copia de seguridad y recuperación
+
+
+
+==== Cargas de trabajo KVM compatibles con General Availability (GA)
+
+La compatibilidad con cargas de trabajo de Microsoft Hyper-V ya está disponible de forma general (GA) en NetApp Backup and Recovery.
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Descripción general de las cargas de trabajo de Protect KVM"] .
+
+
+
+==== Kubernetes compatible en General Availability (GA)
+
+La compatibilidad con cargas de trabajo de Kubernetes ya está disponible de forma general (GA) en NetApp Backup and Recovery. Esta versión de cargas de trabajo de Kubernetes también introduce las siguientes capacidades mejoradas:
+
+*Soporte para informes*: Ahora puedes generar informes de actividad de protección para clústeres de Kubernetes y aplicaciones protegidas por NetApp Backup and Recovery.
+
+Para obtener más información sobre cómo proteger las cargas de trabajo de Kubernetes, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Descripción general de la protección de cargas de trabajo de Kubernetes"].
+
+
+
 == 19 febrero 2026
 
 
@@ -898,19 +924,3 @@ Asegúrese de revisar ellink:https://docs.netapp.com/us-en/data-services-disaste
 A medida que los clientes configuran y autorizan más sistemas Google Cloud NetApp Volumes , la forma en que se administran las credenciales ha cambiado.
 
 Las credenciales de los sistemas NetApp Volumes ahora se almacenan en un backend de Google Cloud, como el servicio Cloud Key Management o similar, y las credenciales de suplantación de cuenta de servicio se utilizan al crear un nuevo sistema.
-
-
-
-== 24 de noviembre de 2025
-
-
-
-=== Keystone
-
-Nuevas mejoras en el panel de Keystone en la NetApp Console:
-
-
-
-==== Identificación de seguimiento para suscripciones con brecha de cobertura
-
-En el cuadro de notificación *Complete su cobertura* en *Monitoreo > Monitores de alerta*, cada suscripción ahora muestra su ID de seguimiento junto al número de suscripción.
