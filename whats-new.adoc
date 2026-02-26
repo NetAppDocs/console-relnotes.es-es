@@ -56,6 +56,41 @@ El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+=== Configuración y administración de la consola
+
+
+
+==== Lanzamiento de private mode (4.4.0)
+
+Ya está disponible una nueva versión del modo privado para descargar desde la https://mysupport.netapp.com/site/downloads["Sitio de soporte de NetApp"^]
+
+
+
+===== El modo privado de BlueXP ahora es NetApp Console modo privado
+
+NetApp Console 4.4.0 es la primera versión de NetApp Console en modo privado.
+
+La NetApp Console, construida sobre la base mejorada y reestructurada de BlueXP, proporciona gestión centralizada del almacenamiento NetApp y de NetApp Data Services en entornos locales y en la nube a nivel empresarial, ofreciendo información en tiempo real, flujos de trabajo más rápidos y una administración simplificada que es muy segura y cumple con las normativas.
+
+Conoce más sobre la nueva NetApp Console en https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2025-10-06.html["novedades en la página de NetApp Console"^].
+
+La versión 4.4.0 incluye actualizaciones de los siguientes componentes y servicios de NetApp Console.
+
+[cols="3*"]
+|===
+| Componente o servicio | Versión incluida en este lanzamiento | Cambios desde la versión anterior en modo privado 
+
+
+| Agente de consola | 4.4.0 | Ve al https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2026-02-09.html["Novedades en la página de NetApp Console"^] y revisa los cambios incluidos para las versiones 4.4.0. 
+
+
+| Copia de seguridad y recuperación | 5.0.2 (9 de febrero de 2026) | Ve a https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["novedades en la página de NetApp Backup and Recovery"^]. 
+
+
+| Clasificación | 1.5.1 (9 de febrero de 2026) | Ve a https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["novedades en la página de clasificación de NetApp"^]. 
+|===
+
+
 === Cloud Volumes ONTAP
 
 
@@ -163,7 +198,7 @@ Para ver la lista de todas las regiones, consulta https://bluexp.netapp.com/clou
 
 ==== Agente de Console 4.4.1
 
-La versión 4.4.0 es compatible tanto con el modo estándar como con el modo restringido.
+La versión 4.4.1 es compatible tanto con el modo estándar como con el modo restringido.
 
 Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores.
 
