@@ -16,40 +16,18 @@ summary: Obtenga información sobre los cambios más recientes en las caracterí
 [role="lead"]
 Obtenga información sobre los cambios más recientes en las características y los servicios de datos que forman parte de la NetApp Console.  Para obtener un historial de lanzamiento completo, vaya alink:release-notes-index.html["conjunto completo de notas de la versión"] para cada servicio individual.
 
+[NOTE]
+====
+Los siguientes servicios han quedado obsoletos:
+
+Almacenamiento en caché perimetral:: El servicio de almacenamiento en caché de borde se eliminó el 7 de agosto de 2024.
+Kubernetes:: El soporte para descubrir y administrar clústeres de Kubernetes se eliminó el 7 de agosto de 2024.
+Informes de migración:: El servicio de informes de migración se eliminó el 7 de agosto de 2024.
+Resiliencia operativa:: Las funciones de resiliencia operativa se eliminaron el 22 de agosto de 2025.
+Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
-== Servicios obsoletos
-
-
-
-=== Almacenamiento en caché perimetral
-
-El servicio de almacenamiento en caché de borde se eliminó el 7 de agosto de 2024.
-
-
-
-=== Kubernetes
-
-El soporte para descubrir y administrar clústeres de Kubernetes se eliminó el 7 de agosto de 2024.
-
-
-
-=== Informes de migración
-
-El servicio de informes de migración se eliminó el 7 de agosto de 2024.
-
-
-
-=== Resiliencia operativa
-
-Las funciones de resiliencia operativa se eliminaron el 22 de agosto de 2025.
-
-
-
-=== Remediación
-
-El servicio de remediación se eliminó el 22 de abril de 2024.
-
+====
 
 
 == 26 febrero 2026
