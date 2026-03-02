@@ -30,6 +30,20 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+== 01 de marzo de 2026
+
+
+
+=== Amazon FSX para ONTAP
+
+
+
+==== Estado del agente de NetApp Console compatible para sistemas de archivos FSx for ONTAP
+
+NetApp Console ahora muestra el estado del agente de Console para los sistemas de archivos FSx for ONTAP en Workloads. El estado indica si el agente está en ejecución y puede comunicarse con el sistema de archivos FSx for ONTAP. Esta información puede ayudarte a solucionar problemas de conectividad.
+
+
+
 == 26 febrero 2026
 
 
