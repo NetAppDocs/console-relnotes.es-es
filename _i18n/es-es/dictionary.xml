@@ -520,4 +520,19 @@
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console ahora muestra el estado del agente de Console para los sistemas de archivos FSx for ONTAP en Workloads. El estado indica si el agente está en ejecución y puede comunicarse con el sistema de archivos FSx for ONTAP. Esta información puede ayudarte a solucionar problemas de conectividad.</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 de marzo de 2026</block>
   <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2 de marzo de 2026)</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">Nuevas columnas en la pestaña Volumes in clusters</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Ver activos asociados con una suscripción Keystone</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Ver los activos de todas tus suscripciones a Keystone</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">Tres nuevas columnas, *Hot data*, *Cold tier (%)* y *Hot tier (%)*, se añaden a la pestaña *Volumes in clusters* en *Assets*. Para saber más, consulta <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> y <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">Uso de ráfagas facturadas, no facturadas y provisionales en la tendencia de consumo</block>
+  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">Ver ráfaga acumulada</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">El gráfico de facturación de ráfagas acumuladas en la pestaña *Tendencia de consumo* ahora muestra el uso de ráfagas facturado, no facturado y provisional. Para saber más, consulta <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>.</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">Mejoras en la vista de Monitoring</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">La vista *Monitoring* incluye las siguientes actualizaciones:</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Pestaña Alerts*: La columna *Alert* ahora se llama *Alert type &amp; condition*. Ahora también puedes usar el icono de elipsis junto a la columna *Status* para editar una alerta, agregar una nota o ver los detalles de la alerta.</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Pestaña Alert monitors*: La columna *Condition* ahora se llama *Monitor type &amp; condition*.</block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Ver y gestionar alertas para suscripciones de Keystone</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Ver y crear monitores de alertas para suscripciones de Keystone</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">Para saber más, consulta <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> y <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">02 de marzo de 2026</block>
 </blocks>
