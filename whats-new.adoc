@@ -30,6 +30,43 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+== 09 de marzo de 2026
+
+
+
+=== Copia de seguridad y recuperación
+
+
+
+==== Mejoras en las cargas de trabajo de ONTAP Volumes
+
+En esta versión, ONTAP Volumes introduce las siguientes capacidades mejoradas:
+
+* *Restaurar en la ubicación de origen*: Ahora puedes restaurar archivos de instantáneas locales e instantáneas replicadas en la ubicación de origen, así como en una ubicación alternativa.
+* *Descubrimiento de volúmenes por hora*: el Dashboard ahora descubre y actualiza nuevos volúmenes más rápido.
+* *Soporte para dark sites*: Ahora puedes descargar Backup and Recovery for dark sites desde el  https://mysupport.netapp.com/site/products/all/details/netapp-console/downloads-tab/download/61906/4.4.0/downloads["Sitio de soporte de NetApp"]. En este momento, NetApp Backup and Recovery for dark sites solo admite cargas de trabajo de ONTAP Volumes.
+* *Mejoras de compatibilidad con Unicode*: la indexación de catálogos ahora maneja mejor los caracteres Unicode.
+* *Compatibilidad mejorada con FlexGroup*: Cuando conviertes un volumen ONTAP FlexVol a un volumen FlexGroup, ahora puedes restaurar las copias de seguridad hechas antes de la conversión.
+* *Compatibilidad con varios buckets*: ahora puedes proteger los volúmenes dentro de un sistema con hasta 6 buckets por sistema a través de diferentes proveedores de nube.
+
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de ONTAP Volume, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Descripción general de la protección de cargas de trabajo de volúmenes de ONTAP"].
+
+
+
+==== Mejoras en las cargas de trabajo de VMware
+
+En esta versión, VMware workloads introduce las siguientes capacidades mejoradas:
+
+* *Restaurar datos de invitados desde el almacén de objetos*: Ahora puedes restaurar archivos y carpetas de invitados desde el almacén de objetos.
+* *Restauración rápida para VMFS/NFS*: Ahora puedes activar la opción de restauración rápida al restaurar en una ubicación alternativa. Cuando está activada, solo se recuperan los metadatos de la VM (archivos, LUNs y espacios de nombres) del almacén de objetos, haciendo que los volúmenes estén disponibles más rápido que en una restauración completa.
+* *Soporte para Amazon FSx for NetApp ONTAP*: Las cargas de trabajo de VMware ahora son compatibles con Amazon FSx for NetApp ONTAP storage systems que ejecuten la versión 9.13.1 o posterior.
+
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Descripción general de la protección de cargas de trabajo de VMware"].
+
+
+
 == 02 de marzo de 2026
 
 
@@ -917,137 +954,3 @@ Para la NetApp Console en modo restringido o las versiones de ONTAP 9.5 y anteri
 Cuando tiene más de 20 clústeres ONTAP locales administrados en NetApp Console, la pestaña *Volumen* toma como valor predeterminado la vista de cuadrícula para facilitar la navegación. La vista de tarjeta está deshabilitada.
 
 Este cambio se aplica únicamente al modo estándar y a las versiones 9.6 y superiores de ONTAP .
-
-
-
-== 09 de diciembre de 2025
-
-
-
-=== Recuperación ante desastres
-
-
-
-==== Retención de la jerarquía de carpetas
-
-De forma predeterminada, Disaster Recovery conserva la jerarquía del inventario de VM (estructura de carpetas) en caso de conmutación por error. Si el destino de recuperación no tiene la carpeta requerida, Disaster Recovery la crea.
-
-Ahora puede anular esta configuración designando una nueva carpeta de VM principal o desmarcando la opción **Conservar jerarquía de carpetas original**.
-
-Para obtener más información, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Crear un plan de replicación"].
-
-
-
-==== Actualización optimizada del agente de consola
-
-La recuperación ante desastres ahora admite un proceso optimizado para utilizar múltiples agentes de consola en un entorno de trabajo. Para cambiar entre agentes de consola, debe editar la configuración de vCenter, redescubrir las credenciales y actualizar los planes de replicación para usar el nuevo agente de consola.
-
-Para obtener más información, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/reference/switch-console-agent.html["Agentes de la consola Switch"].
-
-
-
-== 08 de diciembre de 2025
-
-
-
-=== Copia de seguridad y recuperación
-
-
-
-==== Mejoras en la vista previa de las cargas de trabajo de VMware
-
-La versión preliminar de las cargas de trabajo de VMware presenta las siguientes capacidades mejoradas:
-
-* Ahora puede restaurar copias de seguridad e instantáneas en una ubicación alternativa. Esto es útil si desea administrar versiones de una máquina virtual en diferentes implementaciones de VMware vCenter, hosts VMware ESXi o almacenes de datos de VMware.
-
-
-link:br-use-vmware-restore.html["Obtenga más información sobre cómo restaurar máquinas virtuales VMware con NetApp Backup and Recovery"].
-
-* Ahora puede restaurar discos virtuales VMware específicos (imágenes VMDK) desde una ubicación principal o secundaria, lo que permite un control más granular sobre la restauración de datos de VM.
-
-
-link:br-use-vmware-restore-vmdks-from-backups.html["Obtenga más información sobre cómo restaurar discos virtuales de VMware con NetApp Backup and Recovery"].
-
-
-
-=== Clasificación de datos
-
-
-
-==== Versión 1.49
-
-Esta versión de Clasificación de datos incluye correcciones de errores y las siguientes actualizaciones:
-
-.Supervise las métricas y el rendimiento en el panel de control de salud
-La clasificación de datos ahora proporciona un panel de control de monitoreo de estado, que permite monitorear en tiempo real sus recursos e información sobre el uso de memoria, uso de disco, utilización de disco y más. Con la información del panel de monitoreo de estado, puede revisar la infraestructura de su implementación y obtener información para optimizar el almacenamiento y el rendimiento.
-
-Para obtener más información, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["Monitorear la salud de la clasificación de datos"].
-
-.Rendimiento de carga mejorado
-Se ha mejorado el rendimiento de carga de todas las páginas en Clasificación de datos para crear una experiencia de usuario más eficiente.
-
-
-
-=== Resiliencia frente al ransomware
-
-
-
-==== El bloqueo de extensiones está habilitado a nivel de carga de trabajo
-
-Cuando habilita el bloqueo de extensiones, ahora se habilita en el nivel de carga de trabajo en lugar de en el nivel de máquina virtual de almacenamiento.
-
-
-
-==== Editar el estado de alerta de comportamiento del usuario
-
-Ransomware Resilience ahora le permite editar el estado de las alertas de comportamiento del usuario. Puede descartar y resolver alertas manualmente.
-
-Para obtener más información, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["Administrar alertas en Ransomware Resilience"^].
-
-
-
-==== Compatibilidad con múltiples agentes de consola
-
-Ransomware Resilience ahora admite el uso de múltiples agentes de consola para administrar los mismos sistemas.
-
-Para obtener más información sobre los agentes de consola, consultelink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-setup.html["Crear un agente de consola"] .
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Capacidad para mejorar el rendimiento de los discos SSD Premium v2 en Azure
-
-Ahora puede mejorar el rendimiento de los discos administrados SSD Premium v2 en Azure modificando los parámetros de IOPS y rendimiento. Al utilizar esta capacidad, puede optimizar el rendimiento de almacenamiento de sus sistemas en función de los requisitos de su carga de trabajo.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-perf-params-azure.html["Administrar el rendimiento de los discos SSD v2 Premium para Cloud Volumes ONTAP en Azure"^].
-
-
-
-==== Cobro por exceso de licencias Essentials simplificado
-
-Para los contratos anuales/ofertas privadas del mercado Cloud Volumes ONTAP , los cálculos de excedente para las licencias Essentials ahora están alineados con los paquetes Bring Your Own License (BYOL). Anteriormente, los excedentes se facturaban a tarifas de mercado por hora para el paquete Essentials exacto. Ahora bien, si su contrato anual de Marketplace incluye varios paquetes Essentials, la NetApp Console cobra los excedentes de un paquete Essentials contra la capacidad disponible de un paquete Essentials de mayor precio en su suscripción. Esto simplifica los cálculos de excedente para los paquetes Essentials y garantiza una transición sin problemas de la licencia BYOL a un modelo basado en suscripción.
-
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#how-overages-are-charged-for-essentials-licenses["Cómo se cobran los excedentes de las licencias Essentials"^]
-
-
-
-==== Compatibilidad con la serie de tamaños de Azure Edsv6
-
-A partir de Cloud Volumes ONTAP 9.17.1, puede implementar máquinas virtuales de la serie Azure Edsv6 a través de la NetApp Console para nuevas instancias de Cloud Volumes ONTAP . Cloud Volumes ONTAP 9.17.1 y versiones posteriores solo admitirán máquinas virtuales de segunda generación para nuevas implementaciones. Estas máquinas de segunda generación son compatibles con las últimas tecnologías, como la Interfaz de firmware extensible unificada (UEFI), los sistemas Azure Boost y NVMe. Son ideales para sistemas y aplicaciones que hacen un uso intensivo de la memoria y que necesitan almacenamiento local rápido, como servidores de bases de datos y motores de análisis.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#supported-configurations-by-license["Configuraciones compatibles con Cloud Volumes ONTAP en Azure"^]
-
-
-
-=== Keystone
-
-Nuevas mejoras en el panel de Keystone en la NetApp Console:
-
-
-
-==== Etiqueta de capacidad de ráfaga acumulada renombrada
-
-La etiqueta *Capacidad de ráfaga acumulada* pasa a llamarse *Ráfaga acumulada*.
