@@ -506,4 +506,17 @@
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Descripción general de la protección de cargas de trabajo de VMware</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 de marzo de 2026</block>
+  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">Excluir un datastore de los planes de replicación</block>
+  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">Cuando creas un plan de replicación en Disaster, ahora puedes excluir almacenes de datos específicos de la replicación. Para situaciones en las que una máquina virtual está configurada para usar varios almacenes de datos, esto te permite limitar cuáles se replican.</block>
+  <block id="1783ee76cf8532a6df415b4e239a23d9" category="paragraph">Para más detalles, consulta <block ref="c2741b2e4bc1013bb2e1908f9c4eb243" category="inline-link-macro-rx"></block>.</block>
+  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">Se eliminó la validación de contraseña de la contraseña de vCenter</block>
+  <block id="8cca1120916820e14384f393325831ff" category="paragraph">Disaster Recovery eliminó las restricciones de contraseña en vCenter para permitir contraseñas que contienen espacios.</block>
+  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">Agrega clústeres on-premises y Amazon EVS vCenter en NetApp Disaster Recovery</block>
+  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">Para más información, consulta <block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>.</block>
+  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">Nuevo submenú de plan de replicación</block>
+  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">Disaster Recover ahora incluye nuevas opciones de menú para activar actualizaciones de vCenter desde el panel de control del plan de replicación. Puedes acceder al submenú desde el menú de acciones del panel de control del plan de replicación: selecciona **Salud del plan** y luego **Refrescar origen vCenter / Refrescar destino vCenter**.</block>
+  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">Modificar un plan de replicación</block>
+  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">Para más información, consulta <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>.</block>
+  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Detección de red mejorada</block>
+  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery ahora incluye una detección de red mejorada para admitir una gama más amplia de configuraciones de red.</block>
 </blocks>
