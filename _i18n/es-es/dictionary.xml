@@ -519,4 +519,19 @@
   <block id="95036acb74478cad3d04125e4993251b" category="paragraph">Para más información, consulta <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>.</block>
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Detección de red mejorada</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery ahora incluye una detección de red mejorada para admitir una gama más amplia de configuraciones de red.</block>
+  <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">Límites aumentados para copiar y mover</block>
+  <block id="5db4431afc8c4647c29360449ee80225" category="doc">Versión 1.52</block>
+  <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">Validación de recursos</block>
+  <block id="19458db6dfda018080434d803401d712" category="paragraph">Para garantizar la fiabilidad, Data Classification ahora valida la memoria disponible y los recursos de disco durante el escaneo, la generación de informes y las acciones. Cuando el uso de memoria supera el 95% o el espacio en disco cae por debajo de 6 GB, Data Classification pausa automáticamente las operaciones. Las operaciones se reanudan una vez que los recursos son suficientes.</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Supervisa el estado de salud de Data Classification</block>
+  <block id="0c246fa8aa5b9bb6f56169910551448c" category="paragraph">Para monitorear tus recursos del sistema, mira <block ref="a35c82bf99053365807ff01dc40bc5d1" category="inline-link-macro-rx"></block>.</block>
+  <block id="427468160760189964c9cf7fcaa52709" category="paragraph">Las funciones de copiar y mover ahora son compatibles con destinos CIFS. El límite de tamaño por archivo para ambas acciones ha aumentado a 1 GB desde el límite anterior de 50 MB. Los límites de operación para ambas acciones han aumentado a 1 TB o 5 millones de archivos.</block>
+  <block id="6d965e454a055e436e41408f02aad8e1" category="paragraph-title">Permisos de configuración de integración de Active Directory</block>
+  <block id="a14fc25490ab294bb8fb754cd29f6486" category="paragraph">Los cambios en la configuración de integración de Active Directory (AD) en Data Classification ahora están restringidos a los administradores. Los viewers ya no pueden modificar la configuración de AD.</block>
+  <block id="40abfc355f5aea2697c05cedc7637005" category="inline-link-macro">Roles de servicios de datos</block>
+  <block id="86b37aec2cfdfa690aeb8de2465ae8f4" category="paragraph">Para obtener más información sobre la función Classification viewer, consulta <block ref="152b8a96499e0e41ff478a993b579623" category="inline-link-macro-rx"></block>.</block>
+  <block id="262af560e91bb5d3ce2340e565954dbf" category="paragraph-title">Soporte de proxy transparente</block>
+  <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">Data Classification ahora admite configuraciones de proxy transparentes, lo que permite una implementación más fluida en entornos de red con proxy o restringidos.</block>
+  <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">Instala NetApp Data Classification en un host Linux sin acceso a internet</block>
+  <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">Para más información sobre la implementación en entornos restringidos, consulta <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>.</block>
 </blocks>
