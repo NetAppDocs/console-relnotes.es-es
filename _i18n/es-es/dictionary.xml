@@ -551,4 +551,15 @@
   <block id="1336b537734375879229275580e44691" category="inline-link">Descripción general de la protección de cargas de trabajo de Oracle Database</block>
   <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Database, consulta<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>.</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">31 de marzo de 2026</block>
+  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">Por encima de la capacidad de ráfaga en el gráfico de consumo histórico</block>
+  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Consulta las tendencias de consumo de tus suscripciones a Keystone</block>
+  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">El gráfico de consumo histórico de la pestaña *Tendencia de consumo* ahora resalta el uso que supera el límite de ráfagas. Para saber más, consulta <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">Previsión de uso de la capacidad</block>
+  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">Ver datos de previsión</block>
+  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">Puedes usar la opción *Previsión* en la vista *Consumo histórico* de la pestaña *Tendencia de consumo* para proyectar el uso de capacidad durante los próximos 120 días a partir de la fecha actual. Para saber más, consulta <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">ID de seguimiento en la exportación de suscripciones</block>
+  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">El informe de suscripciones descargado de la página *Suscripciones* ahora incluye el *ID de seguimiento* en los datos de nivel de servicio de rendimiento para los formatos Excel y CSV.</block>
+  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">Actualizaciones de la visibilidad de la columna de la página Subscriptions</block>
+  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">En la página *Suscripciones*, la columna *Keystone version* ahora está oculta por defecto y la columna *Linked subscriptions* solo aparece cuando hay suscripciones vinculadas disponibles.</block>
+  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 de marzo de 2026</block>
 </blocks>
