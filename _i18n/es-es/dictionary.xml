@@ -564,5 +564,5 @@
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 de marzo de 2026</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Playbook SOAR para Google SecOps</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience ahora ofrece un libro de jugadas de orquestación, automatización y respuesta de seguridad (SOAR) para <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>. El libro de jugadas permite una gestión más sencilla de la respuesta a amenazas, automatizando tareas de prueba y esfuerzos esenciales de respuesta al ransomware, incluyendo la creación de instantáneas y poner un volumen fuera de línea.</block>
+  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience ahora ofrece un manual de orquestación, automatización y respuesta de seguridad (SOAR) para <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>. El manual permite una gestión más sencilla de la respuesta ante amenazas, automatizando tareas y pruebas y apoyando los esfuerzos esenciales de respuesta ante ransomware, incluyendo la creación de instantáneas y poner un volumen fuera de línea.</block>
 </blocks>
