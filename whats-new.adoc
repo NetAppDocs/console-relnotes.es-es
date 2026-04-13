@@ -121,6 +121,16 @@ Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, cons
 
 
 
+=== Clasificación de datos
+
+
+
+==== Versión 1.53
+
+Esta versión de Data Classification incluye correcciones de errores, mejoras de seguridad y mejoras de rendimiento.
+
+
+
 === Recuperación ante desastres
 
 
