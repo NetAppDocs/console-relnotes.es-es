@@ -34,6 +34,107 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+=== Configuración y administración de la consola
+
+
+
+==== Agente de Console 4.6.0
+
+La versión 4.6.0 es compatible tanto con el modo estándar como con el modo restringido.
+
+Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores, así como la siguiente nueva función.
+
+.Soporte para comprobaciones de configuración del espacio en disco necesario
+Puedes validar que el espacio en disco necesario para el agente de la Consola está disponible usando comprobaciones de configuración. Puedes realizar comprobaciones de configuración desde la Consola o la consola de mantenimiento del Agente. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Más información sobre la ejecución de comprobaciones de configuración en el agente de la consola"^]
+
+.Actualiza un agente de consola desplegado en vCenter usando una ISO
+Si desplegaste un agente de Consola en vCenter usando un OVA, ahora puedes actualizarlo a una nueva versión montando una ISO en la VM y ejecutando la actualización desde la consola de mantenimiento de la VM. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["Aprende cómo actualizar un agente de consola desplegado en vCenter"^]
+
+
+
+=== Copia de seguridad y recuperación
+
+
+
+==== Mejoras en las cargas de trabajo de ONTAP Volumes
+
+En esta versión, las cargas de trabajo de ONTAP Volumes introducen la siguiente mejora:
+
+*NetApp MetroCluster configuraciones activo/activo compatibles*: NetApp Backup and Recovery for Volumes ahora admite MetroCluster en la configuración activo-activo.
+
+Para obtener más información sobre la protección de las cargas de trabajo de ONTAP Volumes, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Descripción general de la protección de cargas de trabajo de ONTAP Volumes"].
+
+
+
+==== Mejoras en cargas de trabajo de Kubernetes
+
+En esta versión, las cargas de trabajo de Kubernetes introducen las siguientes mejoras en la política de protección:
+
+* *Editar políticas de protección*: Ahora puedes editar las políticas de protección de la carga de trabajo de Kubernetes si necesitas cambiar
+* *Compatibilidad disco a disco*: Ahora puedes configurar las políticas de protección de Kubernetes con una arquitectura de backup de disco a disco.
+* *Compatibilidad con cubos de almacenamiento de Google Cloud Platform*: Ahora puedes configurar las políticas de protección de Kubernetes para hacer backup en los buckets de almacenamiento de Google Cloud Platform.
+
+
+Para más información sobre las políticas de protección, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Crea y gestiona políticas de protección en NetApp Backup and Recovery"].
+
+Para obtener más información sobre cómo proteger las cargas de trabajo de Kubernetes, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Descripción general de la protección de cargas de trabajo de Kubernetes"].
+
+
+
+==== Mejoras en las cargas de trabajo de Hyper-V
+
+En esta versión, las cargas de trabajo Hyper-V introducen las siguientes mejoras:
+
+* *Mejora de la gestión de tareas*: Backup and Recovery ahora gestiona varios trabajos simultáneos de forma más eficiente.
+* *Soporte SAN (vista previa)*: Backup and Recovery ahora admite la protección de máquinas virtuales Hyper-V almacenadas en almacenamiento SAN.
+
+
+Para más detalles sobre la protección de cargas de trabajo Hyper-V, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Descripción general de la protección de cargas de trabajo de Hyper-V"].
+
+
+
+==== Mejoras en las cargas de trabajo KVM
+
+En esta versión, las cargas de trabajo KVM introducen las siguientes mejoras:
+
+* *Mejora de la gestión de tareas*: Backup and Recovery ahora gestiona varios trabajos simultáneos de forma más eficiente.
+* *Restaurar a ubicación alternativa (vista previa)*: Ahora puedes restaurar las máquinas virtuales KVM a un destino alternativo. Para más información, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["Restaura máquinas virtuales KVM con NetApp Backup and Recovery"].
+
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Descripción general de las cargas de trabajo de Protect KVM"] .
+
+
+
+==== Mejoras en las cargas de trabajo de VMware
+
+En esta versión, VMware workloads introduce las siguientes mejoras:
+
+* *Protección basada en etiquetas*: Backup and Recovery para cargas de trabajo de VMware ahora admite la protección basada en etiquetas para máquinas virtuales almacenadas en volúmenes NFS y VMFS, lo que te permite crear grupos de protección a partir de etiquetas de vCenter en lugar de a partir de máquinas virtuales o almacenes de datos individuales. Cuando etiquetas máquinas virtuales y almacenes de datos en vCenter, Backup and Recovery los descubre automáticamente y los incluye en futuras copias de seguridad sin ningún mantenimiento manual de grupos. Para más información, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Crear y gestionar grupos de protección"].
+* *Restaurar en un sistema de almacenamiento alternativo*: Ahora puedes restaurar máquinas virtuales en un sistema de almacenamiento alternativo incluso cuando el sistema de almacenamiento original (principal) está completamente fuera de servicio. Para más información, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaura cargas de trabajo VMware"].
+* *Restaurar archivos en máquinas virtuales Linux*: Ahora puedes restaurar archivos y carpetas de máquinas virtuales en máquinas virtuales Linux. Para más información, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Restaurar archivos y carpetas"].
+* *Compatibilidad con máquinas virtuales proxy al restaurar archivos y carpetas* - ahora puedes restaurar archivos y carpetas en otras máquinas virtuales alojadas en el vCenter de origen. Para más información, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaura cargas de trabajo VMware"].
+* *Búsqueda recursiva de archivos y carpetas* - Ahora puedes buscar en todo un VMDK un archivo o carpeta específicos. Para más información, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaura cargas de trabajo VMware"].
+* *Mejora de la gestión de tareas*: Backup and Recovery ahora gestiona varios trabajos simultáneos de forma más eficiente.
+
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Descripción general de la protección de cargas de trabajo de VMware"].
+
+
+
+=== Clasificación de datos
+
+
+
+==== Versión 1.53
+
+Esta versión de Data Classification incluye correcciones de errores, mejoras de seguridad y mejoras de rendimiento.
+
+Cloud Tiering :leveloffset: +1
+
+Directiva sin resolver en _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
+
+
+
 === Recuperación ante desastres
 
 
@@ -194,14 +295,14 @@ La versión 4.5.0 es compatible tanto con el modo estándar como con el modo res
 
 Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores, así como la siguiente nueva función.
 
-.Soporte para comprobaciones de configuración en los puertos requeridos
-Puedes validar que los puertos necesarios para el agente de la Console están abiertos usando comprobaciones de configuración. Puedes hacer comprobaciones de configuración desde la Console o desde la consola de mantenimiento del Agent. link:https://docs.netapp.com/console-setup-admin/task-troubleshoot-agent.html["Aprende más sobre cómo ejecutar comprobaciones de configuración en el agente de la consola."]
+.Soporte para la comprobación de la configuración de los puertos necesarios
+Puedes validar que los puertos necesarios para el agente de la Console están abiertos usando comprobaciones de configuración. Puedes hacer comprobaciones de configuración desde la Console o desde la consola de mantenimiento del Agent. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Aprende más sobre cómo ejecutar comprobaciones de configuración en el agente de la consola."]
 
 
 
 ==== Administración de consola
 
-Puedes asignar funciones Keystone a los usuarios asociados para que esos usuarios puedan gestionar recursos Keystone en una organización asociada. link:https://docs.netapp.com/console-setup-admin/console-administration/task-partnerships-assign-users.html["Obtén más información sobre cómo asignar roles de Keystone a usuarios asociados."]
+Puedes asignar funciones Keystone a los usuarios asociados para que esos usuarios puedan gestionar recursos Keystone en una organización asociada. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["Obtén más información sobre cómo asignar roles de Keystone a usuarios asociados."]
 
 
 
