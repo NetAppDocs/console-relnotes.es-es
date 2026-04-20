@@ -509,11 +509,9 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*Restaurar en un sistema de almacenamiento alternativo*: Ahora puedes restaurar máquinas virtuales en un sistema de almacenamiento alternativo incluso cuando el sistema de almacenamiento original (principal) está completamente fuera de servicio. Para más información, consulta<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>.</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">Restaurar archivos y carpetas</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restaurar archivos en máquinas virtuales Linux*: Ahora puedes restaurar archivos y carpetas de máquinas virtuales en máquinas virtuales Linux. Para más información, consulta<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
-  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">Directiva sin resolver en &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Versión 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Esta versión de Data Classification incluye correcciones de errores, mejoras de seguridad y mejoras de rendimiento.</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
-  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">Directiva sin resolver en _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauración limpia</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience ahora es compatible con las restauraciones limpias, una nueva opción de recuperación que te ayuda a recuperarte rápida y fácilmente de los ataques de ransomware. Las restauraciones limpias ofrecen flujos de trabajo guiados que identifican los puntos de restauración óptimos para que tus cargas de trabajo vuelvan a funcionar mientras se minimiza el tiempo de inactividad. Los flujos de trabajo de la restauración limpia también proporcionan información a nivel de archivos sobre tus datos, asegurando que puedas restaurar cargas de trabajo libres de malware que evitan la reinfección y minimizan la pérdida de datos.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Crear un entorno de recuperación aislado</block>
@@ -541,4 +539,13 @@
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">En esta versión, VMware workloads introduce la siguiente mejora:</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*Compatibilidad con ASA r2 SAN*: Las cargas de trabajo de VMware ahora admiten la protección de máquinas virtuales en almacenes de datos VMFS alojados en entornos NetApp ASA r2 solo SAN.</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">20 abril 2026</block>
+  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">NetApp Cloud Tiering ya no se ofrece</block>
+  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">NetApp Cloud Tiering ya no está disponible para la compra o renovación de licencias desde el 26 de abril de 2026.</block>
+  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">Los clientes existentes pueden seguir utilizando y recibiendo asistencia para NetApp Cloud Tiering hasta que caduque su contrato de suscripción o licencia. Una vez caducada la suscripción, los clientes dejarán de tener acceso a las funciones o a la asistencia de NetApp Cloud Tiering.</block>
+  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">Instalar una licencia FabricPool en un cluster ONTAP</block>
+  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetApp recomienda a los clientes que trabajen con su representante de NetApp para realizar la transición de sus licencias de tiering existentes a licencias de ONTAP FabricPool, que proporciona la funcionalidad para el tiering de datos en ONTAP. Consulta <block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block> para obtener más información sobre cómo configurar el tiering de datos en ONTAP usando FabricPool.</block>
+  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering Aviso de fin de disponibilidad</block>
+  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
+  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering Preguntas frecuentes sobre el fin de la disponibilidad</block>
+  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
 </blocks>
