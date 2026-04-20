@@ -30,6 +30,25 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+== 20 abril 2026
+
+
+
+=== Copia de seguridad y recuperación
+
+
+
+==== Mejoras en las cargas de trabajo de VMware
+
+En esta versión, VMware workloads introduce la siguiente mejora:
+
+* *Compatibilidad con ASA r2 SAN*: Las cargas de trabajo de VMware ahora admiten la protección de máquinas virtuales en almacenes de datos VMFS alojados en entornos NetApp ASA r2 solo SAN.
+
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Descripción general de la protección de cargas de trabajo de VMware"].
+
+
+
 == 13 abril 2026
 
 
@@ -1066,69 +1085,3 @@ La pestaña *Suscripciones* incluye una opción para expandir todas las suscripc
 ==== Nueva columna de tipo de uso
 
 La pestaña *Suscripciones* incluye una columna *Tipo de uso* que muestra si la suscripción se factura en función del uso aprovisionado, físico o lógico. Para saber más, consulta link:./integrations/subscriptions-tab.html["Ver detalles sobre tus suscripciones a Keystone"].
-
-
-
-== 19 de enero de 2026
-
-
-
-=== Copia de seguridad y recuperación
-
-
-
-==== Mejoras en las cargas de trabajo de volumen de ONTAP
-
-Esta versión de cargas de trabajo de volumen de ONTAP presenta la siguiente capacidad mejorada:
-
-*Compatibilidad con múltiples buckets*: (Vista previa privada) A partir de ONTAP 9.17.1 y versiones más recientes, ahora puede proteger los volúmenes dentro de un sistema con hasta 6 buckets por sistema en diferentes proveedores de nube.
-
-link:https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html["Obtenga más información sobre cómo realizar copias de seguridad de los datos del volumen de ONTAP con NetApp Backup and Recovery"].
-
-
-
-==== Mejoras en las cargas de trabajo de VMware
-
-Esta versión de cargas de trabajo de VMware presenta las siguientes capacidades mejoradas:
-
-* La compatibilidad con cargas de trabajo de VMware ya está disponible de forma general (GA) en NetApp Backup and Recovery.
-* Ahora puede restaurar archivos y carpetas del sistema operativo invitado.
-
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-overview.html["Obtenga más información sobre cómo restaurar archivos y carpetas de invitados"].
-
-
-
-==== Mejoras en la vista previa de las cargas de trabajo de Hyper-V
-
-Esta versión de cargas de trabajo de Hyper-V presenta las siguientes capacidades mejoradas:
-
-* Ahora puedes restaurar las copias de seguridad y las instantáneas de Hyper-V VM en una ubicación alternativa. Usa esta función para gestionar versiones de VM en diferentes hosts Hyper-V.
-* NetApp Backup and Recovery ahora es compatible con máquinas virtuales Hyper-V aprovisionadas por System Center Virtual Machine Manager (SCVMM) y alojadas en un recurso compartido CIFS.
-* Ahora puedes editar grupos de protección.
-
-
-
-NOTE: Solo en esta versión, no es posible actualizar los complementos de NetApp para Hyper-V o Windows mediante la opción *Actualizar* en el menú Acciones. En su lugar, elimine cada host de Hyper-V y agréguelo nuevamente para actualizar los complementos.
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-restore.html["Obtenga más información sobre cómo restaurar máquinas virtuales de Hyper-V con NetApp Backup and Recovery"].
-
-
-
-==== Mejoras en la vista previa de las cargas de trabajo de KVM
-
-La vista previa de cargas de trabajo KVM ahora protege los hosts KVM y las máquinas virtuales que son gestionadas por Apache CloudStack.
-
-Para obtener detalles sobre cómo proteger las cargas de trabajo de KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Descripción general de las cargas de trabajo de Protect KVM"] .
-
-
-
-=== Resiliencia frente al ransomware
-
-
-
-==== Volúmenes no compatibles
-
-Los informes de Ransomware Resilience ahora capturan información sobre volúmenes admitidos y no admitidos en el informe **Summary**. Usa esta información para diagnosticar por qué los volúmenes de un sistema podrían no ser elegibles para la protección contra ransomware.
-
-Para obtener más información, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Descargar informes de Ransomware Resilience"^].
