@@ -511,7 +511,6 @@
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restaurar archivos en máquinas virtuales Linux*: Ahora puedes restaurar archivos y carpetas de máquinas virtuales en máquinas virtuales Linux. Para más información, consulta<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Versión 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Esta versión de Data Classification incluye correcciones de errores, mejoras de seguridad y mejoras de rendimiento.</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauración limpia</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience ahora es compatible con las restauraciones limpias, una nueva opción de recuperación que te ayuda a recuperarte rápida y fácilmente de los ataques de ransomware. Las restauraciones limpias ofrecen flujos de trabajo guiados que identifican los puntos de restauración óptimos para que tus cargas de trabajo vuelvan a funcionar mientras se minimiza el tiempo de inactividad. Los flujos de trabajo de la restauración limpia también proporcionan información a nivel de archivos sobre tus datos, asegurando que puedas restaurar cargas de trabajo libres de malware que evitan la reinfección y minimizan la pérdida de datos.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Crear un entorno de recuperación aislado</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering Preguntas frecuentes sobre el fin de la disponibilidad</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Etiqueta de capacidad provisionada renombrada</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">La etiqueta *Capacidad provisionada* pasa a llamarse *Capacidad de volumen provisionada*. La etiqueta actualizada también se refleja en los informes CSV y Excel relacionados.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Alternar previsión para ráfaga acumulada</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 abril 2026</block>
 </blocks>
