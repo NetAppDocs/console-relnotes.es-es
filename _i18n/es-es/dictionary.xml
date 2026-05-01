@@ -488,7 +488,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Descripción general de la protección de cargas de trabajo de ONTAP Volumes</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Para obtener más información sobre la protección de las cargas de trabajo de ONTAP Volumes, consulta<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">En esta versión, las cargas de trabajo de Kubernetes introducen las siguientes mejoras en la política de protección:</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*Editar políticas de protección*: Ahora puedes editar las políticas de protección de la carga de trabajo de Kubernetes si necesitas cambiar</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*Compatibilidad disco a disco*: Ahora puedes configurar las políticas de protección de Kubernetes con una arquitectura de backup de disco a disco.</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Compatibilidad con cubos de almacenamiento de Google Cloud Platform*: Ahora puedes configurar las políticas de protección de Kubernetes para hacer backup en los buckets de almacenamiento de Google Cloud Platform.</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">Crea y gestiona políticas de protección en NetApp Backup and Recovery</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Alternar previsión para ráfaga acumulada</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 abril 2026</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*Editar políticas de protección*: Ahora puedes editar las políticas de protección de cargas de trabajo de Kubernetes si necesitas cambiarlas.</block>
 </blocks>
