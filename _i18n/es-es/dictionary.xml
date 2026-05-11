@@ -120,76 +120,26 @@
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Obtenga información sobre los cambios más recientes en las características y los servicios de datos que forman parte de la NetApp Console. Para consultar el historial de versiones completo, vaya al conjunto completo de notas de la versión de cada servicio individual.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crear un plan de replicación</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configuraciones compatibles con Cloud Volumes ONTAP en Azure</block>
-  <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Compatibilidad con Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Administrador de implementación en la nube</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">Mejoras en las cargas de trabajo de VMware</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Descripción general de las cargas de trabajo de Protect KVM</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de KVM, consulte<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
-  <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">La compatibilidad con cargas de trabajo de VMware ya está disponible de forma general (GA) en NetApp Backup and Recovery.</block>
   <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
-  <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 y versiones posteriores ahora admiten<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) en lugar de<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) para nuevas implementaciones en Google Cloud. Google va a dejar de usar Deployment Manager como servicio de infraestructura en un futuro próximo para pasarse a Infrastructure Manager, que es más avanzado.</block>
   <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">Configura las implementaciones existentes de Cloud Volumes ONTAP para Google Cloud Infrastructure Manager</block>
-  <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">Los sistemas Cloud Volumes ONTAP que usan Infrastructure Manager usan buckets de Google Cloud Storage para almacenar datos y registros en la zona del primer despliegue para guardar registros de despliegue, que se reutilizan en despliegues posteriores. Puede que tengas costes adicionales por estos buckets, pero no edites ni elimines los buckets ni su contenido:</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">Enlaces relacionados</block>
-  <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">Primeros pasos con Cloud Volumes ONTAP en Google Cloud</block>
-  <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
   <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 Notas de la versión</block>
   <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Permisos necesarios para Google Cloud Infrastructure Manager</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">09 de febrero de 2026</block>
-  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">Activa la clasificación de datos con Amazon FSxN para ONTAP directamente desde el canvas de la NetApp Console</block>
-  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">Ahora puedes habilitar Amazon FSxN para sistemas ONTAP directamente desde el lienzo de NetApp Console, lo que te permite lanzar más rápido la clasificación de datos para tus sistemas FSxN.</block>
-  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">Escanear Amazon FSxN para volúmenes ONTAP</block>
-  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">Para más información sobre el uso de Data Classification con Amazon FSxN para ONTAP, consulta <block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>.</block>
-  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">Aumento del límite de exportación para investigar directorios</block>
-  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">Cuando exportas un informe de investigación sobre directorios desde el panel de control de Investigación, ahora puedes incluir 10,000 filas. Este aumento respecto al límite anterior de 5,000 filas permite investigaciones a mayor escala sobre la gobernanza y el cumplimiento de datos.</block>
-  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">Investiga los datos</block>
-  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">Para más información, consulta <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>.</block>
   <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">Límite aumentado para copiar y mover</block>
-  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">Al copiar o mover archivos, ahora puedes mover archivos de hasta 250 MB, un aumento respecto al límite anterior de 50 MB.</block>
-  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">Visualización mejorada para pantallas de baja resolución</block>
-  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification ha mejorado su rendimiento de visualización para pantallas de baja resolución, mejorando la experiencia del usuario.</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Mejoras en cargas de trabajo de Kubernetes</block>
-  <block id="de8616724d177017abdd720d7365feff" category="paragraph">Esta versión de Kubernetes workloads introduce las siguientes funciones mejoradas:</block>
-  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*Compatibilidad con el flujo de trabajo de CR*: Ahora puedes realizar tareas de protección comunes usando CR, así como la interfaz web de Backup and Recovery.</block>
-  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*Migración de clústeres*: Ahora puedes agregar clústeres de Kubernetes existentes protegidos con Trident Protect a Backup and Recovery.</block>
-  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*Compatibilidad con el marco de alertas*: ahora puedes recibir alertas por correo electrónico y en la interfaz de usuario para ciertos eventos de carga de trabajo de Kubernetes.</block>
-  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*Integración de la pestaña Restaurar*: Ahora puedes acceder a las acciones de restauración de la carga de trabajo de Kubernetes desde el menú Restaurar.</block>
-  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*Compatibilidad con la arquitectura de copia de seguridad 3-2-1 fanout*: Ahora puedes usar una arquitectura 3-2-1 fanout en tu política de protección cuando proteges cargas de trabajo de Kubernetes.</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Descripción general de la protección de cargas de trabajo de Kubernetes</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Para obtener más información sobre cómo proteger las cargas de trabajo de Kubernetes, consulta<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
   <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Mejoras en las cargas de trabajo de Oracle Database</block>
-  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">Esta versión de las cargas de trabajo de Oracle Database introduce las siguientes capacidades mejoradas:</block>
-  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*Soporte para usuarios no root*: Los usuarios no root ya pueden realizar operaciones de copia de seguridad, restauración y clonación, mejorando la seguridad y el cumplimiento.</block>
-  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*Soporte de clonación*: Las funciones de clonación ahora son compatibles en entornos NAS, SAN y ASM primarios y secundarios usando la biblioteca ASM v2, lo que permite flujos de trabajo de protección coordinados.</block>
-  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*Soporte para división de clones*: Ahora puedes dividir las instantáneas con permisos de escritura (clones) de sus volúmenes primarios, liberando almacenamiento y permitiendo operaciones independientes.</block>
-  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*Copia de seguridad y restauración para almacén de objetos*: ahora se admiten las capacidades nativas de copia de seguridad y restauración para objetivos de almacenamiento S3 compatibles basados en objetos.</block>
-  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*Gestión del ciclo de vida de los clones (CLM)*: las operaciones de actualización de clones son compatibles con el almacenamiento primario.</block>
-  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*Clonar a host alternativo*: ahora puedes clonar bases de datos a un host diferente (para pruebas o análisis) tanto desde el almacenamiento primario como desde el almacenamiento secundario.</block>
-  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*Compatibilidad con los grupos de coherencia de ONTAP*: ahora se admiten los grupos de coherencia de ONTAP, lo que garantiza instantáneas consistentes con las aplicaciones en varios volúmenes.</block>
-  <block id="07bac542633034a121251f74bf3c7880" category="list-text">NetApp Backup and Recovery ahora admite las siguientes arquitecturas de política de protección para cargas de trabajo de Oracle Database:</block>
-  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">Distribución 3-2-1</block>
-  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">Disco a disco</block>
-  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">Disco a almacén de objetos</block>
-  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">En cascada</block>
-  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">Instantánea local</block>
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Descripción general de la protección de cargas de trabajo de Oracle Database</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Database, consulta<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
-  <block id="6108d5ad430f0631e5c6e10714ba980c" category="doc">Cargas de trabajo de Microsoft Hyper-V compatibles en General Availability (GA)</block>
-  <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">La compatibilidad con cargas de trabajo de Microsoft Hyper-V ya está disponible de forma general (GA) en NetApp Backup and Recovery.</block>
-  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Agente de Console 4.4.0</block>
-  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">La versión 4.4.0 es compatible tanto con el modo estándar como con el modo restringido.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores.</block>
-  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">Soporte para el acceso basado en roles para NetApp Backup and Recovery workloads (Oracle y Microsoft SQL Server)</block>
-  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">Puedes asociar cargas de trabajo de Backup and Recovery (Oracle y Microsoft SQL Server) con proyectos. Después de asignarlas a un proyecto, los usuarios que tengan asignado un rol de Backup and Recovery para el proyecto pueden trabajar con las cargas de trabajo. Otras cargas de trabajo no son compatibles con acceso basado en roles en este momento.</block>
-  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Conoce más sobre cómo configurar el acceso basado en roles para las cargas de trabajo de Backup and Recovery.</block>
-  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
-  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">Soporte para la replicación de datos entre Cloud Volumes ONTAP y FSx for ONTAP</block>
-  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">Ahora la replicación de datos está disponible entre un sistema Cloud Volumes ONTAP y un sistema de archivos FSx for ONTAP desde la NetApp Console.</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar datos</block>
-  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">Cargas de trabajo de VMware compatibles en General Availability (GA)</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Soporte para Ebdsv5 y E104ids_v5 VMs en Azure</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">A partir de Cloud Volumes ONTAP 9.18.1, puedes implementar las VMs Ebdsv5 y E104ids_v5 para implementaciones y actualizaciones de nodo único y de alta disponibilidad (HA).</block>
   <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Las máquinas virtuales Ebdsv5 dentro de la familia Eb de máquinas virtuales de Azure están optimizadas para un mayor rendimiento del almacenamiento remoto. Puedes usar estas máquinas virtuales para cargas de trabajo empresariales que requieren mucha memoria y son intensivas en E/S, como bases de datos relacionales, análisis en memoria y otras aplicaciones empresariales críticas y exigentes.</block>
@@ -254,33 +204,22 @@
   <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">23 febrero 2026</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">La compatibilidad con cargas de trabajo KVM ya está disponible de forma general (GA) en NetApp Backup and Recovery.</block>
   <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">Cargas de trabajo de Kubernetes compatibles en General Availability (GA)</block>
-  <block id="d370e8740a6b64fd386955e0e780b888" category="paragraph">A partir del 09 de febrero de 2026, Cloud Volumes ONTAP utiliza Infrastructure Manager para las implementaciones nuevas y existentes. Esta tabla te explica algunos flujos de trabajo:</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">Escenario</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">Acción</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">Nuevas APIs para el agente</block>
   <block id="060f2406e35d76018851fe48ca94d582" category="cell">Nuevos permisos para el agente</block>
   <block id="7fcf37c89982b3db8f710c7c0a78df3f" category="cell">Nuevas API de Google Cloud para Cloud Volumes ONTAP</block>
   <block id="12f8aec1aacb26c22265d9eeef4f1a7a" category="cell">Recursos de documentación</block>
-  <block id="ffcce4c7137f38bc7e8f7abd968a2416" category="cell">Agente existente y Cloud Volumes ONTAP ya desplegado</block>
-  <block id="8ca4609018726707802acec01ea088c8" category="cell">Agrega nuevas API y permisos al agente existente y convierte el sistema Cloud Volumes ONTAP existente.</block>
   <block id="15b890fd729e8bd42b01f29b115cdada" category="list-text">API de Cloud Infrastructure Manager</block>
   <block id="a4c710688b0bce1852460a0da5685192" category="list-text">API de Cloud Quotas</block>
   <block id="6ecd6a8715f3b8584b0a166952141ee0" category="paragraph">Todos los permisos listados para la versión de la NetApp Console en:</block>
   <block id="a578c7a2817a7adad288f8984659cad5" category="inline-link">8 de diciembre de 2025</block>
   <block id="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="list-text"><block ref="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="inline-link-rx"></block></block>
   <block id="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="list-text"><block ref="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="inline-link-rx"></block></block>
-  <block id="d0afacc44f5837356184459eb1b8fb68" category="cell">\https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1</block>
   <block id="78b63d509629d2b46ecd06bdf9d90717" category="paragraph"><block ref="78b63d509629d2b46ecd06bdf9d90717" category="inline-link-rx"></block></block>
-  <block id="32524c76b6297a63bd4c44a66fb638cb" category="cell">Agente existente y nueva implementación de Cloud Volumes ONTAP</block>
-  <block id="cd116d29376c1e626e005f853f310ae1" category="cell">Agrega nuevas API y permisos al agente existente y despliega un nuevo sistema Cloud Volumes ONTAP.</block>
-  <block id="599a622e9d52b5b54a2b589d25b12d7f" category="cell">Todos los pasos para una nueva implementación</block>
   <block id="af766153ec7c24e4d448b02bfd0e1ec3" category="cell">Nuevo agente y nuevo despliegue</block>
-  <block id="252390de9c128281e1354046c39015db" category="cell">Crea un nuevo agente y despliega un nuevo sistema Cloud Volumes ONTAP.</block>
   <block id="133f87cfee7691c59e4aceff51289761" category="inline-link">Crea un agente de NetApp Console desde Google Cloud</block>
   <block id="cfdaf06139b734f8230b05e534421bc4" category="list-text"><block ref="cfdaf06139b734f8230b05e534421bc4" category="inline-link-rx"></block></block>
-  <block id="dfa41bd12b34b1bd351e47cb755d553f" category="paragraph">Ahora, despliega Cloud Volumes ONTAP para usar automáticamente Infrastructure Manager o cambia tus implementaciones existentes en Deployment Manager a Infrastructure Manager ejecutando una herramienta de conversión. La conversión es un proceso único, después del cual tus sistemas empezarán a usar Infrastructure Manager. Consulta<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block> para ver instrucciones sobre cómo ejecutar la herramienta de conversión.</block>
-  <block id="0841cdab6957a4878161d52555ce3f69" category="list-text"><block ref="459888dc95116b3e1800e611d3502102" prefix="" category="inline-code"></block>: para las versiones de ONTAP y las plantillas Terraform de SVM usadas para nuevos despliegues de Cloud Volumes ONTAP. Dentro de esto, el bucket<block ref="141f3ccee25f2d3a39df4d9471e4bb21" prefix=" " category="inline-code"></block> contiene los archivos Terraform de Cloud Volumes ONTAP.</block>
-  <block id="a11251d028e85bf55e217f7b75894bca" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>: para almacenar artefactos de Google Cloud Terraform.</block>
   <block id="eefb06bb963974fa756fd69b5da77f3d" category="doc">Compatibilidad con Google Infrastructure Manager para implementaciones en modo privado</block>
   <block id="8a1d72441a291104845776a8cb5ca0b8" category="paragraph">Cloud Volumes ONTAP 9.16.1 y versiones posteriores ahora admiten<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) en lugar de<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) para nuevas implementaciones en modo privado en Google Cloud. Google va a dejar de usar Deployment Manager como servicio de infraestructura en un futuro cercano para dar paso a Infrastructure Manager, que es más avanzado.</block>
   <block id="ec39823b2cb6731c93e31551324e6ed7" category="paragraph">A partir del 25 de febrero de 2026, Cloud Volumes ONTAP utiliza Infrastructure Manager para los despliegues en modo privado nuevos y existentes. Esta tabla te explica los flujos de trabajo básicos:</block>
@@ -370,7 +309,6 @@
   <block id="95036acb74478cad3d04125e4993251b" category="paragraph">Para más información, consulta <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>.</block>
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Detección de red mejorada</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery ahora incluye una detección de red mejorada para admitir una gama más amplia de configuraciones de red.</block>
-  <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">Límites aumentados para copiar y mover</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">Validación de recursos</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">Para garantizar la fiabilidad, Data Classification ahora valida la memoria disponible y los recursos de disco durante el escaneo, la generación de informes y las acciones. Cuando el uso de memoria supera el 95% o el espacio en disco cae por debajo de 6 GB, Data Classification pausa automáticamente las operaciones. Las operaciones se reanudan una vez que los recursos son suficientes.</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Supervisa el estado de salud de Data Classification</block>
@@ -541,4 +479,14 @@
   <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*Actualiza Trident Protect desde Backup and Recovery*: Ahora puedes actualizar Trident Protect para un clúster de Kubernetes directamente desde Backup and Recovery.</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*Ver recursos protegidos*: Ahora puedes ver los recursos incluidos en cada punto de recuperación de una aplicación y descargar un informe JSON detallado. Esto te da visibilidad total de tus puntos de recuperación y simplifica el cumplimiento de auditorías.</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">05 de mayo de 2026</block>
+  <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Compatibilidad con cargas de trabajo basadas en Kubernetes (vista previa)</block>
+  <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">cualquier versión de Kubernetes actualmente soportada por Trident Protect</block>
+  <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery ahora incluye compatibilidad con cargas de trabajo basadas en Kubernetes. Con la compatibilidad con Kubernetes, puedes proteger aplicaciones que se ejecutan en clústeres de Kubernetes, incluidos los entornos de virtualización OpenShift. Disaster Recovery es compatible con <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>, lo que garantiza una integración fluida y sólidas capacidades de recuperación ante desastres para aplicaciones en contenedores.</block>
+  <block id="17e5366c4d700584180f9a88c40ddd7f" category="paragraph">Funciones clave del soporte de cargas de trabajo basado en Kubernetes:</block>
+  <block id="6e623252e9b1dfd44c03c706826c9dc2" category="list-text">**Amplia compatibilidad**: Disaster Recovery es compatible con todas las versiones de Kubernetes compatibles con Trident Protect, incluida Red Hat OpenShift Virtualization.</block>
+  <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**Protección centrada en las aplicaciones**: Ahora puedes proteger las cargas de trabajo de Kubernetes a nivel de aplicación, asegurando la recuperación de los servicios críticos durante eventos de conmutación por error.</block>
+  <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**Orquestación simplificada**: Disaster Recovery ofrece flujos de trabajo intuitivos para automatizar la copia de seguridad y la replicación de las cargas de trabajo de Kubernetes, aprovechando la misma tecnología eficiente SnapMirror utilizada para entornos VMware.</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">Requisitos de Kubernetes para NetApp Disaster Recovery</block>
+  <block id="84b0e3d023f875f2669a5f0d72922238" category="paragraph">La compatibilidad con cargas de trabajo basadas en Kubernetes se encuentra actualmente en fase de vista previa. Para empezar a proteger las cargas de trabajo basadas en Kubernetes, consulta <block ref="343bf0d5acc46def5b744dcb13640f63" category="inline-link-macro-rx"></block>.</block>
+  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">12 de mayo de 2026</block>
 </blocks>
