@@ -486,7 +486,6 @@
   <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**Protección centrada en las aplicaciones**: Ahora puedes proteger las cargas de trabajo de Kubernetes a nivel de aplicación, asegurando la recuperación de los servicios críticos durante eventos de conmutación por error.</block>
   <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**Orquestación simplificada**: Disaster Recovery ofrece flujos de trabajo intuitivos para automatizar la copia de seguridad y la replicación de las cargas de trabajo de Kubernetes, aprovechando la misma tecnología eficiente SnapMirror utilizada para entornos VMware.</block>
   <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">Requisitos de Kubernetes para NetApp Disaster Recovery</block>
-  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">12 de mayo de 2026</block>
   <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Agente de Console 4.7.0</block>
   <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">La versión 4.7.0 es compatible tanto con el modo estándar como con el modo restringido.</block>
   <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">Esta versión incluye la siguiente novedad.</block>
@@ -517,4 +516,9 @@
   <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience ahora soporta el bloqueo de usuarios individuales con Google SecOps y Splunk SOAR playbooks. Con esta adición, puedes automatizar el bloqueo de usuarios cuando Ransomware Resilience detecta actividad sospechosa de un usuario, como una violación de datos o la eliminación masiva de datos.</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">Integra un playbook SOAR</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
+  <block id="6edeb5e7f8d6c86621cc7603e861b9ba" category="doc">Gestión de la replicación de las relaciones existentes con FSx para ONTAP</block>
+  <block id="12ad030c730fdc0c585b94ec9fbfc39b" category="paragraph">La gestión de relaciones de replicación para FSx para sistemas de archivos ONTAP como origen o destino ahora está en NetApp Workload Factory.</block>
+  <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">Gestionar la replicación de datos</block>
+  <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
+  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">Replicación :leveloffset: +1</block>
 </blocks>
