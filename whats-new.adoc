@@ -518,7 +518,7 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 
 
-==== Mejora de la actividad del usuario
+==== Mejora de la detección del comportamiento del usuario
 
 La información sobre las violaciones de datos se conserva ahora durante 13 meses después de un incidente, lo que permite un registro más prolongado para tus necesidades de información.
 
@@ -832,13 +832,13 @@ Disaster Recovery ahora incluye una detección de red mejorada para admitir una 
 
 ==== Excluir usuarios de forma masiva de las alertas de comportamiento del usuario
 
-Ransomware Resilience ahora admite subir una lista JSON de usuarios para excluir de las alertas de actividad de comportamiento del usuario, además de las opciones existentes en la interfaz de usuario y basadas en CSV.
+Ransomware Resilience ahora admite la carga de una lista JSON de usuarios para excluir de las alertas de comportamiento del usuario, además de las opciones existentes de interfaz de usuario y basadas en CSV.
 
 Para más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["Excluir usuarios de alertas"^].
 
 
 
-==== Mejoras en la actividad del usuario
+==== Mejoras en la detección del comportamiento de los usuarios
 
 Ransomware Resilience ha mejorado la información sobre el comportamiento de los usuarios al añadir alertas por correo electrónico e incluir eventos de comportamiento de usuario en los datos de eventos SIEM compatibles (AWS Security Hub, Microsoft Sentinel y Splunk Cloud). Estas mejoras ofrecen información más precisa sobre tu supervisión de seguridad y cumplimiento.
 
