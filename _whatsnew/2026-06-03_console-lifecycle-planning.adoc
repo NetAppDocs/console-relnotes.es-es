@@ -1,0 +1,14 @@
+= Actualización de los nombres de las funciones de planificación del ciclo de vida
+:allow-uri-read: 
+
+
+
+
+=== Actualización de los nombres de las funciones de planificación del ciclo de vida
+
+Las siguientes funciones de planificación del ciclo de vida tienen cambios de nombre:
+
+* La función Tech refresh se llama ahora *System Refresh*. Aprende cómo link:../use/tech-refresh.html["evaluar una actualización del sistema"].
+* La función de aumento de capacidad se llama ahora *Ampliación de almacenamiento*. Aprende cómo link:../use/capacity-add.html["ampliar el almacenamiento"].
+* La función Renovaciones se llama ahora *Support Renewals*. Aprende cómo link:../support/task-support-registration.html["registrarse para soporte"].
+

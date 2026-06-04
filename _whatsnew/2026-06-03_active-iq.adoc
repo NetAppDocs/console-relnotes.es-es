@@ -1,0 +1,14 @@
+= Actualización del nombre del widget de Digital Advisor
+:allow-uri-read: 
+
+
+
+
+=== Actualización del nombre del widget de Digital Advisor
+
+Las siguientes funciones de Digital Advisor han cambiado de nombre:
+
+* La función Tech Refresh ahora se llama System Refresh. Aprende cómo link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["evaluar una actualización del sistema"].
+* La función de ampliación de capacidad se llama ahora Storage Expansion. Conoce más sobre link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets de Digital Advisor"].
+* La función Renovaciones se llama ahora Support Renewals. Conoce más sobre link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets de Digital Advisor"].
+
