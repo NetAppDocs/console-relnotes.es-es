@@ -30,6 +30,22 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+== 11 de junio de 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Compatibilidad con una nueva región de Azure en Cloud Volumes ONTAP
+
+Ya puedes implementar Cloud Volumes ONTAP 9.12.1 GA y versiones posteriores en una o varias zonas de disponibilidad de Azure en la región de Malaysia West (malaysiawest). Esto incluye soporte tanto para implementaciones de un solo nodo como de alta disponibilidad (HA).
+
+Para ver la lista de todas las regiones, consulta https://bluexp.netapp.com/cloud-volumes-global-regions["Mapa de regiones globales en Azure"^].
+
+
+
 == 08 de junio de 2026
 
 
@@ -862,19 +878,3 @@ En esta versión, VMware workloads introduce las siguientes mejoras:
 *Soporte de consistencia de VM por nivel de planificación*: Ahora puedes activar copias de seguridad coherentes con máquinas virtuales y aplicaciones para niveles de planificación específicos al configurar políticas de protección para cargas de trabajo de VMware. Se admiten los niveles anual, mensual y semanal.
 
 Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Descripción general de la protección de cargas de trabajo de VMware"].
-
-
-
-== 12 de marzo de 2026
-
-
-
-=== Resiliencia frente al ransomware
-
-
-
-==== Playbooks SOAR para Microsoft Sentinel y Splunk
-
-Ransomware Resilience ahora ofrece libros de jugadas de orquestación, automatización y respuesta de seguridad (SOAR) para link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^] y link:https://github.com/splunk-soar-connectors/netappransomwareresilience["Splunk"^]. Los libros de jugadas permiten una gestión más sencilla de la respuesta a amenazas, automatizando tareas de prueba y esfuerzos esenciales de respuesta al ransomware, incluyendo la creación de instantáneas y poner un volumen fuera de línea.
-
-Para más información, mira link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["Integra los playbooks SOAR"^].
