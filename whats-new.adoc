@@ -91,9 +91,21 @@ Para obtener más información sobre la protección de las cargas de trabajo de 
 En esta versión, las cargas de trabajo Hyper-V introducen las siguientes mejoras:
 
 * *Mejoras en la restauración de archivos y carpetas en una máquina virtual invitada*: Ahora puedes restaurar archivos y carpetas de una instantánea en el almacenamiento primario o secundario a una máquina virtual de Windows invitada. Esta función ahora es compatible con VMs CIFS y SAN.
+* *Los grupos de protección ahora utilizan la programación según la zona horaria del host*: Los grupos de protección ahora utilizan la zona horaria del host de Hyper-V. Los grupos de protección creados antes de que se introdujera la programación según la zona horaria del host siguen utilizando la hora configurada anteriormente (normalmente UTC). Para actualizar estos grupos de protección para que utilicen la zona horaria del host de Hyper-V, tienes que volver a crear las programaciones. Consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protection-groups.html["Crear y gestionar grupos de protección para cargas de trabajo de Hyper-V"] para obtener más información.
 
 
 Para más detalles sobre la protección de cargas de trabajo Hyper-V, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Descripción general de la protección de cargas de trabajo de Hyper-V"].
+
+
+
+==== Mejoras en las cargas de trabajo de VMware
+
+En esta versión, VMware workloads introduce la siguiente mejora:
+
+* *Los grupos de protección ahora utilizan la programación basada en la zona horaria del host*: Los grupos de protección ahora usan la zona horaria del servidor VMware vCenter que los aloja. Los grupos de protección creados antes de que se introdujera la programación basada en la zona horaria del host siguen ejecutándose en su zona horaria configurada previamente (normalmente UTC). Para usar la zona horaria de vCenter, tienes que volver a crear las programaciones. Consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Crear y gestionar grupos de protección para cargas de trabajo de VMware"] para más información.
+
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Descripción general de la protección de cargas de trabajo de VMware"].
 
 
 
