@@ -30,6 +30,48 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+== 29 de junio de 2026
+
+
+
+=== Asesor digital
+
+
+
+==== Revisión del estado de GraphQL: migración y mejoras en la precisión de los datos
+
+El módulo «Health Check» se ha mejorado con una mayor precisión de los datos y recomendaciones de versiones alineadas con los estándares de vigencia. Como parte de esta versión, se ha migrado de la Public API a GraphQL, lo que ofrece un mejor rendimiento, consultas flexibles y soporte a largo plazo.
+
+
+
+===== Software recomendado
+
+Las mejoras recomendadas de software en el módulo Health Check ahora proporcionan datos más precisos y coherentes.
+
+* Los recuentos de estantes y unidades que aparecen en la sección de firmware muestran los valores exactos por sistema y ya no incluyen los recuentos de HA Pair.
+* Las recomendaciones sobre la versión mínima y la más reciente ahora se calculan a nivel de clúster en función de la versión efectiva del clúster, en línea con los estándares de actualización; antes, estas recomendaciones se calculaban a nivel de nodo.
+
+
+
+
+===== AutoSupport dependencia de datos
+
+Debido a mejoras en el backend, las vistas de adopción y de software recomendado de AutoSupport se basan en los datos más recientes de AutoSupport. Esto podría afectar tu vista actual de las siguientes maneras:
+
+[cols="30,70"]
+|===
+| Escenario | Sistemas afectados 
+
+
+| No se muestran datos | Sistemas que no han enviado un AutoSupport desde octubre de 2025 
+
+
+| Valores obsoletos | Sistemas que no han enviado un AutoSupport en los últimos 30 días 
+|===
+Vuelve a ejecutar AutoSupport en los sistemas afectados que se indican más arriba para restaurar los datos actuales en las vistas de Health Check.
+
+
+
 == 15 de junio de 2026
 
 
