@@ -8,7 +8,7 @@
 
 Las siguientes funciones de planificación del ciclo de vida tienen cambios de nombre:
 
-* La función Tech refresh se llama ahora *System Refresh*. Aprende cómo link:../use/tech-refresh.html["evaluar una actualización del sistema"].
-* La función de aumento de capacidad se llama ahora *Ampliación de almacenamiento*. Aprende cómo link:../use/capacity-add.html["ampliar el almacenamiento"].
-* La función Renovaciones se llama ahora *Support Renewals*. Aprende cómo link:../support/task-support-registration.html["registrarse para soporte"].
+* La función «Tech Refresh» ahora se llama *System Refresh*. Descubre cómo https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["evaluar una actualización del sistema"].
+* La función «Aumentar capacidad» ahora se llama *Ampliación de almacenamiento*. Descubre cómo https://docs.netapp.com/us-en/console-lifecycle-planning/use/capacity-add.html["ampliar el almacenamiento"].
+* La función «Renovaciones» ahora se llama *Renovaciones de soporte*. Descubre cómo https://docs.netapp.com/us-en/console-lifecycle-planning/support/task-support-registration.html["registrarse para soporte"].
 

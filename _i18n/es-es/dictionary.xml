@@ -351,11 +351,8 @@
   <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">La función Renovaciones se llama ahora Support Renewals. Conoce más sobre <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
   <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">Actualización de los nombres de las funciones de planificación del ciclo de vida</block>
   <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">Las siguientes funciones de planificación del ciclo de vida tienen cambios de nombre:</block>
-  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">La función Tech refresh se llama ahora *System Refresh*. Aprende cómo <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block>.</block>
   <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">ampliar el almacenamiento</block>
-  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">La función de aumento de capacidad se llama ahora *Ampliación de almacenamiento*. Aprende cómo <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block>.</block>
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">registrarse para soporte</block>
-  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">La función Renovaciones se llama ahora *Support Renewals*. Aprende cómo <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>.</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">03 de junio de 2026</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Soporte para almacenamiento en la nube compatible con S3*: NetApp Backup and Recovery para cargas de trabajo de Volumes ahora admite la realización de copias de seguridad en almacenamiento en la nube compatible con S3.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Mejoras en la restauración de archivos y carpetas en una máquina virtual invitada*: Ahora puedes restaurar archivos y carpetas de una instantánea en el almacenamiento primario o secundario a una máquina virtual de Windows invitada. Esta función ahora es compatible con VMs CIFS y SAN.</block>
@@ -481,4 +478,7 @@
   <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Agente de Console 4.8.0</block>
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">La versión 4.8.0 es compatible tanto con el modo estándar como con el modo restringido.</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Esta versión incluye mejoras de seguridad y correcciones de errores.</block>
+  <block id="32846264266c0647221942c075bdc06f" category="list-text">La función «Tech Refresh» ahora se llama *System Refresh*. Descubre cómo<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
+  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">La función «Aumentar capacidad» ahora se llama *Ampliación de almacenamiento*. Descubre cómo<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
+  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">La función «Renovaciones» ahora se llama *Renovaciones de soporte*. Descubre cómo<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
 </blocks>
