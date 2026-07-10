@@ -18,6 +18,7 @@ Vea el conjunto completo de notas de la versión para las características de la
 
 
 
+[[administration]]
 == Administración
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Configuración y administración"^]
@@ -31,6 +32,7 @@ Vea el conjunto completo de notas de la versión para las características de la
 
 
 
+[[storage]]
 == Almacenamiento
 
 * https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["Amazon FSx para ONTAP"^]
@@ -48,6 +50,7 @@ Vea el conjunto completo de notas de la versión para las características de la
 
 
 
+[[storage-as-a-service]]
 == Almacenamiento como servicio
 
 * https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
@@ -55,6 +58,7 @@ Vea el conjunto completo de notas de la versión para las características de la
 
 
 
+[[data-services]]
 == Servicios de datos
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Copia de seguridad y recuperación"^]

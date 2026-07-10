@@ -4,6 +4,7 @@
 
 
 
+[[wellness-review]]
 === Revisión del bienestar
 
 A partir de julio de 2026, la función Wellness Review dejará de estar disponible en Digital Advisor. Para cualquier consulta, envía un correo electrónico a mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].

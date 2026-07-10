@@ -30,10 +30,12 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[07-july-2026]]
 == 07 de julio de 2026
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -46,10 +48,12 @@ Para más información, consulta link:https://docs.netapp.com/us-en/data-service
 
 
 
+[[29-june-2026]]
 == 29 de junio de 2026
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -62,6 +66,7 @@ Para más información, consulta link:https://docs.netapp.com/us-en/data-service
 
 
 
+[[digital-advisor]]
 === Asesor digital
 
 
@@ -100,6 +105,7 @@ Vuelve a ejecutar AutoSupport en los sistemas afectados que se indican más arri
 
 
 
+[[keystone]]
 === Keystone
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:
@@ -108,13 +114,13 @@ Nuevas mejoras en el panel de Keystone en la NetApp Console:
 
 ==== Ver la distribución de licencias de ADP para las suscripciones de MetroCluster
 
-Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para saber más, consulta link:./integrations/adp-tab.html["Consulta el consumo y la salud de tus suscripciones Keystone MetroCluster"].
+Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Consulta el consumo y la salud de tus suscripciones Keystone MetroCluster"].
 
 
 
 ==== Ver el estado de la protección contra ransomware de tus volúmenes
 
-La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para obtener más información sobre ARP, consulta link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["Protección autónoma contra el ransomware (ARP) en ONTAP"].
+La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para saber más sobre ARP, consulta https://docs.netapp.com/us-en/ontap/anti-ransomware/["Protección autónoma contra el ransomware (ARP) en ONTAP"^].
 
 
 
@@ -132,14 +138,16 @@ Para el vencimiento de la suscripción, ahora las alertas se activan en cinco um
 
 Para el uso de la capacidad, el umbral de alerta de picos ahora se basa en el porcentaje de picos comprometido de tu suscripción en lugar de un 20% fijo. Por ejemplo, si tu pico comprometido es del 40%, la alerta crítica se activa al 140% del uso de la capacidad comprometida.
 
-Para saber más, consulta link:./integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].
+Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].
 
 
 
+[[15-june-2026]]
 == 15 de junio de 2026
 
 
 
+[[console-setup-and-administration]]
 === Configuración y administración de la consola
 
 
@@ -165,6 +173,7 @@ La versión 4.7.0 incluye actualizaciones de los siguientes componentes y servic
 |===
 
 
+[[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
 
@@ -183,10 +192,12 @@ Para obtener más información sobre cómo proteger las cargas de trabajo de Kub
 
 
 
+[[11-june-2026]]
 == 11 de junio de 2026
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -199,10 +210,12 @@ Para ver la lista de todas las regiones, consulta https://bluexp.netapp.com/clou
 
 
 
+[[08-june-2026]]
 == 08 de junio de 2026
 
 
 
+[[console-setup-and-administration]]
 === Configuración y administración de la consola
 
 
@@ -221,6 +234,7 @@ Esta versión incluye mejoras de seguridad y correcciones de errores.
 
 
 
+[[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
 
@@ -258,6 +272,7 @@ Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, cons
 
 
 
+[[data-classification]]
 === Clasificación de datos
 
 
@@ -268,6 +283,7 @@ Esta versión de Data Classification incluye mejoras de seguridad y mejoras en e
 
 
 
+[[disaster-recovery]]
 === Recuperación ante desastres
 
 
@@ -330,6 +346,7 @@ Para obtener más información sobre las conmutaciones por error, consulta link:
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -354,6 +371,7 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -372,10 +390,12 @@ Para más información, consulta https://docs.netapp.com/us-en/cloud-volumes-ont
 
 
 
+[[03-june-2026]]
 == 03 de junio de 2026
 
 
 
+[[lifecycle-planning]]
 === Planificación del ciclo de vida
 
 
@@ -391,6 +411,7 @@ Las siguientes funciones de planificación del ciclo de vida tienen cambios de n
 
 
 
+[[digital-advisor]]
 === Asesor digital
 
 
@@ -406,10 +427,12 @@ Las siguientes funciones de Digital Advisor han cambiado de nombre:
 
 
 
+[[26-may-2026]]
 == 26 de mayo de 2026
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -422,10 +445,12 @@ Para más información, consulta link:https://docs.netapp.com/us-en/data-service
 
 
 
+[[25-may-2026]]
 == 25 de mayo de 2026
 
 
 
+[[keystone]]
 === Keystone
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:
@@ -434,14 +459,16 @@ Nuevas mejoras en el panel de Keystone en la NetApp Console:
 
 ==== Mejora de la visualización de varias actualizaciones en el mismo día en la cronología de suscripción
 
-El gráfico cronológico de suscripciones ahora muestra un número cuando se producen varias actualizaciones de suscripciones de distintos tipos en el mismo día, en lugar de iconos separados. Pasa el ratón por encima del número para ver todos los tipos de actualización de ese día. El informe descargado incluye una fila separada para cada actualización, dándote un registro completo de todos los cambios. Para saber más, consulta link:./integrations/subscription-timeline.html["Ver la cronología de tus suscripciones a Keystone"].
+El gráfico cronológico de suscripciones ahora muestra un número cuando se producen varias actualizaciones de suscripciones de distintos tipos en el mismo día, en lugar de iconos separados. Pasa el ratón por encima del número para ver todos los tipos de actualización de ese día. El informe descargado incluye una fila separada para cada actualización, dándote un registro completo de todos los cambios. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Ver la cronología de tus suscripciones a Keystone"].
 
 
 
+[[18-may-2026]]
 == 18 de mayo de 2026
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -464,6 +491,7 @@ Para saber más sobre informes, consulta link:https://docs.netapp.com/us-en/data
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -479,6 +507,7 @@ Ahora puedes usar Quick create para implementar Cloud Volumes ONTAP en Azure tan
 
 
 
+[[digital-advisor]]
 === Asesor digital
 
 
@@ -489,10 +518,12 @@ A partir de julio de 2026, la función Wellness Review dejará de estar disponib
 
 
 
+[[12-may-2026]]
 == 12 de mayo de 2026
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -541,10 +572,12 @@ NOTE: No se duplica la medición cuando usas varios tipos de suscripción o migr
 
 
 
+[[11-may-2026]]
 == 11 de mayo de 2026
 
 
 
+[[console-setup-and-administration]]
 === Configuración y administración de la consola
 
 
@@ -566,6 +599,7 @@ Por defecto, Digital Advisor muestra todas las cuentas de NetApp asociadas a tu 
 
 
 
+[[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
 
@@ -629,6 +663,7 @@ Para obtener más información sobre cómo proteger las cargas de trabajo de Kub
 
 
 
+[[data-classification]]
 === Clasificación de datos
 
 
@@ -661,6 +696,7 @@ Para más información, consulta link:https://docs.netapp.com/us-en/data-service
 
 
 
+[[disaster-recovery]]
 === Recuperación ante desastres
 
 
@@ -680,6 +716,7 @@ La compatibilidad con cargas de trabajo basadas en Kubernetes se encuentra actua
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -716,10 +753,12 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[05-may-2026]]
 == 05 de mayo de 2026
 
 
 
+[[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
 
@@ -739,10 +778,12 @@ Para obtener más información sobre cómo proteger las cargas de trabajo de Kub
 
 
 
+[[27-april-2026]]
 == 27 abril 2026
 
 
 
+[[keystone]]
 === Keystone
 
 Nuevas mejoras en el panel de Keystone en la NetApp Console:
@@ -757,14 +798,16 @@ La etiqueta *Capacidad provisionada* pasa a llamarse *Capacidad de volumen provi
 
 ==== Alternar previsión para ráfaga acumulada
 
-Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta link:./integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
+Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
 
 
 
+[[20-april-2026]]
 == 20 abril 2026
 
 
 
+[[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
 
@@ -779,10 +822,12 @@ Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, cons
 
 
 
+[[13-april-2026]]
 == 13 abril 2026
 
 
 
+[[console-setup-and-administration]]
 === Configuración y administración de la consola
 
 
@@ -801,6 +846,7 @@ Si desplegaste un agente de Consola en vCenter usando un OVA, ahora puedes actua
 
 
 
+[[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
 
@@ -870,6 +916,7 @@ Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, cons
 
 
 
+[[data-classification]]
 === Clasificación de datos
 
 
@@ -880,6 +927,7 @@ Esta versión de Data Classification incluye correcciones de errores, mejoras de
 
 
 
+[[cloud-tiering]]
 === Nivelación de la nube
 
 
@@ -898,6 +946,7 @@ NetApp recomienda a los clientes que trabajen con su representante de NetApp par
 
 
 
+[[disaster-recovery]]
 === Recuperación ante desastres
 
 
@@ -916,6 +965,7 @@ Para más información sobre el soporte para GCVE, conoce link:https://docs.neta
 
 
 
+[[ransomware-resilience]]
 === Resiliencia frente al ransomware
 
 
@@ -946,6 +996,7 @@ Replicación :leveloffset: +1
 
 
 
+[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
 === Gestión de la replicación de las relaciones existentes con FSx para ONTAP
 
 La gestión de relaciones de replicación para FSx para sistemas de archivos ONTAP como origen o destino ahora está en NetApp Workload Factory.
@@ -954,6 +1005,7 @@ link:https://docs.netapp.com/us-en/data-services-replication/task-managing-repli
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 

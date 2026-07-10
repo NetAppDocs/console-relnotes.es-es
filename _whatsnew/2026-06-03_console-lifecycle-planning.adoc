@@ -4,6 +4,7 @@
 
 
 
+[[lifecycle-planning-feature-name-updates]]
 === Actualización de los nombres de las funciones de planificación del ciclo de vida
 
 Las siguientes funciones de planificación del ciclo de vida tienen cambios de nombre:
