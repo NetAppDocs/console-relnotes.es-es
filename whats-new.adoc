@@ -1005,23 +1005,3 @@ La etiqueta *Capacidad provisionada* pasa a llamarse *Capacidad de volumen provi
 ==== Alternar previsión para ráfaga acumulada
 
 Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Ver datos de previsión"].
-
-
-
-[[20-april-2026]]
-== 20 abril 2026
-
-
-
-[[backup-and-recovery]]
-=== Copia de seguridad y recuperación
-
-
-
-==== Mejoras en las cargas de trabajo de VMware
-
-En esta versión, VMware workloads introduce la siguiente mejora:
-
-*Compatibilidad con ASA r2 SAN*: Las cargas de trabajo de VMware ahora admiten la protección de máquinas virtuales en almacenes de datos VMFS alojados en entornos NetApp ASA r2 solo SAN.
-
-Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Descripción general de la protección de cargas de trabajo de VMware"].
