@@ -1,0 +1,8 @@
+= Panel bien diseñado
+:allow-uri-read: 
+
+
+
+
+[[well-architected-dashboard]]
+=== Panel bien diseñado
