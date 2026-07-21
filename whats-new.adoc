@@ -146,6 +146,19 @@ La carga de trabajo GenAI se ha eliminado de Cargas de trabajo en la NetApp Cons
 
 
 
+[[digital-advisor]]
+=== Asesor digital
+
+
+
+==== Aviso de obsolescencia de Wellness Review
+
+La función Wellness Review ha quedado obsoleta y ya no está disponible en Digital Advisor desde julio de 2026.
+
+Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].
+
+
+
 [[14-july-2026]]
 == 14 de julio de 2026
 

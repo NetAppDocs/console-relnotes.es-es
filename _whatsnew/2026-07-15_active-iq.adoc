@@ -1,0 +1,12 @@
+= Aviso de obsolescencia de Wellness Review
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== Aviso de obsolescencia de Wellness Review
+
+La función Wellness Review ha quedado obsoleta y ya no está disponible en Digital Advisor desde julio de 2026.
+
+Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].
