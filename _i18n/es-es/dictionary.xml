@@ -520,4 +520,10 @@
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">La función Wellness Review ha quedado obsoleta y ya no está disponible en Digital Advisor desde julio de 2026.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
+  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">Configura SIEM mediante webhooks</block>
+  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience ya permite configurar un sistema de gestión de información y eventos de seguridad (SIEM) mediante webhooks en la interfaz de usuario de Ransomware Resilience. Con webhooks, puedes usar tu sistema SIEM preferido para organizar tu monitoreo de ransomware.</block>
+  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">Configura un sistema SIEM</block>
+  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Para más información, consulta <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
+  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">Alertas por correo electrónico para respuestas automáticas a eventos de actividad de usuarios</block>
+  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilience ahora envía notificaciones por correo electrónico cuando se activan respuestas automáticas por eventos de actividad de usuario, mejorando la claridad y la visibilidad de Ransomware Resilience y de las actividades de ransomware.</block>
 </blocks>
