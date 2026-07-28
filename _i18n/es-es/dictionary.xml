@@ -135,7 +135,6 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Para más información, consulta <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">En esta versión, VMware workloads introduce las siguientes mejoras:</block>
-  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">Ver datos de previsión</block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">En esta versión, las cargas de trabajo de ONTAP Volumes introducen la siguiente mejora:</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Descripción general de la protección de cargas de trabajo de ONTAP Volumes</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Para obtener más información sobre la protección de las cargas de trabajo de ONTAP Volumes, consulta<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
@@ -147,10 +146,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Recupera cargas de trabajo con una restauración limpia</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Conecta NetApp Ransomware Resilience a un SIEM</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">En esta versión, VMware workloads introduce la siguiente mejora:</block>
-  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Etiqueta de capacidad provisionada renombrada</block>
-  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">La etiqueta *Capacidad provisionada* pasa a llamarse *Capacidad de volumen provisionada*. La etiqueta actualizada también se refleja en los informes CSV y Excel relacionados.</block>
-  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Alternar previsión para ráfaga acumulada</block>
-  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 abril 2026</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Mejoras generales</block>
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">Implementa Data Classification con OVA</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification ahora admite la implementación con VMware Open Virtual Appliance (OVA), lo que ofrece una estrategia de implementación simplificada para entornos VMware vSphere locales.</block>
@@ -398,7 +393,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">La función «Tech Refresh» ahora se llama *System Refresh*. Descubre cómo<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">La función «Aumentar capacidad» ahora se llama *Ampliación de almacenamiento*. Descubre cómo<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">La función «Renovaciones» ahora se llama *Renovaciones de soporte*. Descubre cómo<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
-  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">Ahora puedes usar el conmutador *Previsión* en la vista *Ráfaga acumulada* de la pestaña *Tendencia de consumo* para proyectar el uso de la ráfaga acumulada para los próximos 120 días a partir de la fecha actual. Para obtener más información, consulta<block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>.</block>
   <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">El gráfico cronológico de suscripciones ahora muestra un número cuando se producen varias actualizaciones de suscripciones de distintos tipos en el mismo día, en lugar de iconos separados. Pasa el ratón por encima del número para ver todos los tipos de actualización de ese día. El informe descargado incluye una fila separada para cada actualización, dándote un registro completo de todos los cambios. Para obtener más información, consulta<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para obtener más información, consulta<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para saber más sobre ARP, consulta<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>.</block>
@@ -538,4 +532,18 @@
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS)</block>
   <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">Para consultar la lista de todas las regiones compatibles, visita<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23 de julio de 2026</block>
+  <block id="752cfb7f100699ed10b934470fc8824c" category="doc">Estandariza los grupos de protección según la carga de trabajo y el tipo de sistema</block>
+  <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">La función Ransomware Resilience ahora exige que los grupos de protección incluyan únicamente un tipo de carga de trabajo y un tipo de sistema. Cuando creas un nuevo grupo de protección, debes especificar tanto el tipo de carga de trabajo (file system o block) como el sistema para la carga de trabajo. Esta mejora asegura que la estrategia de protección frente al ransomware elegida para el grupo de protección se pueda aplicar correctamente a todas las cargas de trabajo del grupo.</block>
+  <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">Si ya tienes grupos de protección en los que se mezclan tipos de sistema y de cargas de trabajo, puedes seguir utilizándolos, pero no puedes añadir cargas de trabajo al grupo de protección.</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">Crear un grupo de protección</block>
+  <block id="9cc8304f699313927313d2034fff7636" category="paragraph">Para obtener más información, consulta <block ref="6971a647ce964528556f81913b109378" category="inline-link-macro-rx"></block>.</block>
+  <block id="3813b173292c59d50038bdf05c6b0021" category="section-title">Mejora de los simulacros de preparación</block>
+  <block id="cf649f651dc2f032117c490236422d53" category="paragraph">Ransomware Resilience ahora te permite realizar simulacros de preparación según el tipo de ataque. Ransomware Resilience detecta cinco tipos de ataques, y puedes realizar simulacros de preparación para cada uno de ellos con el fin de simular el proceso de ataque y recuperación para comprender tu preparación ante un ataque de ransomware.</block>
+  <block id="d805ea206a1d58881a7d28213018ae80" category="inline-link-macro">Realiza un simulacro de preparación</block>
+  <block id="400f918ffe7626d9fd96dbfc4fa0f591" category="paragraph">Para obtener más información, consulta <block ref="70ab6610cf4ffc0f4f5683c14443a025" category="inline-link-macro-rx"></block>.</block>
+  <block id="363260f41aed8104ffe114ccda875937" category="section-title">Pausar o eliminar un sistema SIEM</block>
+  <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">Ransomware Resilience incluye ahora opciones en la interfaz de usuario para pausar o eliminar un sistema SIEM. Esta mejora facilita desactivar temporalmente el sistema para la resolución de problemas o el mantenimiento, o eliminarlo por completo.</block>
+  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">Desactivar un sistema SIEM</block>
+  <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Para obtener más información, consulta <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
+  <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27 de julio de 2026</block>
 </blocks>
