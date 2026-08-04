@@ -598,4 +598,14 @@
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Integración de Cloud Volumes ONTAP con Microsoft OneLake - Ficha técnica</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
   <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
+  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Compatibilidad de SAN para Google Cloud NetApp Volumes (versión preliminar)</block>
+  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">Ransomware Resilience ya es compatible con las cargas de trabajo SAN de Google Cloud NetApp Volumes, lo que te permite detectar ataques de ransomware basados en cifrado para cargas de trabajo SAN. La compatibilidad con SAN en Google Cloud NetApp Volumes se encuentra actualmente en vista previa.</block>
+  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">sistemas compatibles</block>
+  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">Almacenamiento SAN en Ransomware Resilience</block>
+  <block id="2f244f2c363848263100f25323c23895" category="paragraph">Para más información, consulta <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> y <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>.</block>
+  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">Interfaz optimizada para el bloqueo de usuarios</block>
+  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">detección de actividad del usuario</block>
+  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilience ofrece ahora una experiencia de usuario simplificada para bloquear usuarios y gestionar los usuarios bloqueados. Con esta actualización, puedes revisar y modificar fácilmente qué usuarios has bloqueado. Debes haber configurado <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> para bloquear usuarios.</block>
+  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">Usuarios bloqueados gestionados</block>
+  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">Para obtener más información, consulta <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>.</block>
 </blocks>
