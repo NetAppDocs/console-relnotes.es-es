@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">La clasificación de datos incluye ahora una pestaña *Escaneos activos* en el menú de configuración, lo que ofrece una experiencia mejorada para gestionar los escaneos. La pestaña *Escaneos activos* ofrece una visión general de todos los volúmenes que has activado para su escaneo, con filtros habituales para ordenar tus recursos. La pestaña también proporciona una ubicación central para priorizar escaneos, pausarlos y revisar errores.</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gestiona escaneos</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Para obtener más información, consulta <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Agente de Console 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">La versión 4.10.0 es compatible tanto con el modo estándar como con el modo restringido.</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">Mejoramos la capacidad de respuesta y la fiabilidad de Cloud Mediator</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">El servicio ahora procesa las actualizaciones del estado del clúster de forma más eficiente, reduciendo los tiempos de espera intermitentes y los tiempos de inactividad, y fortaleciendo la mediación automática de la conmutación por error no planificada para las relaciones SMaS.</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 administración incluye correcciones de seguridad y errores.</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13 de agosto de 2026</block>
 </blocks>
