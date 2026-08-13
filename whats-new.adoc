@@ -73,6 +73,24 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 
 
+[[12-august-2026]]
+== 12 de agosto de 2026
+
+
+
+[[digital-advisor]]
+=== Asesor digital
+
+
+
+==== Aviso de obsolescencia de Config Drift
+
+La función «Config Drift» dejará de estar disponible en Digital Advisor en septiembre de 2026.
+
+Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].
+
+
+
 [[10-august-2026]]
 == 10 de agosto de 2026
 
