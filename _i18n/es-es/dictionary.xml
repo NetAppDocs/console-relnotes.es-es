@@ -568,4 +568,8 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Descubre cómo proteger las cargas de trabajo de Oracle Database con NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Database, consulta<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17 de agosto de 2026</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Compatibilidad de Google Cloud NetApp Volumes en el panel de control well-architected</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">El panel de control de la NetApp Console ahora es compatible con Google Cloud NetApp Volumes. Los administradores de almacenamiento pueden consultar el estado de sus grupos de almacenamiento y configuraciones, obtener recomendaciones para mejorar la eficiencia, el coste, el rendimiento, la fiabilidad y la seguridad, y tomar medidas para optimizar las operaciones y seguir las mejores prácticas.</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Análisis de configuración para Google Cloud NetApp Volumes</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">Más información sobre <block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>.</block>
 </blocks>
