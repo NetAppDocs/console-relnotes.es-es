@@ -141,9 +141,6 @@
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Compatibilidad con Google Cloud NetApp Volumes (vista previa)</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Crear un grupo de protección en Ransomware Resilience</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">26 de mayo de 2026</block>
-  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">Mejora de la visualización de varias actualizaciones en el mismo día en la cronología de suscripción</block>
-  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Ver la cronología de tus suscripciones a Keystone</block>
-  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">25 de mayo de 2026</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience ahora admite la creación de grupos de protección para cargas de trabajo en sistemas Google Cloud NetApp Volumes, lo que te permite organizar varias cargas de trabajo bajo una política para agilizar la gestión.</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">Para más información, consulta <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>.</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Actualización del nombre del widget de Digital Advisor</block>
@@ -280,7 +277,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">La función «Tech Refresh» ahora se llama *System Refresh*. Descubre cómo<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">La función «Aumentar capacidad» ahora se llama *Ampliación de almacenamiento*. Descubre cómo<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">La función «Renovaciones» ahora se llama *Renovaciones de soporte*. Descubre cómo<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
-  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">El gráfico cronológico de suscripciones ahora muestra un número cuando se producen varias actualizaciones de suscripciones de distintos tipos en el mismo día, en lugar de iconos separados. Pasa el ratón por encima del número para ver todos los tipos de actualización de ese día. El informe descargado incluye una fila separada para cada actualización, dándote un registro completo de todos los cambios. Para obtener más información, consulta<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para obtener más información, consulta<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para saber más sobre ARP, consulta<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">Para obtener más información, consulta<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>.</block>
@@ -575,4 +571,10 @@
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Las notificaciones sobre problemas relacionados con el diseño óptimo están disponibles para Cloud Volumes ONTAP en Microsoft Azure desde la página Sistemas de gestión de almacenamiento en la NetApp Console. Esta función te ayuda a identificar rápidamente problemas de configuración en tus sistemas Cloud Volumes ONTAP en Azure y a navegar al panel de control well-architected de Workloads desde la notificación.</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Nombres de configuración actualizados en el panel de control de well-architected</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">El panel bien diseñado en NetApp Console ahora incluye nuevos nombres de configuración de almacenamiento.</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Presentamos Value Insights</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">La función «Value Insights» recopila información general sobre el estado, el ahorro, la estabilidad y la seguridad de los sistemas ONTAP. Puedes usar esta información para mejorar el estado y el rendimiento del sistema gracias a una visión continua y condicionada por los datos de tu entorno ONTAP.</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights solo está disponible para sistemas ONTAP.</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Perspectivas sobre el valor</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">Más información sobre <block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>.</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">20 de agosto de 2026</block>
 </blocks>
