@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">Entrega de eventos SIEM a través del agente de la consola</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience ahora permite enviar eventos SIEM a través del agente de la consola, además de la opción ya existente de enviar eventos a través de NetApp Console.</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Cuando entregas eventos SIEM a través del agente de la Console, puedes mantener la entrega de eventos SIEM dentro de los límites de tu red. Esto simplifica la implementación en entornos locales con listas estrictas de direcciones IP permitidas y puede alinearse mejor con los controles de seguridad existentes. Para usar esta opción, asegúrate de que el agente de la Console pueda resolver y conectarse a tu endpoint SIEM en el puerto requerido a través de cualquier firewall o proxy.</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">Mejor gestión de instantáneas de SnapMirror</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">Ahora puedes activar la conmutación por error utilizando la instantánea más reciente, que es el método recomendado cuando no estás tomando una nueva instantánea.</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">Al seleccionar una línea de base de instantáneas específica, las instantáneas de transferencia de SnapMirror quedan ocultas de forma predeterminada. Esto se debe a que pueden eliminarse durante la conmutación por error, lo que impediría volver a proteger la carga de trabajo tras la conmutación por error debido a un error de "no se ha encontrado ninguna instantánea común". Aun así, puedes usar estas instantáneas, pero tendrás que completar un mensaje de confirmación adicional para reconocer el riesgo.</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">Conmutación por error a un sitio remoto</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">Para obtener más información, consulta <block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">Otras mejoras</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">Se han introducido pequeñas mejoras para aumentar la resiliencia del flujo de trabajo de conmutación por error de las pruebas.</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">Se ha corregido un error de validación al añadir un script.</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">31 de agosto de 2026</block>
 </blocks>
