@@ -138,18 +138,6 @@
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">Integra un playbook SOAR</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">Facturación flexible para Cloud Volumes ONTAP y servicios de datos en AWS</block>
-  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Actualización del nombre del widget de Digital Advisor</block>
-  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">Las siguientes funciones de Digital Advisor han cambiado de nombre:</block>
-  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">evaluar una actualización del sistema</block>
-  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">La función Tech Refresh ahora se llama System Refresh. Aprende cómo <block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block>.</block>
-  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Widgets de Digital Advisor</block>
-  <block id="7b68bc21ce78c08210db229203879260" category="list-text">La función de ampliación de capacidad se llama ahora Storage Expansion. Conoce más sobre <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
-  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">La función Renovaciones se llama ahora Support Renewals. Conoce más sobre <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
-  <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">Actualización de los nombres de las funciones de planificación del ciclo de vida</block>
-  <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">Las siguientes funciones de planificación del ciclo de vida tienen cambios de nombre:</block>
-  <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">ampliar el almacenamiento</block>
-  <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">registrarse para soporte</block>
-  <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">03 de junio de 2026</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Soporte para almacenamiento en la nube compatible con S3*: NetApp Backup and Recovery para cargas de trabajo de Volumes ahora admite la realización de copias de seguridad en almacenamiento en la nube compatible con S3.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Mejoras en la restauración de archivos y carpetas en una máquina virtual invitada*: Ahora puedes restaurar archivos y carpetas de una instantánea en el almacenamiento primario o secundario a una máquina virtual de Windows invitada. Esta función ahora es compatible con VMs CIFS y SAN.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 de junio de 2026</block>
@@ -269,9 +257,6 @@
   <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Agente de Console 4.8.0</block>
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">La versión 4.8.0 es compatible tanto con el modo estándar como con el modo restringido.</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Esta versión incluye mejoras de seguridad y correcciones de errores.</block>
-  <block id="32846264266c0647221942c075bdc06f" category="list-text">La función «Tech Refresh» ahora se llama *System Refresh*. Descubre cómo<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
-  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">La función «Aumentar capacidad» ahora se llama *Ampliación de almacenamiento*. Descubre cómo<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
-  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">La función «Renovaciones» ahora se llama *Renovaciones de soporte*. Descubre cómo<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para obtener más información, consulta<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para saber más sobre ARP, consulta<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">Para obtener más información, consulta<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>.</block>
@@ -589,4 +574,13 @@
   <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">Se han introducido pequeñas mejoras para aumentar la resiliencia del flujo de trabajo de conmutación por error de las pruebas.</block>
   <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">Se ha corregido un error de validación al añadir un script.</block>
   <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">31 de agosto de 2026</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Evaluación de la replicación de datos remota para Cloud Volumes ONTAP</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">Ya está disponible una nueva evaluación para comprobar si los datos de Cloud Volumes ONTAP están protegidos mediante replicación remota. Esto te ayuda a asegurarte de que tu plan de protección de datos siga las mejores prácticas para la recuperación ante desastres y la continuidad del negocio.</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">Infórmate sobre el análisis de configuración de Cloud Volumes ONTAP</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">Descartar todas las configuraciones well-architected</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">Ahora puedes descartar una configuración recomendada completa desde tu panel de control. Esto te da más control sobre qué recomendaciones y evaluaciones aparecen para tu entorno.</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">Recomendaciones sobre la carga de trabajo de bases de datos en el panel de control well-architected</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">Las recomendaciones para las cargas de trabajo de bases de datos que utilizan FSx para ONTAP ya están disponibles en el panel bien arquitectado de NetApp Console. Puedes ver el estado tanto de tus recursos de almacenamiento como de tus cargas de trabajo de bases de datos en un solo lugar, dándote una visión completa de la salud de tu infraestructura.</block>
+  <block id="ba08a463d06739f442d7b83ca5021909" category="section-title">01 de septiembre de 2026</block>
 </blocks>
