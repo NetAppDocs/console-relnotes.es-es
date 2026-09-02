@@ -30,6 +30,29 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[02-september-2026]]
+== 02 de septiembre de 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Compatibilidad de Cloud Volumes ONTAP en las regiones Secret y Top Secret de Azure (versión preliminar privada)
+
+Cloud Volumes ONTAP ya admite la implementación en las regiones «Secret» y «Top Secret» de Azure Government en versión preliminar privada. Esta funcionalidad amplía Cloud Volumes ONTAP a los entornos clasificados de Azure de Microsoft, lo que permite a los clientes del sector público y de defensa utilizar ONTAP para la gestión, protección y recuperación ante desastres de datos, con el fin de dar soporte a las cargas de trabajo relacionadas con la seguridad nacional. Ponte en contacto con tu equipo de cuentas de NetApp para participar.
+
+Para obtener más información, consulta la documentación de Azure:
+
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["Nube para misiones del gobierno de EE. UU.^"]
+* https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure Government Secret"^]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
+
+
+
+
 [[01-september-2026]]
 == 01 de septiembre de 2026
 
