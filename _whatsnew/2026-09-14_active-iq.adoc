@@ -1,0 +1,12 @@
+= Aviso de obsolescencia de la máquina virtual
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== Aviso de obsolescencia de la máquina virtual
+
+La función «Máquina virtual» dejará de estar disponible en Digital Advisor en octubre de 2026.
+
+Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].
