@@ -30,6 +30,22 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[16-september-2026]]
+== 16 de septiembre de 2026
+
+
+
+[[data-classification]]
+=== Clasificación de datos
+
+
+
+==== Mejoras generales
+
+Esta versión de Data Classification incluye mejoras de seguridad y mejoras en el rendimiento.
+
+
+
 [[14-september-2026]]
 == 14 de septiembre de 2026
 
