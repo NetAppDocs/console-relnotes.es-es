@@ -194,8 +194,6 @@
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13 de julio de 2026</block>
   <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Plantilla ARM para Microsoft Sentinel</block>
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience ahora ofrece una plantilla de Azure Resource Manager (ARM) para conectarse a Microsoft Sentinel como SIEM, ofreciendo un método secundario para facilitar la implementación.</block>
-  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">Conéctate a un SIEM para la detección y el análisis de amenazas</block>
-  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">Para más información, consulta <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">Más información sobre esta versión de Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Compatibilidad con las máquinas virtuales de Google Cloud de última generación en Cloud Volumes ONTAP HA</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">Con la versión 9.19.1, NetApp traslada las implementaciones de alta disponibilidad (HA) de Cloud Volumes ONTAP de las máquinas virtuales N2 a las máquinas virtuales de la serie C3 de Google Cloud de última generación para ofrecer una experiencia más rápida y escalable.</block>
@@ -591,4 +589,8 @@
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Esta versión incluye Trident Protect 26.09.</block>
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*Control de acceso basado en roles con granularidad a nivel de clúster y de espacio de nombres*: durante la detección de clústeres de Kubernetes, puedes controlar el acceso a los recursos seleccionando un proyecto o una carpeta para asociarlos al nuevo clúster. También puedes registrar espacios de nombres específicos para el control de acceso. Esto permite un control de acceso más granular, tanto a nivel de clúster como de espacio de nombres.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restaurar archivos y carpetas*: Ahora puedes restaurar o descargar archivos y carpetas concretos a partir de las copias de seguridad de aplicaciones basadas en máquinas virtuales de Kubernetes.</block>
+  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Configura Microsoft Sentinel SIEM en Ransomware Resilience</block>
+  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Para obtener más información, consulta <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
+  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configura un sistema SIEM con webhooks</block>
+  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Para obtener más información, consulta <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
 </blocks>
