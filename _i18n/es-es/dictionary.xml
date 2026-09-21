@@ -588,4 +588,7 @@
   <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">Gestiona licencias por nodo para Cloud Volumes ONTAP</block>
   <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 de septiembre de 2026</block>
+  <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Esta versión incluye Trident Protect 26.09.</block>
+  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*Control de acceso basado en roles con granularidad a nivel de clúster y de espacio de nombres*: durante la detección de clústeres de Kubernetes, puedes controlar el acceso a los recursos seleccionando un proyecto o una carpeta para asociarlos al nuevo clúster. También puedes registrar espacios de nombres específicos para el control de acceso. Esto permite un control de acceso más granular, tanto a nivel de clúster como de espacio de nombres.</block>
+  <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restaurar archivos y carpetas*: Ahora puedes restaurar o descargar archivos y carpetas concretos a partir de las copias de seguridad de aplicaciones basadas en máquinas virtuales de Kubernetes.</block>
 </blocks>
