@@ -139,15 +139,15 @@ Si eres un nuevo suscriptor de link:https://us-east-1.console.aws.amazon.com/mar
 
 
 
-==== Mejoras generales de NetApp Backup and Recovery
+==== Mejora general de NetApp Backup and Recovery
 
 En esta versión, las cargas de trabajo de KVM, Hyper-V y VMware incorporan la siguiente mejora:
 
-*Selección de credenciales durante la detección de hosts de máquinas virtuales*: Al registrar un host KVM, Hyper-V o VMware, ahora puedes utilizar las credenciales que ya hayas añadido a Backup and Recovery.
+*Selección de credenciales durante la detección de hosts de máquinas virtuales*: Cuando detectas un host KVM, Hyper-V o VMware, ahora puedes usar las credenciales que ya agregaste a Backup and Recovery.
 
 
 
-==== Mejoras en las cargas de trabajo de Hyper-V
+==== Mejora de las cargas de trabajo de Hyper-V
 
 En esta versión, las cargas de trabajo de Hyper-V incorporan la siguiente mejora:
 
@@ -662,7 +662,7 @@ Para obtener más información sobre cómo proteger las cargas de trabajo de Kub
 
 En esta versión, las cargas de trabajo de ONTAP Volumes incorporan las siguientes mejoras:
 
-* *Dar prioridad a las tareas de restauración frente a las de copia de seguridad*: Ahora puedes dar prioridad a las tareas de restauración frente a las de copia de seguridad al restaurar máquinas virtuales o archivos.
+* *Dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad*: ahora puedes dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad al restaurar volúmenes, archivos o carpetas.
 * *Detectar sistemas y volúmenes ONTAP sin activar Backup and Recovery*: Ahora puedes detectar sistemas y volúmenes sin activar Backup and Recovery.
 
 

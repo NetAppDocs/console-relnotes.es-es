@@ -406,7 +406,6 @@
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Compatibilidad con la eliminación de varias copias de seguridad*: Ahora puedes eliminar varias copias de seguridad a la vez.</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Compatibilidad en versión preliminar con recursos aislados físicamente*: Si ejecutas NetApp Backup and Recovery en una implementación local de NetApp Console, puedes descubrir, proteger y restaurar recursos de Kubernetes aislados físicamente. Esta función está en versión preliminar para este lanzamiento.</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">En esta versión, las cargas de trabajo de ONTAP Volumes incorporan las siguientes mejoras:</block>
-  <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*Dar prioridad a las tareas de restauración frente a las de copia de seguridad*: Ahora puedes dar prioridad a las tareas de restauración frente a las de copia de seguridad al restaurar máquinas virtuales o archivos.</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Detectar sistemas y volúmenes ONTAP sin activar Backup and Recovery*: Ahora puedes detectar sistemas y volúmenes sin activar Backup and Recovery.</block>
   <block id="a03ddc03cf03c3c53151794c95579535" category="doc">Pestaña «Escaneos activos» para mejorar la gestión de los escaneos</block>
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">La clasificación de datos incluye ahora una pestaña *Escaneos activos* en el menú de configuración, lo que ofrece una experiencia mejorada para gestionar los escaneos. La pestaña *Escaneos activos* ofrece una visión general de todos los volúmenes que has activado para su escaneo, con filtros habituales para ordenar tus recursos. La pestaña también proporciona una ubicación central para priorizar escaneos, pausarlos y revisar errores.</block>
@@ -506,7 +505,6 @@
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Esta versión de Data Classification incluye mejoras de seguridad y mejoras en el rendimiento.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16 de septiembre de 2026</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">En esta versión, las cargas de trabajo de KVM, Hyper-V y VMware incorporan la siguiente mejora:</block>
-  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*Selección de credenciales durante la detección de hosts de máquinas virtuales*: Al registrar un host KVM, Hyper-V o VMware, ahora puedes utilizar las credenciales que ya hayas añadido a Backup and Recovery.</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*Protección de discos distribuidos para máquinas virtuales*: En las configuraciones CIFS, NetApp Backup and Recovery ahora permite proteger todos los discos conectados a cada máquina virtual de un grupo de protección. Esto incluye tanto los archivos distribuidos en varios volúmenes ONTAP o sistemas de almacenamiento ONTAP (discos distribuidos) como los archivos que se encuentran en una única ubicación.</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">Mejora del rendimiento de las cargas de trabajo de los volúmenes ONTAP</block>
   <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">En esta versión, las cargas de trabajo de ONTAP Volumes incorporan la siguiente mejora en fase de prueba:</block>
@@ -593,4 +591,8 @@
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Para obtener más información, consulta <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configura un sistema SIEM con webhooks</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Para obtener más información, consulta <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
+  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*Dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad*: ahora puedes dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad al restaurar volúmenes, archivos o carpetas.</block>
+  <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Mejora general de NetApp Backup and Recovery</block>
+  <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Selección de credenciales durante la detección de hosts de máquinas virtuales*: Cuando detectas un host KVM, Hyper-V o VMware, ahora puedes usar las credenciales que ya agregaste a Backup and Recovery.</block>
+  <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Mejora de las cargas de trabajo de Hyper-V</block>
 </blocks>
