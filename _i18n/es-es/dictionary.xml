@@ -595,4 +595,10 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Mejora general de NetApp Backup and Recovery</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Selección de credenciales durante la detección de hosts de máquinas virtuales*: Cuando detectas un host KVM, Hyper-V o VMware, ahora puedes usar las credenciales que ya agregaste a Backup and Recovery.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Mejora de las cargas de trabajo de Hyper-V</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Actualización del contenido del panel de control Value Insights</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Se ha publicado una actualización de la documentación del panel de control Value Insights.</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">cómo usar el panel de Value Insights en Digital Advisor</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">Más información sobre <block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>.</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">La función «Config Drift» ha quedado obsoleta y ya no está disponible en Digital Advisor desde septiembre de 2026.</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">25 de septiembre de 2026</block>
 </blocks>

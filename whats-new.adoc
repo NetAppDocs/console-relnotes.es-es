@@ -30,6 +30,32 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[25-september-2026]]
+== 25 de septiembre de 2026
+
+
+
+[[digital-advisor]]
+=== Asesor digital
+
+
+
+==== Actualización del contenido del panel de control Value Insights
+
+Se ha publicado una actualización de la documentación del panel de control Value Insights.
+
+Más información sobre link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["cómo usar el panel de Value Insights en Digital Advisor"^].
+
+
+
+==== Aviso de obsolescencia de Config Drift
+
+La función «Config Drift» ha quedado obsoleta y ya no está disponible en Digital Advisor desde septiembre de 2026.
+
+Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].
+
+
+
 [[21-september-2026]]
 == 21 de septiembre de 2026
 

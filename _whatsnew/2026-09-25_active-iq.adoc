@@ -1,0 +1,21 @@
+= Actualización del contenido del panel de control Value Insights
+:allow-uri-read: 
+
+
+
+
+[[content-update-for-the-value-insights-dashboard]]
+=== Actualización del contenido del panel de control Value Insights
+
+Se ha publicado una actualización de la documentación del panel de control Value Insights.
+
+Más información sobre link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["cómo usar el panel de Value Insights en Digital Advisor"^].
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Aviso de obsolescencia de Config Drift
+
+La función «Config Drift» ha quedado obsoleta y ya no está disponible en Digital Advisor desde septiembre de 2026.
+
+Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].
