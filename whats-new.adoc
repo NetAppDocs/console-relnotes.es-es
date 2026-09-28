@@ -30,6 +30,36 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[28-september-2026]]
+== 28 de septiembre de 2026
+
+
+
+[[backup-and-recovery]]
+=== Copia de seguridad y recuperación
+
+
+
+==== Mejora general de NetApp Backup and Recovery
+
+En esta versión, las cargas de trabajo de KVM, Hyper-V y VMware incorporan la siguiente mejora:
+
+*Compatibilidad con el control de acceso basado en roles (RBAC) de Console*: las cargas de trabajo de Hyper-V, KVM y VMware ahora admiten el framework Console de NetApp para RBAC, lo que te permite gestionar el acceso a hosts individuales de Hyper-V, KVM o VMware.
+
+https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["Más información sobre el uso de RBAC en NetApp Backup and Recovery"].
+
+
+
+==== Mejoras en las cargas de trabajo de VMware
+
+En esta versión, VMware workloads introduce la siguiente mejora:
+
+*Soporte para Flex Unified de Google Cloud NetApp Volumes*: NetApp Backup and Recovery para cargas de trabajo de VMware ahora admite el nivel de servicio Flex Unified para Google Cloud NetApp Volumes. Flex Unified solo se admite en el modo ONTAP.
+
+Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Protege las cargas de trabajo de VMware con NetApp Backup and Recovery"].
+
+
+
 [[25-september-2026]]
 == 25 de septiembre de 2026
 
@@ -66,12 +96,22 @@ Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activei
 
 
 
+==== Mejora del rendimiento de las cargas de trabajo de los volúmenes ONTAP
+
+En esta versión, las cargas de trabajo de ONTAP Volumes incorporan la siguiente mejora en fase de prueba:
+
+*Compatibilidad mejorada para dark sites*: NetApp Backup and Recovery para dark sites ahora ofrece las mismas capacidades de protección de datos de ONTAP Volumes que NetApp Backup and Recovery. Esta mejora incluye servicios actualizados de copia de seguridad, restauración y gestión de trabajos, así como una nueva base de datos de metadatos. Durante una actualización, los datos existentes de la base de datos se conservan y se migran automáticamente. Después de la actualización, revisa los registros de auditoría para verificar que la migración se completó correctamente. NetApp Backup and Recovery para dark sites solo admite cargas de trabajo de ONTAP Volumes.
+
+Para obtener más información sobre la protección de las cargas de trabajo de ONTAP Volumes, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Descubre la protección de volúmenes de ONTAP con NetApp Backup and Recovery"].
+
+
+
 ==== Mejoras en cargas de trabajo de Kubernetes
 
 En esta versión, las cargas de trabajo de Kubernetes introducen las siguientes mejoras:
 
 * *Trident Protect 26.09*: Esta versión incluye Trident Protect 26.09.
-* *Control de acceso basado en roles con granularidad a nivel de clúster y de espacio de nombres*: durante la detección de clústeres de Kubernetes, puedes controlar el acceso a los recursos seleccionando un proyecto o una carpeta para asociarlos al nuevo clúster. También puedes registrar espacios de nombres específicos para el control de acceso. Esto permite un control de acceso más granular, tanto a nivel de clúster como de espacio de nombres.
+* *Control de acceso basado en roles (RBAC) con granularidad a nivel de clúster y de espacio de nombres*: durante la detección de clústeres de Kubernetes, puedes controlar el acceso a los recursos seleccionando un proyecto o una carpeta para asociarlos con el nuevo clúster. También puedes registrar espacios de nombres específicos para el control de acceso. Esto permite un control de acceso más granular tanto a nivel de clúster como de espacio de nombres.
 * *Restaurar archivos y carpetas*: Ahora puedes restaurar o descargar archivos y carpetas concretos a partir de las copias de seguridad de aplicaciones basadas en máquinas virtuales de Kubernetes.
 
 
@@ -1232,97 +1272,3 @@ Para más información, consulta link:https://docs.netapp.com/us-en/data-service
 Ransomware Resilience ahora ofrece una plantilla de Azure Resource Manager (ARM) para conectarse a Microsoft Sentinel como SIEM, ofreciendo un método secundario para facilitar la implementación.
 
 Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["Configura Microsoft Sentinel SIEM en Ransomware Resilience"^].
-
-
-
-[[29-june-2026]]
-== 29 de junio de 2026
-
-
-
-[[ransomware-resilience]]
-=== Resiliencia frente al ransomware
-
-
-
-==== Respuestas automáticas a las alertas de actividad de los usuarios
-
-Ransomware Resilience ahora admite respuestas automatizadas a eventos de actividad de usuario. Puedes bloquear automáticamente a los usuarios y crear una instantánea cuando se genera una alerta de actividad de usuario. Estas acciones permiten una respuesta más rápida sin intervención manual.
-
-Para más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["Automatiza las respuestas a las alertas sobre la actividad de los usuarios"^].
-
-
-
-[[digital-advisor]]
-=== Asesor digital
-
-
-
-==== Revisión del estado de GraphQL: migración y mejoras en la precisión de los datos
-
-El módulo «Health Check» se ha mejorado con una mayor precisión de los datos y recomendaciones de versiones alineadas con los estándares de vigencia. Como parte de esta versión, se ha migrado de la Public API a GraphQL, lo que ofrece un mejor rendimiento, consultas flexibles y soporte a largo plazo.
-
-
-
-===== Software recomendado
-
-Las mejoras recomendadas de software en el módulo Health Check ahora proporcionan datos más precisos y coherentes.
-
-* Los recuentos de estantes y unidades que aparecen en la sección de firmware muestran los valores exactos por sistema y ya no incluyen los recuentos de HA Pair.
-* Las recomendaciones sobre la versión mínima y la más reciente ahora se calculan a nivel de clúster en función de la versión efectiva del clúster, en línea con los estándares de actualización; antes, estas recomendaciones se calculaban a nivel de nodo.
-
-
-
-
-===== AutoSupport dependencia de datos
-
-Debido a mejoras en el backend, las vistas de adopción y de software recomendado de AutoSupport se basan en los datos más recientes de AutoSupport. Esto podría afectar tu vista actual de las siguientes maneras:
-
-[cols="30,70"]
-|===
-| Escenario | Sistemas afectados 
-
-
-| No se muestran datos | Sistemas que no han enviado un AutoSupport desde octubre de 2025 
-
-
-| Valores obsoletos | Sistemas que no han enviado un AutoSupport en los últimos 30 días 
-|===
-Vuelve a ejecutar AutoSupport en los sistemas afectados que se indican más arriba para restaurar los datos actuales en las vistas de Health Check.
-
-
-
-[[keystone]]
-=== Keystone
-
-Nuevas mejoras en el panel de Keystone en la NetApp Console:
-
-
-
-==== Ver la distribución de licencias de ADP para las suscripciones de MetroCluster
-
-Ya está disponible una nueva subpestaña *Distribución de licencias* en la pestaña *Protección avanzada de datos (ADP)*, que te da visibilidad sobre el uso de licencias de ADP en todos tus clústeres asociados de MetroCluster. Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Consulta el consumo y la salud de tus suscripciones Keystone MetroCluster"].
-
-
-
-==== Ver el estado de la protección contra ransomware de tus volúmenes
-
-La pestaña *Volúmenes en clústeres* de *Activos* ahora incluye una columna *Estado de ARP* que muestra si la Protección Autónoma contra Ransomware (ARP) está activada o desactivada para cada volumen, dándote visibilidad sobre tu postura de protección contra ransomware en todos los activos gestionados. Para saber más sobre ARP, consulta https://docs.netapp.com/us-en/ontap/anti-ransomware/["Protección autónoma contra el ransomware (ARP) en ONTAP"^].
-
-
-
-==== Envía tus comentarios a través de la pestaña Feedback
-
-Ahora puedes enviar tus comentarios desde cualquier pantalla del panel de control de Keystone utilizando la nueva pestaña *Comentarios*, situada en la esquina inferior derecha de la pantalla. Al hacer clic en ella, se abre un panel en el que puedes compartir tu experiencia y enviar comentarios directamente a NetApp.
-
-
-
-==== Mejora las alertas sobre el uso de la capacidad y la caducidad de las suscripciones
-
-Los monitores generados por el sistema ahora ofrecen alertas más granulares sobre el uso de la capacidad y la expiración de la suscripción.
-
-Para el vencimiento de la suscripción, ahora las alertas se activan en cinco umbrales: 180, 90, 60, 30 y 7 días antes del vencimiento, con la gravedad aumentando de informativa a crítica a medida que se acerca la fecha.
-
-Para el uso de la capacidad, el umbral de alerta de picos ahora se basa en el porcentaje de picos comprometido de tu suscripción en lugar de un 20% fijo. Por ejemplo, si tu pico comprometido es del 40%, la alerta crítica se activa al 140% del uso de la capacidad comprometida.
-
-Para obtener más información, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Ver y crear monitores de alertas para suscripciones de Keystone"].
