@@ -262,7 +262,6 @@
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Clúster de un solo nodo</block>
   <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">HA en una única zona de disponibilidad usando almacenamiento con redundancia local (LRS)</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS)</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">Para consultar la lista de todas las regiones compatibles, visita<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23 de julio de 2026</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">Estandariza los grupos de protección según la carga de trabajo y el tipo de sistema</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">La función Ransomware Resilience ahora exige que los grupos de protección incluyan únicamente un tipo de carga de trabajo y un tipo de sistema. Cuando creas un nuevo grupo de protección, debes especificar tanto el tipo de carga de trabajo (file system o block) como el sistema para la carga de trabajo. Esta mejora asegura que la estrategia de protección frente al ransomware elegida para el grupo de protección se pueda aplicar correctamente a todas las cargas de trabajo del grupo.</block>
@@ -460,8 +459,6 @@
   <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Compatibilidad de Cloud Volumes ONTAP en las regiones Secret y Top Secret de Azure (versión preliminar privada)</block>
   <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP ya admite la implementación en las regiones «Secret» y «Top Secret» de Azure Government en versión preliminar privada. Esta funcionalidad amplía Cloud Volumes ONTAP a los entornos clasificados de Azure de Microsoft, lo que permite a los clientes del sector público y de defensa utilizar ONTAP para la gestión, protección y recuperación ante desastres de datos, con el fin de dar soporte a las cargas de trabajo relacionadas con la seguridad nacional. Ponte en contacto con tu equipo de cuentas de NetApp para participar.</block>
   <block id="9a4d5529d16b869118217275b6da762d" category="paragraph">Para obtener más información, consulta la documentación de Azure:</block>
-  <block id="d6cb1d3533b658f7c8098c480b799207" category="inline-link">Nube para misiones del gobierno de EE. UU.^</block>
-  <block id="77063c44fc617a6f3c637b1e2c35bd37" category="list-text"><block ref="77063c44fc617a6f3c637b1e2c35bd37" category="inline-link-rx"></block></block>
   <block id="985c02ef44894c5b9eb81c7ef41befb6" category="inline-link">Azure Government Secret</block>
   <block id="97003784d2f5493688983ca3efa74e68" category="list-text"><block ref="97003784d2f5493688983ca3efa74e68" category="inline-link-rx"></block></block>
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
@@ -581,4 +578,7 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">La versión 4.10.0 del modo privado es compatible con Red Hat Enterprise Linux (RHEL) 9.6</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">Infórmate sobre los requisitos del host para el modo privado</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">Ahora puedes instalar y ejecutar el modo privado en Red Hat Enterprise Linux (RHEL) 9.6, lo que te ofrece el sistema operativo compatible más reciente para disfrutar de mayor seguridad y mejor rendimiento. <block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Para consultar la lista de todas las regiones compatibles, visita<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
+  <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">La nube para las misiones del Gobierno de EE. UU.</block>
+  <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
 </blocks>
