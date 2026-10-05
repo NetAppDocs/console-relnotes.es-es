@@ -1296,29 +1296,3 @@ Se ha eliminado la posibilidad de ver la pestaña Upgrade System del rol Disaste
 ==== Mejoras del rendimiento del sistema
 
 Recuperación ante desastres ha introducido cambios para reducir el consumo de recursos del sistema y mejorar el rendimiento en todas las operaciones.
-
-
-
-[[07-july-2026]]
-== 07 de julio de 2026
-
-
-
-[[ransomware-resilience]]
-=== Resiliencia frente al ransomware
-
-
-
-==== Excluir rutas de archivos de las alertas de comportamiento de los usuarios
-
-NetApp Ransomware Resilience permite excluir rutas de archivos específicas de las alertas de supervisión del comportamiento de los usuarios. Puedes excluir rutas de archivos si sabes que no corren riesgo o si estás trabajando con archivos en un volumen que podría activar alertas.
-
-Para más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html["Excluir rutas de archivos de las alertas"^].
-
-
-
-==== Plantilla ARM para Microsoft Sentinel
-
-Ransomware Resilience ahora ofrece una plantilla de Azure Resource Manager (ARM) para conectarse a Microsoft Sentinel como SIEM, ofreciendo un método secundario para facilitar la implementación.
-
-Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["Configura Microsoft Sentinel SIEM en Ransomware Resilience"^].
