@@ -139,11 +139,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de regiones globales en Azure</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">Automatiza las respuestas a las alertas sobre la actividad de los usuarios</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">Para más información, consulta <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">Excluir rutas de archivos de las alertas de comportamiento de los usuarios</block>
-  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">NetApp Ransomware Resilience permite excluir rutas de archivos específicas de las alertas de supervisión del comportamiento de los usuarios. Puedes excluir rutas de archivos si sabes que no corren riesgo o si estás trabajando con archivos en un volumen que podría activar alertas.</block>
-  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Excluir rutas de archivos de las alertas</block>
-  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 de julio de 2026</block>
-  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">Para más información, consulta <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
   <block id="a3385cf694f169469155cf608126cc13" category="section-title">Gestiona Trident Protect desde el menú «Sitios»</block>
   <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">Disaster Recovery ahora permite gestionar Trident Protect directamente desde el menú Sites de la interfaz de usuario de Disaster Recovery. Puedes actualizar Trident Protect o eliminarlo de Disaster Recovery, lo que agiliza la gestión de tus recursos de Kubernetes.</block>
   <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">Gestionar sitios</block>
@@ -161,8 +156,6 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">Mejoras del rendimiento del sistema</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">Recuperación ante desastres ha introducido cambios para reducir el consumo de recursos del sistema y mejorar el rendimiento en todas las operaciones.</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13 de julio de 2026</block>
-  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Plantilla ARM para Microsoft Sentinel</block>
-  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience ahora ofrece una plantilla de Azure Resource Manager (ARM) para conectarse a Microsoft Sentinel como SIEM, ofreciendo un método secundario para facilitar la implementación.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">Más información sobre esta versión de Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Compatibilidad con las máquinas virtuales de Google Cloud de última generación en Cloud Volumes ONTAP HA</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">Con la versión 9.19.1, NetApp traslada las implementaciones de alta disponibilidad (HA) de Cloud Volumes ONTAP de las máquinas virtuales N2 a las máquinas virtuales de la serie C3 de Google Cloud de última generación para ofrecer una experiencia más rápida y escalable.</block>
@@ -187,16 +180,11 @@
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Implementa Cloud Volumes ONTAP usando las opciones avanzadas en Google Cloud</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">Presentación de los roles de acceso para Cloud Volumes ONTAP</block>
-  <block id="ae05e9d1fb64b3f3eb3c2b718a64b7c2" category="paragraph">NetApp introduce roles de gestión de identidades y accesos (IAM) para Cloud Volumes ONTAP, lo que permite el control de acceso basado en roles (RBAC) para mejorar la seguridad y facilitar el cumplimiento normativo. Los usuarios pueden seguir iniciando sesión en la NetApp Console utilizando sus credenciales actuales para las operaciones de Cloud Volumes ONTAP. Sin embargo, ahora la autenticación se enruta a través de la federación de identidades, lo que permite al administrador de la Console tener un control más detallado sobre estas funciones. Cada usuario debe tener uno de los siguientes roles para realizar cualquier operación en Cloud Volumes ONTAP. Sin un rol, los usuarios no pueden ver ni acceder a las instancias de Cloud Volumes ONTAP.</block>
   <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP viewer*: Otorga acceso de solo lectura a las pantallas y pestañas de Cloud Volumes ONTAP. Ciertas pantallas y botones de acción están deshabilitados en este rol.</block>
   <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*: Permite realizar tareas de gestión cotidianas, como añadir volúmenes, gestionar el almacenamiento y configurar la replicación.</block>
   <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Administrador de Cloud Volumes ONTAP*: Ofrece acceso completo a todas las operaciones de Cloud Volumes ONTAP.</block>
   <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">El administrador de la consola asigna roles a los usuarios de Cloud Volumes ONTAP desde *Administración &gt; Identidad*. Los permisos de los roles se basan en la organización a la que pertenece el usuario y se aplican a todos los sistemas de Cloud Volumes ONTAP de dicha organización.</block>
   <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAP aplica el modelo RBAC mediante una caché local de los permisos de cada usuario, que se actualiza automáticamente una vez cada hora. Cuando se asigna un nuevo rol a un usuario o se modifica su rol actual, el cambio puede tardar hasta una hora en surtir efecto, después de lo cual se habilitan todos los flujos de trabajo permitidos por los roles.</block>
-  <block id="cacd0669e0e9c09f881a4cca5340e098" category="admonition">Cuando se implementa un agente de Console por primera vez, o cuando se actualiza un agente de Console existente a la versión 4.9.0 o posterior, un proceso de configuración inicial único asigna automáticamente roles de Cloud Volumes ONTAP a todos los usuarios existentes de la organización. Este proceso puede tardar hasta 30 minutos en completarse. Y cuando termina, Console asigna los roles adecuados a los usuarios existentes.</block>
-  <block id="2c3736b0de2c7956e8b876c728c32036" category="paragraph">Las funciones de Cloud Volumes ONTAP aplican a los entornos de Amazon Web Services (AWS), Microsoft Azure (Azure) y Google Cloud.</block>
-  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp roles de acceso a la consola</block>
-  <block id="ccca36d58a98cb8fda0efa22f507ff91" category="list-text"><block ref="ccca36d58a98cb8fda0efa22f507ff91" category="inline-link-rx"></block></block>
   <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Roles de acceso de Cloud Volumes ONTAP en NetApp Console</block>
   <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
   <block id="658eb72da44348bf013db3a71420c2be" category="section-title">14 de julio de 2026</block>
@@ -230,7 +218,6 @@
   <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*Excelencia operativa*: Optimiza la arquitectura para maximizar el valor empresarial.</block>
   <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*Optimización de costes*: Reduce y optimiza los costes para generar un mayor valor empresarial.</block>
   <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Análisis de la configuración de Cloud Volumes ONTAP</block>
-  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">20 de julio de 2026</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">Panel bien diseñado</block>
   <block id="81193c598a9c172a3b1a1fd4ae48283f" category="doc">Presentamos el panel bien arquitectado en NetApp Console</block>
@@ -240,8 +227,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Crea tus propias reglas personalizadas</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">Redacta reglas personalizadas en lenguaje sencillo para asegurarte de que tus sistemas cumplan con las normas de tu organización y las mejores prácticas de NetApp. Prueba las reglas con una simulación y luego programa que se ejecuten en todos tus entornos.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">Obtén más información sobre las reglas personalizadas</block>
-  <block id="12959707639320f789d4bb4fbba777f1" category="inline-link">Implementa configuraciones de sistema Cloud Volumes ONTAP bien diseñadas</block>
-  <block id="e8227a8388a93064d0bbb4e13f50ff6e" category="list-text"><block ref="e8227a8388a93064d0bbb4e13f50ff6e" category="inline-link-rx"></block></block>
   <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Aviso de obsolescencia de Wellness Review</block>
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">La función Wellness Review ha quedado obsoleta y ya no está disponible en Digital Advisor desde julio de 2026.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].</block>
@@ -332,7 +317,6 @@
   <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Integración de Cloud Volumes ONTAP con Microsoft OneLake - Ficha técnica</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
-  <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
   <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Compatibilidad de SAN para Google Cloud NetApp Volumes (versión preliminar)</block>
   <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">Ransomware Resilience ya es compatible con las cargas de trabajo SAN de Google Cloud NetApp Volumes, lo que te permite detectar ataques de ransomware basados en cifrado para cargas de trabajo SAN. La compatibilidad con SAN en Google Cloud NetApp Volumes se encuentra actualmente en vista previa.</block>
   <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">sistemas compatibles</block>
@@ -551,8 +535,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 de septiembre de 2026</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Esta versión incluye Trident Protect 26.09.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restaurar archivos y carpetas*: Ahora puedes restaurar o descargar archivos y carpetas concretos a partir de las copias de seguridad de aplicaciones basadas en máquinas virtuales de Kubernetes.</block>
-  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Configura Microsoft Sentinel SIEM en Ransomware Resilience</block>
-  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Para obtener más información, consulta <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configura un sistema SIEM con webhooks</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Para obtener más información, consulta <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
   <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*Dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad*: ahora puedes dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad al restaurar volúmenes, archivos o carpetas.</block>
@@ -595,4 +577,14 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*Cancelar trabajos de restauración de volúmenes*: ahora puedes cancelar trabajos de restauración de ONTAP Volumes en curso desde la página de supervisión de trabajos, lo que facilita la gestión de los trabajos de larga duración o de los que se ejecutan con lentitud.</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*Mejora en los informes del estado de indexación de volúmenes*: El panel de control de ONTAP Volumes ahora informa del estado de indexación con más precisión al introducir el estado <block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block> para los volúmenes y las copias de Snapshot que no son aptos para la indexación. El estado <block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block> ahora se reserva para los volúmenes que están esperando a ser indexados, y los detalles del volumen ahora muestran el estado de indexación por Snapshot con un texto al pasar el cursor que explica por qué un volumen o una copia de Snapshot no se indexará.</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*Compatibilidad con AFX de NetApp*: ahora puedes proteger volúmenes alojados en clústeres AFX de NetApp de 2 y 4 nodos.</block>
+  <block id="4ffb16f35f5e9aee9dee7b4d07e72ec5" category="paragraph">NetApp presenta roles de gestión de identidades y accesos (IAM) para Cloud Volumes ONTAP, lo que permite el control de acceso basado en roles (RBAC) para mejorar la seguridad y facilitar el cumplimiento normativo. Los usuarios pueden seguir iniciando sesión en NetApp Console con sus credenciales actuales para las operaciones de Cloud Volumes ONTAP. Sin embargo, la autenticación ahora se enruta a través de la federación de identidades, lo que permite al administrador de la Console tener un control más granular sobre estas funciones. El agente de la Console debe ejecutar la versión 4.9.0 o posterior antes de habilitar los roles de Cloud Volumes ONTAP.</block>
+  <block id="fc587a597771f80d7a6ba4e7b2d90d37" category="paragraph">Cada usuario debe tener uno de los siguientes roles para realizar cualquier operación en Cloud Volumes ONTAP. Sin un rol, los usuarios no pueden ver ni acceder a las instancias de Cloud Volumes ONTAP.</block>
+  <block id="cb5ee3ecd31c69fc46d3da114a16ed83" category="admonition">Cuando se implementa un agente de Console por primera vez, o cuando se actualiza un agente de Console existente a Console 4.9.0 o una versión posterior, un proceso único de inicialización asigna automáticamente roles de Cloud Volumes ONTAP a todos los usuarios existentes de la organización. Este proceso puede tardar hasta 30 minutos en completarse. Una vez finalizado, Console asigna los roles adecuados a los usuarios existentes. El proceso de inicialización no se lleva a cabo a menos que haya un agente en ejecución.</block>
+  <block id="58589b55d1f4e063bc5f101e0aaacde5" category="paragraph">Los roles de Cloud Volumes ONTAP se aplican a los entornos de Amazon Web Service (AWS), Microsoft Azure (Azure) y Google Cloud. Los roles no se aplican a los modos de implementación privados y restringidos.</block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">Configura el acceso basado en roles para Cloud Volumes ONTAP en NetApp Console</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="675e5c95b67dc978d87e55c19d5da7e8" category="list-text"><block ref="675e5c95b67dc978d87e55c19d5da7e8" category="inline-link-rx"></block></block>
+  <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">Mejora las configuraciones de Cloud Volumes ONTAP en Azure con Workload Factory</block>
+  <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
+  <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
 </blocks>
