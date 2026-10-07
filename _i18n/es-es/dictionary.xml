@@ -592,4 +592,5 @@
   <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">Aprende a gestionar las reglas personalizadas</block>
   <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 de octubre de 2026</block>
+  <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Compatibilidad de Cloud Volumes ONTAP con Azure Entra ID*: ahora puedes usar la autenticación de Microsoft Entra ID para las configuraciones de buckets de almacenamiento de objetos de Azure si no quieres usar la clave de acceso de la cuenta de almacenamiento para la autenticación de Azure. Puedes usar esta opción con Cloud Volumes ONTAP en sistemas Azure que ejecuten ONTAP 9.16.1 o una versión posterior.</block>
 </blocks>
