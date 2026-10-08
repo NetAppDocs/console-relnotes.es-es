@@ -1,5 +1,8 @@
-= 
+= Replicación
 :allow-uri-read: 
 
 
-Replicación
+
+
+[[replication]]
+=== Replicación
