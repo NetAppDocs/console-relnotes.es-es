@@ -1,0 +1,12 @@
+= Compatibilidad con E-Series y StorageGRID en Value Insights
+:allow-uri-read: 
+
+
+
+
+[[e-series-and-storagegrid-support-in-value-insights]]
+=== Compatibilidad con E-Series y StorageGRID en Value Insights
+
+Value Insights incluye ahora los sistemas ONTAP, E-Series y StorageGRID en los totales de estado, riesgo, riesgo de seguridad y ciclo de vida. Puedes filtrar el panel de control por plataforma para ver detalles específicos de cada una. Los ahorros conseguidos y previstos siguen estando disponibles únicamente para los sistemas ONTAP.
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Descubre información valiosa en Digital Advisor"].

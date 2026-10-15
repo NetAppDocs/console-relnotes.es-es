@@ -30,6 +30,24 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[15-october-2026]]
+== 15 de octubre de 2026
+
+
+
+[[digital-advisor]]
+=== Asesor digital
+
+
+
+==== Compatibilidad con E-Series y StorageGRID en Value Insights
+
+Value Insights incluye ahora los sistemas ONTAP, E-Series y StorageGRID en los totales de estado, riesgo, riesgo de seguridad y ciclo de vida. Puedes filtrar el panel de control por plataforma para ver detalles específicos de cada una. Los ahorros conseguidos y previstos siguen estando disponibles únicamente para los sistemas ONTAP.
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Descubre información valiosa en Digital Advisor"].
+
+
+
 [[14-october-2026]]
 == 14 de octubre de 2026
 
