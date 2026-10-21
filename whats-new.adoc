@@ -30,6 +30,30 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[20-october-2026]]
+== 20 de octubre de 2026
+
+
+
+[[ransomware-resilience]]
+=== Resiliencia frente al ransomware
+
+
+
+==== Configuración mejorada del entorno de recuperación aislado
+
+Ransomware Resilience ahora proporciona un flujo de trabajo mejorado para la configuración de entornos de recuperación aislados. El nuevo flujo de trabajo aclara y simplifica el proceso para configurar un entorno de recuperación aislado para entornos de cloud o on-premises.
+
+Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Crea un entorno de recuperación aislado para hacer una restauración limpia"^].
+
+
+
+==== El nivel de servicio Flex de Google Cloud NetApp Volumes ya está disponible de forma general
+
+Ya está disponible de forma general (GA) la compatibilidad con el nivel de servicio Flex de Google Cloud NetApp Volumes en Ransomware Resilience.
+
+
+
 [[19-october-2026]]
 == 19 de octubre de 2026
 
@@ -1004,26 +1028,3 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 Ransomware Resilience incluye ahora opciones en la interfaz de usuario para pausar o eliminar un sistema SIEM. Esta mejora facilita desactivar temporalmente el sistema para la resolución de problemas o el mantenimiento, o eliminarlo por completo.
 
 Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["Desactivar un sistema SIEM"^].
-
-
-
-[[23-july-2026]]
-== 23 de julio de 2026
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Compatibilidad con la región de Chile Central en Azure
-
-Ya puedes implementar Cloud Volumes ONTAP 9.12.1 GA y versiones posteriores en la región Chile Central (chilecentral) en Azure. Se admiten los siguientes tipos de implementación:
-
-* Clúster de un solo nodo
-* HA en una única zona de disponibilidad mediante almacenamiento con redundancia local (LRS)
-* HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS)
-
-
-Para consultar la lista de todas las regiones compatibles, visita https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Mapa de regiones globales en Azure"^].
