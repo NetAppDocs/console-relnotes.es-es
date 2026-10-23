@@ -1000,3 +1000,39 @@ Si deseas incluir más adelante una configuración que hayas descartado, puedes 
 
 * link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Corregir, descartar y reactivar configuraciones de Cloud Volumes ONTAP en Microsoft Azure"^]
 
+
+
+
+[[27-july-2026]]
+== 24cebcb9541a6a3a7ee2888a734c6961
+
+
+
+[[ransomware-resilience]]
+=== Resiliencia frente al ransomware
+
+
+
+==== 752cfb7f100699ed10b934470fc8824c
+
+3a53d7e702e0596f76d0deb9f8cc03ea
+
+372c0699ee751a2658f1b4a897349a47
+
+9cc8304f699313927313d2034fff7636
+
+
+
+==== 3813b173292c59d50038bdf05c6b0021
+
+cf649f651dc2f032117c490236422d53
+
+400f918ffe7626d9fd96dbfc4fa0f591
+
+
+
+==== 363260f41aed8104ffe114ccda875937
+
+b18d1990e5bda04c0ed4210a1113e197
+
+904e41b296efab284eaa1062cf1e6a27

@@ -1,0 +1,32 @@
+= 752cfb7f100699ed10b934470fc8824c
+:allow-uri-read: 
+
+
+
+
+[[standardize-protection-groups-based-on-workload-and-system-type]]
+=== 752cfb7f100699ed10b934470fc8824c
+
+3a53d7e702e0596f76d0deb9f8cc03ea
+
+372c0699ee751a2658f1b4a897349a47
+
+9cc8304f699313927313d2034fff7636
+
+
+
+[[readiness-drill-enhancement]]
+=== 3813b173292c59d50038bdf05c6b0021
+
+cf649f651dc2f032117c490236422d53
+
+400f918ffe7626d9fd96dbfc4fa0f591
+
+
+
+[[pause-or-delete-a-siem-system]]
+=== 363260f41aed8104ffe114ccda875937
+
+b18d1990e5bda04c0ed4210a1113e197
+
+904e41b296efab284eaa1062cf1e6a27
