@@ -48,6 +48,14 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 
 
+==== Flujo de trabajo mejorado para activar la supervisión de la actividad de los usuarios
+
+Ransomware Resilience ha mejorado el flujo de trabajo para habilitar la supervisión de la actividad de los usuarios. Antes, Ransomware Resilience comprobaba la conexión del recopilador de datos cada vez que habilitabas una estrategia de protección contra ransomware con supervisión de la actividad de los usuarios en una carga de trabajo. Con esta actualización, esa comprobación ahora se omite si existe un recopilador de datos para la VM de almacenamiento y está en estado "running", lo que agiliza el flujo de trabajo de protección.
+
+Para obtener más información, consulta link:link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["proteger las cargas de trabajo"^].
+
+
+
 ==== El nivel de servicio Flex de Google Cloud NetApp Volumes ya está disponible de forma general
 
 Ya está disponible de forma general (GA) la compatibilidad con el nivel de servicio Flex de Google Cloud NetApp Volumes en Ransomware Resilience.
@@ -992,39 +1000,3 @@ Si deseas incluir más adelante una configuración que hayas descartado, puedes 
 
 * link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Corregir, descartar y reactivar configuraciones de Cloud Volumes ONTAP en Microsoft Azure"^]
 
-
-
-
-[[27-july-2026]]
-== 27 de julio de 2026
-
-
-
-[[ransomware-resilience]]
-=== Resiliencia frente al ransomware
-
-
-
-==== Estandariza los grupos de protección según la carga de trabajo y el tipo de sistema
-
-La función Ransomware Resilience ahora exige que los grupos de protección incluyan únicamente un tipo de carga de trabajo y un tipo de sistema. Cuando creas un nuevo grupo de protección, debes especificar tanto el tipo de carga de trabajo (file system o block) como el sistema para la carga de trabajo. Esta mejora asegura que la estrategia de protección frente al ransomware elegida para el grupo de protección se pueda aplicar correctamente a todas las cargas de trabajo del grupo.
-
-Si ya tienes grupos de protección en los que se mezclan tipos de sistema y de cargas de trabajo, puedes seguir utilizándolos, pero no puedes añadir cargas de trabajo al grupo de protección.
-
-Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Crear un grupo de protección"^].
-
-
-
-==== Mejora de los simulacros de preparación
-
-Ransomware Resilience ahora te permite realizar simulacros de preparación según el tipo de ataque. Ransomware Resilience detecta cinco tipos de ataques, y puedes realizar simulacros de preparación para cada uno de ellos con el fin de simular el proceso de ataque y recuperación para comprender tu preparación ante un ataque de ransomware.
-
-Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["Realiza un simulacro de preparación"^].
-
-
-
-==== Pausar o eliminar un sistema SIEM
-
-Ransomware Resilience incluye ahora opciones en la interfaz de usuario para pausar o eliminar un sistema SIEM. Esta mejora facilita desactivar temporalmente el sistema para la resolución de problemas o el mantenimiento, o eliminarlo por completo.
-
-Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["Desactivar un sistema SIEM"^].
