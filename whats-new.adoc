@@ -262,9 +262,9 @@ Para obtener más información sobre cómo proteger las cargas de trabajo de Mic
 
 ==== Orden de arranque opcional para los grupos de recursos de Kubernetes
 
-NetApp Disaster Recovery ahora admite configurar un orden de arranque opcional para los grupos de recursos en un plan de replicación de Kubernetes, especificando un orden de prioridad y un tiempo de retraso opcional para los recursos. Esta opción te permite arrancar recursos al mismo tiempo cuando sea necesario y retrasar el arranque de aquellos que dependen de otros, lo que ayuda a que tus aplicaciones vuelvan a estar operativas correctamente.
+NetApp Disaster Recovery ahora admite la configuración de un orden de arranque opcional para los grupos de recursos en un plan de replicación de Kubernetes, al especificar un orden de prioridad y un tiempo de retraso opcional para los recursos. Esta opción te permite arrancar recursos al mismo tiempo cuando sea necesario y retrasar el arranque de los recursos que dependen de otros, lo que ayuda a que tus aplicaciones vuelvan a estar en línea de forma correcta.
 
-Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["crear un plan de replicación"^].
+Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-replication-plan-kubernetes.html["crear un plan de replicación"^].
 
 
 
@@ -592,7 +592,7 @@ Las transformaciones de recursos se aplican al crear un plan de replicación. Pu
 
 Ahora puedes incorporar scripts personalizados en el flujo de trabajo de conmutación por error para coordinar la suspensión y la reanudación de las aplicaciones. Esta función ayuda a garantizar que las aplicaciones estén debidamente preparadas antes de que se replique una instantánea y se restaure correctamente, de modo que las operaciones puedan reanudarse sin interrupciones tras la conmutación por error.
 
-Para saber cómo insertar un script personalizado, consulta link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Crear un plan de replicación"^].
+Para saber cómo insertar un script personalizado, consulta link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-replication-plan-kubernetes.html["Crear un plan de replicación"^].
 
 
 
