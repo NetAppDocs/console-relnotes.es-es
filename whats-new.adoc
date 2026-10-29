@@ -111,7 +111,7 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 
 
-==== Flujo de trabajo mejorado para activar la supervisión de la actividad de los usuarios
+==== Flujo de trabajo mejorado para habilitar la supervisión de la actividad de los usuarios
 
 Ransomware Resilience ha mejorado el flujo de trabajo para habilitar la supervisión de la actividad de los usuarios. Antes, Ransomware Resilience comprobaba la conexión del recopilador de datos cada vez que habilitabas una estrategia de protección contra ransomware con supervisión de la actividad de los usuarios en una carga de trabajo. Con esta actualización, esa comprobación ahora se omite si existe un recopilador de datos para la VM de almacenamiento y está en estado "running", lo que agiliza el flujo de trabajo de protección.
 
@@ -656,7 +656,7 @@ La recuperación ante desastres también ha aumentado la resiliencia del servici
 
 
 
-==== Compatibilidad mejorada con las restauraciones limpias
+==== Compatibilidad con la restauración limpia ante comportamientos sospechosos de los usuarios y ataques de cifrado basados en usuarios
 
 Ya están disponibles las restauraciones limpias para la recuperación tras comportamientos sospechosos de los usuarios y ataques basados en el cifrado de usuario. Esta mejora se suma a la compatibilidad ya existente con los ataques basados en el cifrado (entropía). Esta capacidad mejorada te permite aprovechar el enfoque guiado de la restauración limpia, identificando los puntos de recuperación óptimos para minimizar la pérdida de datos y acelerar la recuperación.
 
