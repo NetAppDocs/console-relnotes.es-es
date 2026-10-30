@@ -35,6 +35,48 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 
 
 
+[[ai-data-engine]]
+=== AI Data Engine
+
+
+
+==== AI Data Engine 1.3
+
+AI Data Engine es un servicio de inteligencia de metadatos, gestionado a través de NetApp Console, que analiza tus sistemas conectados, crea un catálogo de metadatos y te ofrece la visibilidad y las herramientas necesarias para optimizar el almacenamiento y gobernar los datos a gran escala. Puedes implementar AI Data Engine como  https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["Implementación de AIDE en un único nodo"^], o como una implementación multinodo de AIDE si tu entorno requiere alta disponibilidad basada en Kubernetes a gran escala.
+
+AI Data Engine 1.3 es la primera versión de disponibilidad general (GA).
+
+.Implementa y conecta tus datos
+https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["Implementa a la escala que tu entorno requiera"^]:: Elige una implementación de AIDE de un solo nodo para empezar rápido en una sola VM, o una implementación de AIDE de varios nodos en tu propio clúster de Kubernetes para lograr alta disponibilidad y mayor escala. Si tu entorno requiere un proxy para conectarse a internet, https://docs.netapp.com/us-en/ai-data-engine/deploy/configure-proxy.html["Infórmate sobre los proxies para AIDE"^] despliega con un proxy.
+https://docs.netapp.com/us-en/ai-data-engine/data-sources/connect-data-source.html["Incorpora tus datos al alcance"^]:: Conecta recursos compartidos de archivos, servidores de bases de datos y sistemas StorageGRID, y selecciona qué recursos de datos deseas analizar.
+https://docs.netapp.com/us-en/ai-data-engine/administer/monitor-deployment-health.html["Mantén tus escaneos en buen estado"^]:: Supervisa el estado de tu implementación para identificar los problemas que podrían interrumpir el análisis y recopila la información que necesitas para resolverlos.
+
+
+.Optimiza el almacenamiento e investiga tus datos
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["Recuperar capacidad de almacenamiento"^]:: Identifica los datos inactivos, obsoletos y duplicados en tus sistemas conectados según los umbrales que hayas configurado, y comprueba qué sistemas y responsables de datos albergan las mayores concentraciones de estos datos.
+https://docs.netapp.com/us-en/ai-data-engine/administer/configure-settings.html["Define qué se entiende por «datos inactivos» y «datos obsoletos» en tu organización"^]:: Establece los umbrales que determinan qué datos se clasifican como fríos u obsoletos para que se ajusten a tus políticas de retención.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["Averigua a quién debes dirigirte en relación con los datos"^]:: Identifica qué propietarios de datos tienen las mayores concentraciones de datos inactivos, obsoletos o duplicados desde el dashboard. Luego, filtra por propietario o grupo en la vista de investigación para revisar los resultados y averiguar con quién debes ponerte en contacto.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["Reduce costes y riesgos"^]:: Filtra en todos los sistemas conectados por tiempo de acceso, fecha de modificación, fecha de creación, tamaño del archivo, estado de duplicado y otros criterios para encontrar los archivos que cumplan los objetivos de gestión de datos de tu organización. Actúa directamente sobre los resultados o guarda los criterios como una política.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["Elimina los datos duplicados"^]:: Busca archivos que tengan copias duplicadas en tus sistemas conectados. Filtra por el atributo Duplicados o por el hash del archivo para revisar los grupos de duplicados y luego elimina las copias duplicadas.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-directories.html["Detectar riesgos de acceso"^]:: Identifica los directorios con permisos abiertos para poder darles prioridad a la hora de revisar los permisos.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-structured.html["Investiga los datos estructurados"^]:: Busca tablas de base de datos de gran tamaño o que no se utilicen en tus servidores de bases de datos conectados.
+
+
+.Actúa en función de los datos y haz un seguimiento a lo largo del tiempo
+https://docs.netapp.com/us-en/ai-data-engine/investigate/take-actions.html["Reduce los costes de almacenamiento"^]:: Aplica las políticas de ciclo de vida de los datos de tu organización copiando y archivando archivos en destinos NFS o SMB, etiquetando elementos para hacer seguimiento o eliminando archivos de forma permanente según tus requisitos de retención.
+https://docs.netapp.com/us-en/ai-data-engine/policies/create-policy.html["Supervisa las condiciones de los datos de forma continua"^]:: Guarda los criterios de filtrado como políticas con nombre para realizar un seguimiento de las condiciones recurrentes de los datos a lo largo del tiempo, como los archivos fríos o de gran tamaño, y recibe notificaciones cuando cambie el número de archivos afectados.
+
+
+.Acceso a la IA con gobernanza
+https://docs.netapp.com/us-en/ai-data-engine/mcp/learn-about-mcp.html["Ofrece a los clientes de IA un acceso controlado a tus metadatos"^]:: Conecta Claude Code, Claude Desktop, Cursor o OpenCode con AI Data Engine a través de Model Context Protocol (MCP). Habilita las colecciones que los clientes de AI pueden buscar y usa los ámbitos de Microsoft Entra ID para controlar quién puede buscar en cada colección. Los clientes de AI pueden buscar metadatos y archivos con etiquetas.
+
+
+.Administración
+https://docs.netapp.com/us-en/ai-data-engine/administer/manage-users-roles.html["Asignar roles de administrador y visor"^]:: Controla quién puede investigar los datos y realizar acciones asignando a los usuarios de tu organización el rol de administrador o visualizador de AI Data Engine.
+
+
+
+
 [[backup-and-recovery]]
 === Copia de seguridad y recuperación
 
