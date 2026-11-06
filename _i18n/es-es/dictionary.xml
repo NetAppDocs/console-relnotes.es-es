@@ -531,20 +531,16 @@
   <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">Cuando haya datos nuevos disponibles, selecciona *Cargar ahora* en el banner de notificación para actualizar el panel de control.</block>
   <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">Tanto *Actualizar datos* como *Cargar ahora* generan eventos de recopilación de datos en Tracker.</block>
   <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">Descubre cómo actualizar los datos de un panel de control personalizado</block>
-  <block id="d6592fddba6a07bb0a917566a4081fc5" category="paragraph"><block ref="d6592fddba6a07bb0a917566a4081fc5" category="inline-link-macro-rx"></block></block>
   <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">Especifica regiones para paneles personalizados</block>
   <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">Los paneles personalizados ahora te piden que elijas una o varias regiones si tu solicitud no las incluye. Los datos del panel se limitan a las regiones que selecciones.</block>
   <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">Aprende a crear un panel de control personalizado</block>
-  <block id="265c60992e7c3b3f876f80926a9c3a65" category="paragraph"><block ref="265c60992e7c3b3f876f80926a9c3a65" category="inline-link-macro-rx"></block></block>
   <block id="639dc972d056a14ca9535d40d9ba48bb" category="section-title">Política de IAM para la creación de enlaces en FSx for ONTAP</block>
   <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">La plantilla de CloudFormation y el código de Terraform para crear enlaces ahora usan una política de IAM en lugar de permisos de Lambda integrados.</block>
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">Aprende a crear un enlace</block>
-  <block id="2f101cc9d5d0dd23089ae6fca31ac27f" category="paragraph"><block ref="2f101cc9d5d0dd23089ae6fca31ac27f" category="inline-link-macro-rx"></block></block>
   <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">Auditoría y seguimiento de las acciones de los agentes de IA</block>
   <block id="5aecb2747daa4a62ad221d70aaf568df" category="paragraph">Ahora puedes usar Tracker para revisar los cambios en la configuración del agente de IA y, en modo de lectura/escritura, cada solicitud de aprobación, incluida la pregunta del agente y la respuesta del usuario.</block>
   <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">El servicio Workload Factory que realiza la operación registra los cambios en los recursos realizados a través de las API de Workload Factory.</block>
   <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">Infórmate sobre la auditoría y el seguimiento de las acciones de los agentes</block>
-  <block id="d280606d2d970fea6313288893352119" category="paragraph"><block ref="d280606d2d970fea6313288893352119" category="inline-link-macro-rx"></block></block>
   <block id="9e81dbda2a0d084e31f85eea0c371131" category="section-title">Mejoras de Amazon FSx for NetApp ONTAP</block>
   <block id="230227ce1631475a082d9f0865ea84b2" category="section-title">Mejoras en el diagrama del grupo de iniciadores</block>
   <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">El diagrama que muestra los grupos de iniciadores para los dispositivos de bloque en la página «Gestionar acceso de clientes» incluye ahora más detalles sobre los hosts. Al pasar el cursor sobre un host en el diagrama, aparecen sus detalles, incluidos el nombre de host, el ID de instancia, el tipo de carga de trabajo, la región y el iSCSI Qualified Name (IQN).</block>
@@ -619,7 +615,11 @@
   <block id="7dc11e8b104c8a8c4a3b0a79dfe90760" category="list-text">Optimización de costes: organización en niveles de datos fríos, limpieza de snapshots y eficiencias de almacenamiento</block>
   <block id="4c08f7b0400f82cb6607401bcdf078f1" category="inline-link-macro">el análisis de arquitectura adecuada para los sistemas OCI NSS</block>
   <block id="5514a97cb8286872cf232b29c81405be" category="inline-link-macro">implementar configuraciones bien diseñadas</block>
-  <block id="6c5cb49a519e4001a13828cd8f9f28ab" category="paragraph">Obtén más información sobre <block ref="026b7813287d66b370ca6b12a499c052" category="inline-link-macro-rx"></block> y sobre <block ref="503539a9757057d0d19762cf2dfced52" category="inline-link-macro-rx"></block>.</block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">01 noviembre 2026</block>
   <block id="b2aa5fc60892f4965eac1f9ee3c256a9" category="paragraph"><block ref="b2aa5fc60892f4965eac1f9ee3c256a9" category="inline-link-rx"></block></block>
+  <block id="07cf94dbd86831dbe155ce2ae452142d" category="paragraph"><block ref="07cf94dbd86831dbe155ce2ae452142d" category="inline-link-macro-rx"></block></block>
+  <block id="9f67b96a0ca41faa533cd001e1dfb1b1" category="paragraph"><block ref="9f67b96a0ca41faa533cd001e1dfb1b1" category="inline-link-macro-rx"></block></block>
+  <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
+  <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
+  <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph">Obtén más información sobre <block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block> y sobre <block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>.</block>
 </blocks>
