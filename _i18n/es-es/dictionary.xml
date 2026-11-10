@@ -116,18 +116,11 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Administración de la NetApp Console</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Estas notas de la versión describen mejoras recientes de NetApp Console y los servicios de datos que admite. Enlaces al conjunto completo de notas de la versión para cada servicio individual.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Obtenga información sobre los cambios más recientes en las características y los servicios de datos que forman parte de la NetApp Console. Para consultar el historial de versiones completo, vaya al conjunto completo de notas de la versión de cada servicio individual.</block>
-  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">Mejoras en las cargas de trabajo de VMware</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">Enlaces relacionados</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Mejoras en cargas de trabajo de Kubernetes</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Descripción general de la protección de cargas de trabajo de Kubernetes</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Para obtener más información sobre cómo proteger las cargas de trabajo de Kubernetes, consulta<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores.</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">Los siguientes servicios han quedado obsoletos:</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">Mejoras en las cargas de trabajo de ONTAP Volumes</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Descripción general de la protección de cargas de trabajo de VMware</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de VMware, consulta<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
-  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Descripción general de la protección de cargas de trabajo de ONTAP Volumes</block>
-  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Para obtener más información sobre la protección de las cargas de trabajo de ONTAP Volumes, consulta<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Mejoras en las cargas de trabajo de Hyper-V</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">En esta versión, las cargas de trabajo de Kubernetes introducen las siguientes mejoras:</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de regiones globales en Azure</block>
@@ -137,39 +130,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Para más información, consulta <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Clúster de un solo nodo</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS)</block>
-  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">Panel de control mejorado</block>
-  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">El panel de control de Disaster Recovery se ha actualizado con una experiencia mejorada que ofrece una visión global y de un solo vistazo de todo tu entorno de Disaster Recovery. El nuevo panel de control incluye:</block>
-  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*Visibilidad unificada de las cargas de trabajo* — supervisa tanto las cargas de trabajo de VMware como las de Kubernetes junto con el estado de la infraestructura subyacente desde un único panel de control.</block>
-  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*Detección proactiva de incidencias* — El panel de control ahora destaca automáticamente las incidencias relacionadas con el entorno, lo que permite un diagnóstico más rápido y reduce el tiempo necesario para resolverlas.</block>
-  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*Uso de la capacidad* — Las métricas de capacidad ahora se presentan directamente en el panel de control, lo que facilita entender el consumo de recursos.</block>
-  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">Consulta el estado de salud de tus planes de NetApp Disaster Recovery en el panel de control</block>
-  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">Para más información, consulta <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>.</block>
-  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">Informes mejorados</block>
-  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">Se han ampliado las funciones de generación de informes para ofrecer una visión más detallada de las actividades de NetApp Disaster Recovery en todo tu entorno:</block>
-  <block id="7f09e48950606d1acab05c889751f513" category="list-text">Genera informes centrados en cargas de trabajo de VMware, de Kubernetes o en ambas, lo que te ofrece la flexibilidad necesaria para adaptar los informes a tu público.</block>
-  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">Cada informe ofrece un resumen completo de la actividad durante un periodo de tiempo determinado, lo que garantiza una visibilidad total de los eventos que tienen lugar en tu entorno de NetApp Disaster Recovery.</block>
-  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">Crea informes de NetApp Disaster Recovery</block>
-  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">Para más información, consulta <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>.</block>
-  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">Registro de tareas de los usuarios</block>
-  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">Disaster Recovery ha mejorado la rendición de cuentas y la auditabilidad de los trabajos gracias al registro de trabajos a nivel de usuario. Ahora, cada trabajo ejecutado registra el usuario que lo inició, lo que proporciona un registro de auditoría claro con fines de cumplimiento y resolución de problemas. Los trabajos activados automáticamente por Disaster Recovery se identifican como "system", lo que facilita distinguir entre la actividad iniciada por el usuario y la iniciada por el servicio.</block>
-  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">Monitoriza los trabajos de NetApp Disaster Recovery</block>
-  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">Para más información, consulta <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>.</block>
-  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">Rendimiento y optimización de recursos</block>
-  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">Se han realizado varias mejoras internas para reducir el consumo general de recursos del sistema y aumentar el rendimiento en todas las operaciones de NetApp Disaster Recovery.</block>
-  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 de agosto de 2026</block>
-  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">Mejoras generales de NetApp Backup and Recovery</block>
-  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*Compatibilidad con la implementación local de NetApp Console*: Esta versión de NetApp Backup and Recovery es compatible con la implementación local de NetApp Console en estado de vista previa.</block>
-  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 días de retención de trabajos*: Backup and Recovery ahora conserva la información de los trabajos en el Monitor de trabajos durante 90 días.</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">En esta versión, VMware workloads introduce las siguientes mejoras:</block>
-  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Compatibilidad con la restauración en una ubicación alternativa para SAN VMs*: Ahora puedes restaurar copias de seguridad de SAN VMs en una ubicación alternativa.</block>
-  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Compatibilidad con la eliminación de varias copias de seguridad*: Ahora puedes eliminar varias copias de seguridad a la vez.</block>
-  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Compatibilidad en versión preliminar con recursos aislados físicamente*: Si ejecutas NetApp Backup and Recovery en una implementación local de NetApp Console, puedes descubrir, proteger y restaurar recursos de Kubernetes aislados físicamente. Esta función está en versión preliminar para este lanzamiento.</block>
-  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">En esta versión, las cargas de trabajo de ONTAP Volumes incorporan las siguientes mejoras:</block>
-  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Detectar sistemas y volúmenes ONTAP sin activar Backup and Recovery*: Ahora puedes detectar sistemas y volúmenes sin activar Backup and Recovery.</block>
-  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">Pestaña «Escaneos activos» para mejorar la gestión de los escaneos</block>
-  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">La clasificación de datos incluye ahora una pestaña *Escaneos activos* en el menú de configuración, lo que ofrece una experiencia mejorada para gestionar los escaneos. La pestaña *Escaneos activos* ofrece una visión general de todos los volúmenes que has activado para su escaneo, con filtros habituales para ordenar tus recursos. La pestaña también proporciona una ubicación central para priorizar escaneos, pausarlos y revisar errores.</block>
-  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gestiona escaneos</block>
-  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Para obtener más información, consulta <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
   <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Agente de Console 4.10.0</block>
   <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">La versión 4.10.0 es compatible tanto con el modo estándar como con el modo restringido.</block>
   <block id="657b18a162285732ef5f46d679b05663" category="section-title">Mejoramos la capacidad de respuesta y la fiabilidad de Cloud Mediator</block>
@@ -180,8 +140,6 @@
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience ya permite eliminar un recopilador de datos. El recopilador de datos se crea automáticamente al habilitar la detección de actividad de usuario en las cargas de trabajo; si el recopilador de datos queda obsoleto, ahora puedes eliminarlo manualmente.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para obtener más información, consulta <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de obsolescencia de Config Drift</block>
-  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">La función «Config Drift» dejará de estar disponible en Digital Advisor en septiembre de 2026.</block>
-  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 de agosto de 2026</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">En esta versión, las cargas de trabajo de Hyper-V incorporan la siguiente mejora:</block>
   <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*Restaurar una copia de seguridad del almacenamiento de objetos en una ubicación alternativa*: Ahora puedes restaurar máquinas virtuales de Hyper-V, archivos y carpetas desde el almacenamiento de objetos a una ubicación de almacenamiento alternativa.</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Aprende a proteger las cargas de trabajo de Hyper-V con NetApp Backup and Recovery</block>
@@ -310,7 +268,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 de septiembre de 2026</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Esta versión incluye Trident Protect 26.09.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restaurar archivos y carpetas*: Ahora puedes restaurar o descargar archivos y carpetas concretos a partir de las copias de seguridad de aplicaciones basadas en máquinas virtuales de Kubernetes.</block>
-  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*Dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad*: ahora puedes dar prioridad a los trabajos de restauración frente a los trabajos de copia de seguridad al restaurar volúmenes, archivos o carpetas.</block>
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Mejora general de NetApp Backup and Recovery</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Selección de credenciales durante la detección de hosts de máquinas virtuales*: Cuando detectas un host KVM, Hyper-V o VMware, ahora puedes usar las credenciales que ya agregaste a Backup and Recovery.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Mejora de las cargas de trabajo de Hyper-V</block>
@@ -622,4 +579,22 @@
   <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
   <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
   <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph">Obtén más información sobre <block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block> y sobre <block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>.</block>
+  <block id="da3e6d90947db5a87778a986ff1db5ba" category="section-title">Workload Factory para mejoras en EDA</block>
+  <block id="0c8274ed6d395bfacc0daf3070e64c0c" category="paragraph">Estas mejoras abarcan los detalles del volumen en el análisis de latencia, una comprobación de la presión del sistema de archivos, puntos de decisión sobre el rendimiento y volver a ejecutar un análisis de latencia.</block>
+  <block id="f65838a0505e6828c4b2c1ae8ce1218d" category="section-title">Ver los detalles del volumen durante el análisis de latencia</block>
+  <block id="34649924d5b9e1477b2428d04da725a3" category="paragraph">Puedes ver más detalles del volumen en Workload Factory mientras analizas un evento de latencia para que puedas ver cómo está configurado el volumen. La página de análisis detallado de la latencia muestra *tipo de volumen* (RW o DP) y *estilo de volumen* (FlexVol o FlexGroup).</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link-macro">Aprende a analizar las tendencias de latencia</block>
+  <block id="10686b705e0e365002c272bd2719b69a" category="paragraph"><block ref="10686b705e0e365002c272bd2719b69a" category="inline-link-macro-rx"></block></block>
+  <block id="59d6e00f849e1dd27d91bb4c786299b8" category="section-title">Comprueba la presión del sistema de archivos para un evento de latencia</block>
+  <block id="6f204454acf5d87a64a6daf9900777eb" category="paragraph">En Workload Factory, puedes comprobar si la presión del sistema de archivos afectó al rendimiento cuando se produjo un evento de latencia, para decidir si conviene investigar el sistema de archivos. En el caso de un volumen con una alerta de latencia, puedes consultar los datos de CloudWatch correspondientes a los 40 minutos anteriores al evento y abrir el sistema de archivos para investigar más a fondo.</block>
+  <block id="dfa004f6c9736368068fe71bacbee74e" category="inline-link-macro">Más información sobre las comprobaciones de presión del sistema de archivos</block>
+  <block id="c6351fb1f8b9c7124503e2dd773f4a6f" category="paragraph"><block ref="c6351fb1f8b9c7124503e2dd773f4a6f" category="inline-link-macro-rx"></block></block>
+  <block id="f8240ccc3d3033d0a4d027c0acb6a2fd" category="section-title">Revisa los puntos de decisión sobre el rendimiento para EDA</block>
+  <block id="8591045ae6ed3a89acd6e3756c7561dc" category="paragraph">Puedes revisar los puntos de decisión del rendimiento del cliente en el panel de EDA Overview para ver cuándo Workload Factory recomendó o aplicó un cambio de rendimiento. Pasa el cursor sobre un punto de decisión para ver detalles, como el SKU actual y el recomendado o las métricas superadas en la ventana de tiempo.</block>
+  <block id="8f60994adbdba3c89dc164460dbd5fe7" category="inline-link-macro">Aprende a revisar los puntos de decisión sobre el rendimiento</block>
+  <block id="08935aa85ac8d6983a754c391dc22299" category="paragraph"><block ref="08935aa85ac8d6983a754c391dc22299" category="inline-link-macro-rx"></block></block>
+  <block id="afaff13c48c5bdfb3e3a3820005ef966" category="section-title">Vuelve a realizar un análisis de latencia</block>
+  <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">Puedes volver a realizar un análisis de latencia en Workload Factory para un volumen, con el fin de actualizar los resultados tras investigar o realizar un cambio. Selecciona *Volver a ejecutar el análisis* para iniciar un nuevo análisis y actualizar los resultados.</block>
+  <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">Aprende a analizar los problemas de latencia</block>
+  <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
 </blocks>
