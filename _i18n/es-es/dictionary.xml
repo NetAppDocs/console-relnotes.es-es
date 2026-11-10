@@ -597,4 +597,11 @@
   <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">Puedes volver a realizar un análisis de latencia en Workload Factory para un volumen, con el fin de actualizar los resultados tras investigar o realizar un cambio. Selecciona *Volver a ejecutar el análisis* para iniciar un nuevo análisis y actualizar los resultados.</block>
   <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">Aprende a analizar los problemas de latencia</block>
   <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
+  <block id="e9f11fc9d91bec322284ec741f87191d" category="section-title">Mejoras en Workload Factory para VMware</block>
+  <block id="2296d077680e104e6519a9745c173ece" category="paragraph">Estas mejoras se refieren a la calculadora de TCO de EVS para migraciones a VMware.</block>
+  <block id="37460924712e1c37dc5ad9be085001ad" category="section-title">Compatibilidad con las instancias i7i.metal-24xl e i7i.metal-48xl en la calculadora de TCO de EVS</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">La calculadora de TCO de EVS ahora admite las instancias EC2 de AWS i7i.metal-24xl e i7i.metal-48xl como hosts de clúster. En comparación con las configuraciones i4i.metal, las instancias i7i.metal-24xl reducen el coste inicial de EVS en aproximadamente un 33 % para computación y un 25 % para el almacenamiento vSAN.</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">La calculadora compara todos los tipos de instancias y selecciona automáticamente la opción más económica. Una nueva sección de comparación muestra las configuraciones de los hosts de EVS una al lado de la otra, lo que facilita la elección de la configuración que mejor se adapte a tus necesidades.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcula el ahorro estimado para EVS</block>
+  <block id="536315c4cd9e40b477f48fcc8b1863a7" category="paragraph"><block ref="536315c4cd9e40b477f48fcc8b1863a7" category="inline-link-macro-rx"></block></block>
 </blocks>
