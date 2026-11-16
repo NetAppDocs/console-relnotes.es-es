@@ -1,0 +1,12 @@
+= Mejora en la supervisión de los trabajos al volver a ejecutarlos
+:allow-uri-read: 
+
+
+
+
+[[job-monitoring-enhancement-when-rerunning-jobs]]
+=== Mejora en la supervisión de los trabajos al volver a ejecutarlos
+
+Si vuelves a ejecutar determinadas operaciones que han fallado, se han cancelado o han superado el tiempo de espera, NetApp Disaster Recovery registra ahora estas operaciones como nuevos trabajos e identifica al usuario que inició la acción. Anteriormente, Disaster Recovery incluía los nuevos trabajos en la lista del trabajo inicial. Esta mejora crea un registro de auditoría más visible para los trabajos en Disaster Recovery, siempre que la solicitud no se haya censurado. Solo se aplica a los trabajos de detección, resincronización, cumplimiento, protección, plan de replicación y retención de copias de seguridad. Las operaciones de reejecución de failback, failover y migración no aparecen como nuevos trabajos. Solo cumple los requisitos el trabajo más reciente de una cadena de reejecución, y como máximo se puede poner en cola una reejecución detrás de otra que ya se esté ejecutando.
+
+Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["Supervisa trabajos en Disaster Recovery"^].
