@@ -935,17 +935,6 @@ Para obtener más información sobre la protección de las cargas de trabajo de 
 
 
 
-[[data-classification]]
-=== Clasificación de datos
-
-
-
-==== Mejoras generales
-
-Esta versión de Data Classification incluye mejoras de seguridad y mejoras en el rendimiento.
-
-
-
 [[disaster-recovery]]
 === Recuperación ante desastres
 
