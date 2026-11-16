@@ -42,8 +42,10 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 
 ==== Guía para actualizar las correcciones urgentes de ONTAP en versiones específicas de Cloud Volumes ONTAP
 
-ONTAP ha publicado las siguientes correcciones urgentes compatibles con las versiones 9.14.1, 9.15.1, 9.16.1, 9.17.1, 9.18.1 y 9.19.1 de Cloud Volumes ONTAP:
+ONTAP ha publicado los siguientes hotfixes compatibles con las versiones 9.12.1, 9.13.1, 9.14.1, 9.15.1, 9.16.1, 9.17.1, 9.18.1 y 9.19.1 de Cloud Volumes ONTAP:
 
+* 9.12.1P20HF1
+* 9.13.1P21HF1
 * 9.14.1P18HF1
 * 9.15.1P20HF1
 * 9.16.1P16HF1
@@ -449,7 +451,7 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 ==== Configuración mejorada del entorno de recuperación aislado
 
-Ransomware Resilience ahora proporciona un flujo de trabajo mejorado para la configuración de entornos de recuperación aislados. El nuevo flujo de trabajo aclara y simplifica el proceso para configurar un entorno de recuperación aislado para entornos de cloud o on-premises.
+Ransomware Resilience ofrece ahora un flujo de trabajo mejorado para la configuración de entornos de recuperación aislados. El nuevo flujo de trabajo aclara y simplifica el proceso de configuración de un entorno de recuperación aislado para entornos en la nube o locales.
 
 Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Crea un entorno de recuperación aislado para hacer una restauración limpia"^].
 
@@ -457,7 +459,7 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 ==== Flujo de trabajo mejorado para habilitar la supervisión de la actividad de los usuarios
 
-Ransomware Resilience ha mejorado el flujo de trabajo para habilitar la supervisión de la actividad de los usuarios. Antes, Ransomware Resilience comprobaba la conexión del recopilador de datos cada vez que habilitabas una estrategia de protección contra ransomware con supervisión de la actividad de los usuarios en una carga de trabajo. Con esta actualización, esa comprobación ahora se omite si existe un recopilador de datos para la VM de almacenamiento y está en estado "running", lo que agiliza el flujo de trabajo de protección.
+Ransomware Resilience ha mejorado el flujo de trabajo para habilitar la supervisión de la actividad de los usuarios. Anteriormente, Ransomware Resilience comprobaba la conexión del recopilador de datos cada vez que habilitabas una estrategia de protección contra el ransomware con supervisión de la actividad de los usuarios en una carga de trabajo. Con esta actualización, Ransomware Resilience ahora omite esa comprobación si existe un recopilador de datos para la máquina virtual de almacenamiento y está en estado "running", lo que acelera el flujo de trabajo de protección.
 
 Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["proteger las cargas de trabajo"^].
 
@@ -1151,51 +1153,3 @@ La función «Value Insights» recopila información general sobre el estado, el
 NOTE: Value Insights solo está disponible para sistemas ONTAP.
 
 Más información sobre link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Perspectivas sobre el valor"].
-
-
-
-[[17-august-2026]]
-== 17 de agosto de 2026
-
-
-
-[[backup-and-recovery]]
-=== Copia de seguridad y recuperación
-
-
-
-==== Mejoras en las cargas de trabajo de Hyper-V
-
-En esta versión, las cargas de trabajo de Hyper-V incorporan la siguiente mejora:
-
-*Restaurar una copia de seguridad del almacenamiento de objetos en una ubicación alternativa*: Ahora puedes restaurar máquinas virtuales de Hyper-V, archivos y carpetas desde el almacenamiento de objetos a una ubicación de almacenamiento alternativa.
-
-Para más detalles sobre la protección de cargas de trabajo Hyper-V, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Aprende a proteger las cargas de trabajo de Hyper-V con NetApp Backup and Recovery"].
-
-
-
-==== Mejoras en cargas de trabajo de Kubernetes
-
-En esta versión, las cargas de trabajo de Kubernetes introducen las siguientes mejoras:
-
-* *Trident Protect 26.08*: Esta versión incluye Trident Protect 26.08.
-* *Reintentos de copia de seguridad*: Ahora puedes activar los reintentos de copia de seguridad y configurar el número de intentos y los intervalos entre ellos como ajustes avanzados en las políticas de protección de Kubernetes.
-* *Éxito parcial del backup*: Ahora puedes configurar ajustes avanzados en las políticas de protección de Kubernetes para que el backup continúe cuando fallen recursos individuales, permitiendo que las tareas de backup se completen como parcialmente exitosas. Esto te permite restaurar los recursos respaldados incluso si algunos recursos fallan durante la operación de backup.
-* *Copias de seguridad coherentes con los fallos y coherentes con la máquina virtual*: El servicio NetApp Backup and Recovery for NetApp Console ahora permite configurar políticas de protección que crean copias de seguridad o instantáneas coherentes con los fallos o coherentes con la máquina virtual. También puedes personalizar cómo se realizan las congelaciones de la máquina virtual durante la operación de protección.
-* *Volver a conectar el clúster de Kubernetes tras un cambio de IP del agente de Console*: el servicio Backup and Recovery para NetApp Console ahora te permite volver a conectar un clúster a su agente de Console si la dirección IP del agente cambia.
-* *Migra el clúster a un nuevo agente de Console*: el servicio Backup and Recovery for NetApp Console ahora te permite migrar un clúster a un nuevo agente de Console si el agente original falla o se elimina, lo que garantiza una protección de aplicaciones sin interrupciones.
-
-
-Para obtener más información sobre cómo proteger las cargas de trabajo de Kubernetes, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Descubre cómo proteger las cargas de trabajo de Kubernetes con NetApp Backup and Recovery"].
-
-
-
-==== Mejora de las cargas de trabajo de Oracle Database
-
-En esta versión, las cargas de trabajo de Oracle Database introducen las siguientes mejoras:
-
-* *Restauración de bases de datos conectables (PDB)*: ahora puedes restaurar bases de datos conectables (PDB) y espacios de tabla de PDB de forma individual, incluida la recuperación a un momento específico.
-* *Clon de una base de datos conectable (PDB)*: ahora puedes clonar una sola PDB en una base de datos contenedora (CDB) de destino ya existente y, si quieres, excluir PDBs cuando clones una base de datos contenedora completa.
-
-
-Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Database, consulta https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Descubre cómo proteger las cargas de trabajo de Oracle Database con NetApp Backup and Recovery"].
