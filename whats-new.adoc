@@ -55,6 +55,28 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 
 
+[[console-setup-and-administration]]
+=== Configuración y administración de la consola
+
+
+
+==== Agente de Console 4.13.0
+
+La versión 4.13.0 es compatible tanto con el modo estándar como con el modo restringido.
+
+Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores, así como la siguiente nueva función.
+
+.Crea automáticamente el rol de implementación de AWS al implementar un agente de NetApp Console
+Ya no necesitas crear el rol de IAM para implementar un agente de NetApp Console en AWS antes de empezar. La NetApp Console puede crear el rol por ti. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["Descubre cómo implementar un agente de NetApp Console en AWS desde NetApp Console"^]
+
+
+
+==== Administración de la NetApp Console
+
+Esta versión incluye mejoras de seguridad y correcciones de errores.
+
+
+
 [[disaster-recovery]]
 === Recuperación ante desastres
 
@@ -75,7 +97,7 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 ==== Extensiones de archivo bloqueadas administradas
 
-Ransomware Resilience ahora te permite personalizar la lista de extensiones de archivo permitidas o bloqueadas en una carga de trabajo cuando has habilitado la opción de protección *Bloquear extensiones de archivo sospechosas*. Con esta mejora, puedes configurar la carga de trabajo para que solo permita tipos de archivo específicos en la VM de almacenamiento (SVM) o para bloquear extensiones de archivo específicas. Si migras una carga de trabajo existente con FPolicy para bloquear extensiones de archivo sospechosas con Ransomware Resilience, de forma predeterminada usa una lista de extensiones más depurada, aunque puedes personalizarla. Esta mejora admite un control más detallado sobre la opción de extensiones de archivo y también te permite crear listas diferentes para distintas SVM.
+Ransomware Resilience ahora te permite personalizar la lista de extensiones de archivo permitidas o bloqueadas en una carga de trabajo cuando has habilitado la opción de protección *Bloquear extensiones de archivo sospechosas*. Con esta mejora, puedes configurar la carga de trabajo para que solo permita tipos de archivo específicos en la VM de almacenamiento (SVM) o para bloquear extensiones de archivo específicas. Esta mejora admite un control más detallado sobre la opción de extensiones de archivo y también te permite crear listas diferentes para distintas SVM.
 
 Para obtener más información, consulta link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["Gestionar las extensiones de archivo bloqueadas en Ransomware Resilience"].
 
