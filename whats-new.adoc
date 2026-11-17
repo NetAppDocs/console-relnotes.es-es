@@ -30,6 +30,42 @@ Remediación:: El servicio de remediación se eliminó el 22 de abril de 2024.
 ====
 
 
+[[17-november-2026]]
+== 17 noviembre 2026
+
+
+
+[[console-setup-and-administration]]
+=== Configuración y administración de la consola
+
+
+
+==== Agente de Console 4.13.0
+
+La versión 4.13.0 es compatible tanto con el modo estándar como con el modo restringido.
+
+Esta versión del agente de NetApp Console incluye mejoras de seguridad y correcciones de errores, así como la siguiente función nueva. Cuando actualices a la versión 4.13.0 un agente de NetApp Console implementado mediante vCenter usando una ISO, asegúrate de que la VM se reinicie cuando termine la actualización. Es posible que la máquina virtual se reinicie automáticamente.
+
+
+
+===== Crea automáticamente el rol de implementación de AWS al implementar un agente de NetApp Console
+
+Ya no necesitas crear el rol de IAM para implementar un agente de NetApp Console en AWS antes de empezar. La NetApp Console puede crear el rol por ti. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["Descubre cómo implementar un agente de NetApp Console en AWS desde NetApp Console"^]
+
+
+
+==== Administración de la NetApp Console
+
+Esta versión incluye mejoras de seguridad y correcciones de errores así como la siguiente nueva función.
+
+
+
+===== Asignar el rol de colaborador de Cloud Volumes ONTAP
+
+Ahora puedes asignar el rol de colaborador de Cloud Volumes ONTAP para dar a los miembros un amplio acceso para gestionar los sistemas de Cloud Volumes ONTAP sin permitirles eliminar sistemas, volúmenes, agregados ni relaciones de replicación. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.html["Más información sobre el control de acceso basado en roles para Cloud Volumes ONTAP"^].
+
+
+
 [[16-november-2026]]
 == 16 noviembre 2026
 
@@ -52,28 +88,6 @@ Para obtener más información, consulta link:https://docs.netapp.com/us-en/data
 
 [[09-november-2026]]
 == 09 noviembre 2026
-
-
-
-[[console-setup-and-administration]]
-=== Configuración y administración de la consola
-
-
-
-==== Agente de Console 4.13.0
-
-La versión 4.13.0 es compatible tanto con el modo estándar como con el modo restringido.
-
-Esta versión del agente de la Console incluye mejoras de seguridad y correcciones de errores, así como la siguiente nueva función.
-
-.Crea automáticamente el rol de implementación de AWS al implementar un agente de NetApp Console
-Ya no necesitas crear el rol de IAM para implementar un agente de NetApp Console en AWS antes de empezar. La NetApp Console puede crear el rol por ti. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["Descubre cómo implementar un agente de NetApp Console en AWS desde NetApp Console"^]
-
-
-
-==== Administración de la NetApp Console
-
-Esta versión incluye mejoras de seguridad y correcciones de errores.
 
 
 
@@ -937,7 +951,7 @@ La versión 4.10.0 incluye actualizaciones de los siguientes componentes y servi
 | NetApp Backup and Recovery | 5.6.2 (31 de agosto de 2026) | Ve a https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["novedades en la página de NetApp Backup and Recovery"^]. 
 
 
-| NetApp Data Classification | 1.546.0 (10 de agosto de 2026) | Ve a https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["novedades en la página de clasificación de NetApp"^]. 
+| NetApp Data Classification | 1.56.0 (10 de agosto de 2026) | Ve a https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["novedades en la página de clasificación de NetApp"^]. 
 |===
 
 
