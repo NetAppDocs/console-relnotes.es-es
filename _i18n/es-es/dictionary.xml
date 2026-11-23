@@ -123,13 +123,8 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">Mejoras en las cargas de trabajo de ONTAP Volumes</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Mejoras en las cargas de trabajo de Hyper-V</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">En esta versión, las cargas de trabajo de Kubernetes introducen las siguientes mejoras:</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de regiones globales en Azure</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">Panel bien diseñado</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Si tienes alguna pregunta o quieres enviarnos tus comentarios, mailto:ng-activeiq-feedback@netapp.com[contacta con el equipo de Active IQ].</block>
-  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">Configura un sistema SIEM</block>
-  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Para más información, consulta <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
-  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Clúster de un solo nodo</block>
-  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS)</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de obsolescencia de Config Drift</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">En esta versión, las cargas de trabajo de Hyper-V incorporan la siguiente mejora:</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Aprende a proteger las cargas de trabajo de Hyper-V con NetApp Backup and Recovery</block>
@@ -139,12 +134,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Mejora de las cargas de trabajo de Oracle Database</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Descubre cómo proteger las cargas de trabajo de Oracle Database con NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Para obtener detalles sobre cómo proteger las cargas de trabajo de Oracle Database, consulta<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
-  <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Compatibilidad con las regiones Austria East y Belgium Central en Azure</block>
-  <block id="44e833213a99257d69192896111996f4" category="paragraph">Ya puedes implementar Cloud Volumes ONTAP 9.12.1 GA y versiones posteriores en las regiones Austria East (austriaeast) y Belgium Central (belgiumcentral) en Azure. Se admiten los siguientes tipos de implementación:</block>
-  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">25 de agosto de 2026</block>
-  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">Entrega de eventos SIEM a través del agente de la consola</block>
-  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience ahora permite enviar eventos SIEM a través del agente de la consola, además de la opción ya existente de enviar eventos a través de NetApp Console.</block>
-  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Cuando entregas eventos SIEM a través del agente de la Console, puedes mantener la entrega de eventos SIEM dentro de los límites de tu red. Esto simplifica la implementación en entornos locales con listas estrictas de direcciones IP permitidas y puede alinearse mejor con los controles de seguridad existentes. Para usar esta opción, asegúrate de que el agente de la Console pueda resolver y conectarse a tu endpoint SIEM en el puerto requerido a través de cualquier firewall o proxy.</block>
   <block id="e10cb273323f88df11fadb5507d738a0" category="doc">Mejor gestión de instantáneas de SnapMirror</block>
   <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">Ahora puedes activar la conmutación por error utilizando la instantánea más reciente, que es el método recomendado cuando no estás tomando una nueva instantánea.</block>
   <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">Al seleccionar una línea de base de instantáneas específica, las instantáneas de transferencia de SnapMirror quedan ocultas de forma predeterminada. Esto se debe a que pueden eliminarse durante la conmutación por error, lo que impediría volver a proteger la carga de trabajo tras la conmutación por error debido a un error de "no se ha encontrado ninguna instantánea común". Aun así, puedes usar estas instantáneas, pero tendrás que completar un mensaje de confirmación adicional para reconocer el riesgo.</block>
@@ -262,7 +251,6 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">La versión 4.10.0 del modo privado es compatible con Red Hat Enterprise Linux (RHEL) 9.6</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">Infórmate sobre los requisitos del host para el modo privado</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">Ahora puedes instalar y ejecutar el modo privado en Red Hat Enterprise Linux (RHEL) 9.6, lo que te ofrece el sistema operativo compatible más reciente para disfrutar de mayor seguridad y mejor rendimiento. <block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
-  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Para consultar la lista de todas las regiones compatibles, visita<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">La nube para las misiones del Gobierno de EE. UU.</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 de septiembre de 2026</block>
@@ -341,7 +329,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Descubre información valiosa en Digital Advisor</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15 de octubre de 2026</block>
-  <block id="f06295aec82b8045d499f988d711565d" category="list-text">HA en una única zona de disponibilidad mediante almacenamiento con redundancia local (LRS)</block>
   <block id="145afd276d37daec187001af80160d51" category="paragraph">Antes de implementar Cloud Volumes ONTAP en Azure, comprueba que tu entorno cumpla los siguientes requisitos previos:</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Compatibilidad con Oracle Data Guard*: NetApp Backup and Recovery ahora permite utilizar grupos de protección para proteger las bases de datos primarias y de reserva que utilizan Oracle Data Guard para garantizar la alta disponibilidad.</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">19 de octubre de 2026</block>
@@ -645,4 +632,14 @@
   <block id="3df1770bd78ab7f279534a4bc01e8279" category="inline-link">Descubre y gestiona las cargas de trabajo de Hyper-V</block>
   <block id="3cb8f9712223b09ad73c450e0af0ea64" category="paragraph">Para obtener más información sobre cómo proteger los hosts de Hyper-V en una configuración de NetApp MetroCluster, consulta<block ref="665a91254fa4402bbc204875b0e6bd92" category="inline-link-rx"></block>.</block>
   <block id="844ae54d758df29e7d829704e13ec279" category="paragraph">Para más detalles sobre la protección de cargas de trabajo Hyper-V, consulta<block ref="ae9a446e0ed2e2ae49be41b424784f6c" category="inline-link-rx"></block>.</block>
+  <block id="fe137bb7e7054941bc9c91c50085f74f" category="list-text">*Compatibilidad de Amazon FSx for NetApp ONTAP con la arquitectura de backup de disco a disco*: ahora puedes crear políticas de protección de Kubernetes que usen la arquitectura de backup de disco a disco con Amazon FSx for NetApp ONTAP como almacenamiento primario y otro sistema de archivos FSx for NetApp ONTAP como almacenamiento secundario, en la misma región de AWS o en otra región de AWS. También puedes usar Cloud Volumes ONTAP como almacenamiento primario y FSx for NetApp ONTAP como almacenamiento secundario.</block>
+  <block id="f0fe6c245af38530401dcf0ad8dfed35" category="list-text">*Solución al problema de restauración de qtree*: anteriormente, la restauración de volúmenes de ontap-nas-economy restauraba los directorios qtree con un propietario y permisos incorrectos. Este problema se resolvió en esta versión.</block>
+  <block id="ae4951a992a8d5e6e6132772ba1d8a9e" category="inline-link">Crea y gestiona políticas de backup de Kubernetes en NetApp Backup and Recovery</block>
+  <block id="28a7fe5c0d3dddc8f87571ff9c276c1d" category="paragraph">Para obtener más información sobre cómo crear políticas de protección de Kubernetes, consulta<block ref="bfe6c4e3e3b18b6562d50ee9cf2c4f82" category="inline-link-rx"></block>.</block>
+  <block id="04df59aebaa27ff65cee06cd27064bff" category="list-text">*Mejoras en la interfaz de restauración*: el asistente de restauración para volúmenes ONTAP presenta un diseño renovado y una navegación mejorada:</block>
+  <block id="335272593837dc282e2df95a4a0177c6" category="list-text">*Tablas de selección mejoradas*: las tablas de selección muestran más filas y columnas a la vez. Las pantallas de restauración cuentan con un espaciado optimizado y una ruta de navegación para que puedas ver en qué punto del flujo de trabajo te encuentras.</block>
+  <block id="f0e5c0e1059e3a13f23bf2b09cc506f2" category="list-text">*Navegación paso a paso*: se ha mejorado el funcionamiento de los botones *Siguiente* y *Continuar* para que no puedas avanzar por accidente al siguiente paso principal. El botón *Anterior* te lleva a la última pantalla que has completado y conserva tus selecciones anteriores, por lo que no necesitas volver a empezar el paso.</block>
+  <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*Más detalles al seleccionar un volumen de origen*: la lista de volúmenes muestra ahora el tipo de volumen, el estilo de volumen, el tipo de SnapLock, la protección existente y el estado de la protección. La columna Protección existente es más ancha, por lo que puedes ver todos los indicadores de protección (instantánea, replicación y backup).</block>
+  <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Compatibilidad con la protección de volúmenes alojados en las regiones de Azure China*: ahora puedes realizar copias de seguridad de volúmenes ONTAP en Azure Blob storage en Azure China (21Vianet). Esta compatibilidad se aplica tanto a Cloud Volumes ONTAP como a los sistemas ONTAP on-premises. Las regiones de Commercial Azure y Azure Government no cambian.</block>
+  <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">23 noviembre 2026</block>
 </blocks>
