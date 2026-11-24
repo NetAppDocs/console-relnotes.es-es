@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*Más detalles al seleccionar un volumen de origen*: la lista de volúmenes muestra ahora el tipo de volumen, el estilo de volumen, el tipo de SnapLock, la protección existente y el estado de la protección. La columna Protección existente es más ancha, por lo que puedes ver todos los indicadores de protección (instantánea, replicación y backup).</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Compatibilidad con la protección de volúmenes alojados en las regiones de Azure China*: ahora puedes realizar copias de seguridad de volúmenes ONTAP en Azure Blob storage en Azure China (21Vianet). Esta compatibilidad se aplica tanto a Cloud Volumes ONTAP como a los sistemas ONTAP on-premises. Las regiones de Commercial Azure y Azure Government no cambian.</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">23 noviembre 2026</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">Compatibilidad con las regiones Denmark East e India South Central en Azure</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">Ya puedes implementar Cloud Volumes ONTAP 9.12.1 GA y versiones posteriores en las regiones Denmark East (denmarkeast) e India South Central (indiasouthcentral) de Azure. Se admiten los siguientes tipos de implementación:</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Clúster de un solo nodo</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">HA en una única zona de disponibilidad mediante almacenamiento con redundancia local (LRS)</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS) - solo para India South Central</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de regiones globales en Azure</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Para consultar la lista de todas las regiones compatibles, visita<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">24 noviembre 2026</block>
 </blocks>

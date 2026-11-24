@@ -1,0 +1,17 @@
+= Compatibilidad con las regiones Denmark East e India South Central en Azure
+:allow-uri-read: 
+
+
+
+
+[[support-for-denmark-east-and-india-south-central-regions-in-azure]]
+=== Compatibilidad con las regiones Denmark East e India South Central en Azure
+
+Ya puedes implementar Cloud Volumes ONTAP 9.12.1 GA y versiones posteriores en las regiones Denmark East (denmarkeast) e India South Central (indiasouthcentral) de Azure. Se admiten los siguientes tipos de implementación:
+
+* Clúster de un solo nodo
+* HA en una única zona de disponibilidad mediante almacenamiento con redundancia local (LRS)
+* HA en varias zonas de disponibilidad mediante almacenamiento con redundancia por zona (ZRS) - solo para India South Central
+
+
+Para consultar la lista de todas las regiones compatibles, visita https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Mapa de regiones globales en Azure"^].
